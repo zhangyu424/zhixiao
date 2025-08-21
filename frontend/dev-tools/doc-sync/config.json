@@ -1,0 +1,42 @@
+{
+  "sync": {
+    "sourceDir": "../../zhixiaodocs",
+    "targetDir": "../../docs",
+    "apiUrl": "http://140.143.143.195/api/docs",
+    "enabled": true
+  },
+  "mappings": {
+    "DEVELOPMENT_PLAN.md": "API_REQUIREMENTS.md",
+    "FRONTEND_INTEGRATION_GUIDE.md": "FRONTEND_INTEGRATION_GUIDE.md",
+    "VERSION_HISTORY.md": "CHANGELOG.md"
+  },
+  "excludeFiles": ["README.md", "INDEX.md", "VERSION_HISTORY.md"],
+  "includePatterns": ["*.md"],
+  "transformations": {
+    "updateTimestamp": true,
+    "addSyncNotice": true,
+    "preserveLocalChanges": false
+  },
+  "notifications": {
+    "onSync": true,
+    "onError": true,
+    "logFile": "./sync.log"
+  },
+  "backup": {
+    "enabled": true,
+    "backupDir": "./backups",
+    "maxBackups": 10
+  },
+  "dependencies": {
+    "note": "需要安装的依赖包",
+    "packages": ["chokidar (文件监听功能，可选)"],
+    "installCommand": "npm install chokidar"
+  },
+  "advanced": {
+    "concurrent": true,
+    "retryCount": 3,
+    "retryDelay": 1000,
+    "checksum": "md5",
+    "encoding": "utf8"
+  }
+}

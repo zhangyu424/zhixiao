@@ -1,0 +1,45 @@
+{
+  "name": "wu-study-efficiency-miniprogram",
+  "version": "1.0.0",
+  "description": "学习质效分析微信小程序 - 用于学习时间管理和学习效果分析的教育类应用",
+  "main": "app.js",
+  "scripts": {
+    "dev": "echo 请在微信开发者工具中打开本项目进行开发调试",
+    "build": "echo 请在微信开发者工具中进行项目上传",
+    "lint": "eslint **/*.js --fix",
+    "lint:check": "eslint **/*.js",
+    "format": "prettier --write **/*.{js,json,wxss,wxml}",
+    "format:check": "prettier --check **/*.{js,json,wxss,wxml}",
+    "start": "echo 微信小程序请使用微信开发者工具打开项目",
+    "help": "echo 使用说明: 1.安装微信开发者工具 2.导入本项目目录 3.开始开发调试",
+    "api-check": "scripts\\api-check.bat",
+    "api-check-detailed": "scripts\\api-check.bat detailed",
+    "quality-check": "scripts\\quality-check.bat",
+    "quality-check:lint": "scripts\\quality-check.bat lint",
+    "quality-check:format": "scripts\\quality-check.bat format",
+    "organize-structure": "scripts\\organize-structure.bat",
+    "dev-test": "cd dev-tools && npm run test-api",
+    "backend-status": "node -e \"const checker = require('./utils/backend-check'); checker.runFullCheck().then(r => checker.showCheckResults(r));\"",
+    "precommit": "npm run quality-check"
+  },
+  "keywords": ["微信小程序", "学习管理", "数据分析", "教育", "时间管理"],
+  "author": "方九日 <moqiqingxuan@gmail.com> (陕西师范大学)",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0"
+  },
+  "miniprogram": {
+    "pages": [
+      "pages/unified-login/unified-login",
+      "pages/index/index",
+      "pages/profile/profile",
+      "pages/study-report/study-report",
+      "pages/analysis/analysis",
+      "pages/management/management",
+      "pages/role-switch/role-switch"
+    ],
+    "features": ["微信授权登录", "学习时间填报", "数据分析可视化", "多角色权限管理", "订阅消息提醒", "数据导入导出"]
+  }
+}

@@ -1,0 +1,149 @@
+/* pages/role-switch/role-switch.wxss */
+
+.role-switch-container {
+  padding: 40rpx 20rpx;
+  min-height: 100vh;
+  background: #f5f5f5;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 60rpx;
+}
+
+.title {
+  display: block;
+  font-size: 40rpx;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 16rpx;
+}
+
+.subtitle {
+  font-size: 28rpx;
+  color: #999;
+}
+
+.role-list {
+  margin-bottom: 60rpx;
+}
+
+.role-item {
+  background: #fff;
+  border-radius: 16rpx;
+  padding: 40rpx 30rpx;
+  margin-bottom: 20rpx;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2rpx 12rpx rgba(0, 0, 0, 0.08);
+  transition: all 0.3s;
+}
+
+.role-item.active {
+  background: linear-gradient(135deg, #1890ff, #096dd9);
+  color: #fff;
+}
+
+.role-icon {
+  width: 80rpx;
+  height: 80rpx;
+  background: #f5f5f5;
+  border-radius: 40rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30rpx;
+}
+
+.role-item.active .role-icon {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.icon-image {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.role-info {
+  flex: 1;
+}
+
+.role-name {
+  display: block;
+  font-size: 32rpx;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 8rpx;
+}
+
+.role-item.active .role-name {
+  color: #fff;
+}
+
+.role-desc {
+  font-size: 26rpx;
+  color: #666;
+  line-height: 1.4;
+}
+
+.role-item.active .role-desc {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.role-status {
+  text-align: center;
+  min-width: 100rpx;
+}
+
+.status-indicator {
+  margin-bottom: 8rpx;
+}
+
+.status-indicator.current {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  padding: 8rpx 16rpx;
+  border-radius: 20rpx;
+  font-size: 24rpx;
+}
+
+.switch-arrow {
+  font-size: 32rpx;
+  color: #ccc;
+  font-weight: bold;
+}
+
+.role-item.active .switch-arrow {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.tips {
+  background: #fff;
+  border-radius: 16rpx;
+  padding: 30rpx;
+  box-shadow: 0 2rpx 12rpx rgba(0, 0, 0, 0.08);
+}
+
+.tips-title {
+  display: block;
+  font-size: 28rpx;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 20rpx;
+}
+
+.tips-list {
+  padding-left: 20rpx;
+}
+
+.tips-item {
+  display: block;
+  font-size: 26rpx;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 12rpx;
+}
+
+.tips-item:last-child {
+  margin-bottom: 0;
+}

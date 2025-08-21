@@ -1,0 +1,327 @@
+/* pages/index/index.wxss */
+
+.index-container {
+  min-height: 100vh;
+  background: #f5f5f5;
+}
+
+/* ========== 开发模式提示 ========== */
+.dev-notice {
+  background: linear-gradient(135deg, #ff9500, #ff6b00);
+  color: #ffffff;
+  padding: 20rpx 40rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 24rpx;
+  box-shadow: 0 2rpx 8rpx rgba(255, 149, 0, 0.3);
+}
+
+.dev-icon {
+  font-size: 28rpx;
+  margin-right: 12rpx;
+}
+
+.dev-text {
+  flex: 1;
+  font-weight: 500;
+}
+
+.dev-test-btn {
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  border: 1rpx solid rgba(255, 255, 255, 0.3);
+  margin-left: 12rpx;
+  font-size: 22rpx;
+}
+
+/* ========== 数据卡片区域 ========== */
+.data-cards {
+  padding: 40rpx;
+  display: flex;
+  flex-direction: column;
+  gap: 30rpx;
+}
+
+.data-card {
+  background: #ffffff;
+  border-radius: 24rpx;
+  padding: 40rpx 30rpx;
+  box-shadow: 0 4rpx 12rpx rgba(0, 0, 0, 0.05);
+  border: 1rpx solid #f0f0f0;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30rpx;
+}
+
+.card-title {
+  font-size: 32rpx;
+  font-weight: 600;
+  color: #333333;
+}
+
+.card-action {
+  font-size: 26rpx;
+  color: #1890ff;
+  cursor: pointer;
+}
+
+/* ========== 今日学习状态 ========== */
+.today-status {
+  border-left: 6rpx solid #1890ff;
+}
+
+.status-badge {
+  padding: 8rpx 20rpx;
+  border-radius: 20rpx;
+  font-size: 22rpx;
+  font-weight: 500;
+}
+
+.status-badge.reported {
+  background: #f6ffed;
+  color: #52c41a;
+  border: 1rpx solid #b7eb8f;
+}
+
+.status-badge.unreported {
+  background: #fff2e8;
+  color: #fa8c16;
+  border: 1rpx solid #ffd591;
+}
+
+.study-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.time-display {
+  display: flex;
+  align-items: baseline;
+}
+
+.time-value {
+  font-size: 48rpx;
+  font-weight: 600;
+  color: #1890ff;
+  margin-right: 8rpx;
+}
+
+.time-unit {
+  font-size: 24rpx;
+  color: #666666;
+}
+
+.quick-action-btn {
+  background: linear-gradient(135deg, #1890ff, #40a9ff);
+  color: #ffffff;
+  border: none;
+  border-radius: 20rpx;
+  padding: 16rpx 32rpx;
+  font-size: 26rpx;
+  font-weight: 500;
+  min-width: 140rpx;
+}
+
+.quick-action-btn.disabled {
+  background: #d9d9d9;
+  color: #999999;
+}
+
+/* ========== 本周汇总 ========== */
+.week-summary {
+  border-left: 6rpx solid #52c41a;
+}
+
+.summary-stats {
+  display: flex;
+  gap: 60rpx;
+}
+
+.stat-item {
+  flex: 1;
+  text-align: center;
+}
+
+.stat-value {
+  display: block;
+  font-size: 40rpx;
+  font-weight: 600;
+  color: #52c41a;
+  margin-bottom: 8rpx;
+}
+
+.stat-label {
+  display: block;
+  font-size: 24rpx;
+  color: #666666;
+  line-height: 1.4;
+}
+
+/* ========== 通知消息 ========== */
+.notifications {
+  border-left: 6rpx solid #fa8c16;
+}
+
+.notification-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20rpx;
+}
+
+.notification-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20rpx;
+  background: #f8f9fa;
+  border-radius: 16rpx;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.notification-item:active {
+  background: #e6f7ff;
+  transform: scale(0.98);
+}
+
+.notification-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.notification-title {
+  font-size: 28rpx;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 6rpx;
+}
+
+.notification-desc {
+  font-size: 24rpx;
+  color: #666666;
+  line-height: 1.4;
+}
+
+.notification-meta {
+  margin-left: 20rpx;
+}
+
+.notification-time {
+  font-size: 22rpx;
+  color: #999999;
+}
+
+/* ========== 未登录状态 ========== */
+.not-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.loading-icon {
+  font-size: 80rpx;
+  margin-bottom: 30rpx;
+  animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loading-text {
+  font-size: 28rpx;
+  color: #666666;
+}
+
+/* ========== 响应式适配 ========== */
+@media (max-width: 750rpx) {
+  .data-cards {
+    padding: 30rpx;
+    gap: 24rpx;
+  }
+  
+  .data-card {
+    padding: 30rpx 24rpx;
+  }
+  
+  .summary-stats {
+    gap: 40rpx;
+  }
+  
+  .study-summary {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20rpx;
+  }
+  
+  .quick-action-btn {
+    align-self: stretch;
+    text-align: center;
+  }
+}
+
+/* ========== 深色模式适配 ========== */
+@media (prefers-color-scheme: dark) {
+  .index-container {
+    background: #141414;
+  }
+  
+  .data-card {
+    background: #1f1f1f;
+    border-color: #303030;
+  }
+  
+  .card-title,
+  .notification-title {
+    color: #ffffff;
+  }
+  
+  .card-action {
+    color: #40a9ff;
+  }
+  
+  .stat-label,
+  .notification-desc {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .notification-item {
+    background: rgba(255, 255, 255, 0.05);
+  }
+  
+  .notification-item:active {
+    background: rgba(24, 144, 255, 0.1);
+  }
+  
+  .loading-text {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .status-badge.reported {
+    background: rgba(82, 196, 26, 0.1);
+    color: #73d13d;
+    border-color: rgba(82, 196, 26, 0.3);
+  }
+  
+  .status-badge.unreported {
+    background: rgba(250, 140, 22, 0.1);
+    color: #ffa940;
+    border-color: rgba(250, 140, 22, 0.3);
+  }
+}

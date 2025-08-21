@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "学习质效分析",
+  "usingComponents": {
+    "role-based-home": "../../components/role-based-home/role-based-home"
+  }
+}

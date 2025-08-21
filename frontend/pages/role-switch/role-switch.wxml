@@ -1,0 +1,47 @@
+<!--pages/role-switch/role-switch.wxml-->
+<view class="role-switch-container">
+  <view class="header">
+    <text class="title">选择身份</text>
+    <text class="subtitle">您可以在以下身份间切换</text>
+  </view>
+
+  <view class="role-list">
+    <view
+      class="role-item {{item.isActive ? 'active' : ''}}"
+      wx:for="{{availableRoles}}"
+      wx:key="key"
+      data-role="{{item.key}}"
+      bindtap="onRoleSelect"
+    >
+      <view class="role-icon">
+        <text class="icon-image">
+          {{item.key === 'student' ? '👨‍🎓' : item.key === 'instructor' ? '👨‍🏫' : item.key === 'manager' ? '👨‍💼' : '👨‍💻'}}
+        </text>
+      </view>
+
+      <view class="role-info">
+        <text class="role-name">{{item.name}}</text>
+        <text class="role-desc">
+          {{item.key === 'student' ? '填报学习时间，查看个人分析' : item.key === 'instructor' ? '管理团队，查看团队分析'
+          : item.key === 'manager' ? '数据管理，信息维护' : '系统管理，全局配置'}}
+        </text>
+      </view>
+
+      <view class="role-status">
+        <view class="status-indicator {{item.isActive ? 'current' : ''}}">
+          <text>{{item.isActive ? '当前身份' : ''}}</text>
+        </view>
+        <text class="switch-arrow" wx:if="{{!item.isActive}}">></text>
+      </view>
+    </view>
+  </view>
+
+  <view class="tips">
+    <text class="tips-title">💡 身份切换说明</text>
+    <view class="tips-list">
+      <text class="tips-item">• 切换身份会刷新页面和菜单</text>
+      <text class="tips-item">• 不同身份具有不同的功能权限</text>
+      <text class="tips-item">• 您可以随时切换回其他身份</text>
+    </view>
+  </view>
+</view>

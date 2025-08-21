@@ -1,0 +1,252 @@
+<!--pages/account-binding/account-binding.wxml-->
+<view class="binding-container">
+  <!-- 头部导航 -->
+  <view class="binding-header">
+    <view class="header-nav">
+      <view class="nav-back" bindtap="goBack">
+        <text class="back-icon">←</text>
+      </view>
+      <view class="nav-title">
+        <text class="title-text">账号绑定</text>
+      </view>
+      <view class="nav-help" bindtap="showBindingHelp">
+        <text class="help-icon">?</text>
+      </view>
+    </view>
+    
+    <!-- 步骤指示器 -->
+    <view class="step-indicator">
+      <view class="step-item {{currentStep >= 1 ? 'active' : ''}} {{currentStep > 1 ? 'completed' : ''}}">
+        <view class="step-number">1</view>
+        <text class="step-text">选择方式</text>
+      </view>
+      <view class="step-line {{currentStep > 1 ? 'active' : ''}}"></view>
+      <view class="step-item {{currentStep >= 2 ? 'active' : ''}} {{currentStep > 2 ? 'completed' : ''}}">
+        <view class="step-number">2</view>
+        <text class="step-text">输入信息</text>
+      </view>
+      <view class="step-line {{currentStep > 2 ? 'active' : ''}}"></view>
+      <view class="step-item {{currentStep >= 3 ? 'active' : ''}}">
+        <view class="step-number">3</view>
+        <text class="step-text">完成绑定</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 微信用户信息 -->
+  <view class="wechat-user-info" wx:if="{{wechatInfo.userProfile}}">
+    <view class="user-card">
+      <image class="user-avatar" src="{{wechatInfo.userProfile.avatarUrl}}" />
+      <view class="user-details">
+        <text class="user-name">{{wechatInfo.userProfile.nickName}}</text>
+        <text class="bind-desc">正在为此微信绑定账号</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 步骤1: 选择绑定方式 -->
+  <view class="step-content" wx:if="{{currentStep === 1}}">
+    <view class="binding-methods">
+      <view class="method-title">
+        <text class="title-text">选择绑定方式</text>
+        <text class="title-desc">请选择您要使用的绑定方式</text>
+      </view>
+      
+      <view class="method-list">
+        <view 
+          class="method-item"
+          data-type="account"
+          bindtap="switchBindingType"
+        >
+          <view class="method-icon">🔑</view>
+          <view class="method-info">
+            <text class="method-name">账号密码绑定</text>
+            <text class="method-desc">使用学员编号/工号和密码绑定</text>
+          </view>
+          <view class="method-arrow">></view>
+        </view>
+        
+        <view 
+          class="method-item"
+          data-type="phone"
+          bindtap="switchBindingType"
+        >
+          <view class="method-icon">📱</view>
+          <view class="method-info">
+            <text class="method-name">手机验证码绑定</text>
+            <text class="method-desc">使用注册手机号验证码绑定</text>
+          </view>
+          <view class="method-arrow">></view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 步骤2: 输入绑定信息 -->
+  <view class="step-content" wx:if="{{currentStep === 2}}">
+    
+    <!-- 账号密码绑定表单 -->
+    <view class="binding-form" wx:if="{{bindingForm.bindingType === 'account'}}">
+      <view class="form-title">
+        <text class="title-text">账号密码绑定</text>
+        <text class="title-desc">请输入您的账号和密码</text>
+      </view>
+      
+      <view class="form-fields">
+        <view class="form-field">
+          <view class="field-label">
+            <text class="label-text">账号</text>
+            <text class="label-desc">学员编号/工号/手机号</text>
+          </view>
+          <view class="field-input-wrapper">
+            <input 
+              class="field-input"
+              placeholder="请输入账号"
+              value="{{bindingForm.account}}"
+              bindinput="onAccountInput"
+              maxlength="50"
+            />
+            <!-- 搜索结果下拉 -->
+            <view class="search-results" wx:if="{{showSearchResults}}">
+              <view 
+                class="search-item"
+                wx:for="{{searchResults}}"
+                wx:key="id"
+                data-account="{{item.account}}"
+                bindtap="selectSearchResult"
+              >
+                <view class="item-info">
+                  <text class="item-name">{{item.name}}</text>
+                  <text class="item-account">{{item.account}}</text>
+                </view>
+                <text class="item-unit">{{item.unitName}}</text>
+              </view>
+            </view>
+          </view>
+        </view>
+        
+        <view class="form-field">
+          <view class="field-label">
+            <text class="label-text">密码</text>
+            <text class="label-desc">登录密码</text>
+          </view>
+          <view class="field-input-wrapper password-wrapper">
+            <input 
+              class="field-input"
+              placeholder="请输入密码"
+              password="{{showPasswordInput}}"
+              value="{{bindingForm.password}}"
+              bindinput="onPasswordInput"
+              maxlength="20"
+            />
+            <view class="password-toggle" bindtap="togglePasswordVisibility">
+              <text class="toggle-icon">{{showPasswordInput ? '👁️' : '🙈'}}</text>
+            </view>
+          </view>
+        </view>
+      </view>
+      
+      <view class="form-actions">
+        <button 
+          class="binding-btn primary {{bindingLoading ? 'loading' : ''}}"
+          bindtap="performBinding"
+          disabled="{{bindingLoading}}"
+        >
+          <text class="btn-icon" wx:if="{{!bindingLoading}}">🔗</text>
+          <text class="loading-icon" wx:if="{{bindingLoading}}">⏳</text>
+          {{bindingLoading ? '绑定中...' : '确认绑定'}}
+        </button>
+      </view>
+    </view>
+
+    <!-- 手机验证码绑定表单 -->
+    <view class="binding-form" wx:if="{{bindingForm.bindingType === 'phone'}}">
+      <view class="form-title">
+        <text class="title-text">手机验证码绑定</text>
+        <text class="title-desc">请输入注册时的手机号码</text>
+      </view>
+      
+      <view class="form-fields">
+        <view class="form-field">
+          <view class="field-label">
+            <text class="label-text">手机号</text>
+            <text class="label-desc">注册时使用的手机号</text>
+          </view>
+          <view class="field-input-wrapper">
+            <input 
+              class="field-input"
+              placeholder="请输入手机号"
+              type="number"
+              value="{{phoneBinding.phone}}"
+              bindinput="onPhoneInput"
+              maxlength="11"
+            />
+          </view>
+        </view>
+        
+        <view class="form-field captcha-field">
+          <view class="field-label">
+            <text class="label-text">验证码</text>
+            <text class="label-desc">6位数字验证码</text>
+          </view>
+          <view class="field-input-wrapper captcha-wrapper">
+            <input 
+              class="field-input captcha-input"
+              placeholder="请输入验证码"
+              type="number"
+              value="{{phoneBinding.captcha}}"
+              bindinput="onCaptchaInput"
+              maxlength="6"
+            />
+            <button 
+              class="captcha-btn {{phoneBinding.captchaCountdown > 0 || phoneBinding.captchaLoading ? 'disabled' : ''}}"
+              bindtap="sendCaptcha"
+              disabled="{{phoneBinding.captchaCountdown > 0 || phoneBinding.captchaLoading}}"
+            >
+              {{phoneBinding.captchaLoading ? '发送中...' : phoneBinding.captchaText}}
+            </button>
+          </view>
+        </view>
+      </view>
+      
+      <view class="form-actions">
+        <button 
+          class="binding-btn primary {{bindingLoading ? 'loading' : ''}}"
+          bindtap="performBinding"
+          disabled="{{bindingLoading}}"
+        >
+          <text class="btn-icon" wx:if="{{!bindingLoading}}">🔗</text>
+          <text class="loading-icon" wx:if="{{bindingLoading}}">⏳</text>
+          {{bindingLoading ? '绑定中...' : '确认绑定'}}
+        </button>
+      </view>
+    </view>
+  </view>
+
+  <!-- 步骤3: 绑定进行中 -->
+  <view class="step-content" wx:if="{{currentStep === 3}}">
+    <view class="binding-progress">
+      <view class="progress-icon">
+        <text class="loading-spinner">⏳</text>
+      </view>
+      <view class="progress-info">
+        <text class="progress-title">正在绑定账号...</text>
+        <text class="progress-desc">请稍候，正在验证您的信息</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 底部操作 -->
+  <view class="binding-footer">
+    <view class="footer-tips">
+      <text class="tips-icon">💡</text>
+      <text class="tips-text">绑定后您可以使用微信快速登录系统</text>
+    </view>
+    
+    <view class="footer-actions" wx:if="{{currentStep < 3}}">
+      <button class="footer-btn cancel" bindtap="cancelBinding">
+        取消绑定
+      </button>
+    </view>
+  </view>
+</view>

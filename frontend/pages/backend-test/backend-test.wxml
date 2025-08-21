@@ -1,0 +1,169 @@
+<!--pages/backend-test/backend-test.wxml-->
+<view class="container">
+  <view class="header">
+    <text class="title">后端API测试</text>
+    <text class="subtitle">检测后端服务可用性</text>
+  </view>
+
+  <!-- 测试配置 -->
+  <view class="config-card">
+    <view class="card-header">
+      <text class="card-title">测试配置</text>
+      <view class="status-indicator status-{{overallStatus}}">
+        {{overallStatus === 'unknown' ? '未测试' : overallStatus === 'testing' ? '测试中' : '已完成'}}
+      </view>
+    </view>
+    
+    <view class="config-info">
+      <view class="config-item">
+        <text class="label">服务地址:</text>
+        <text class="value">{{baseUrl}}</text>
+      </view>
+      <view class="config-item">
+        <text class="label">测试接口:</text>
+        <text class="value">{{testConfig.testAPIs.length}}个</text>
+      </view>
+      <view class="config-item" wx:if="{{testStartTime}}">
+        <text class="label">开始时间:</text>
+        <text class="value">{{testStartTime}}</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 快速操作 -->
+  <view class="action-buttons">
+    <button class="primary-btn" bind:tap="startFullTest" loading="{{testing}}" disabled="{{testing}}">
+      {{testing ? '测试中...' : '开始全面测试'}}
+    </button>
+    <button class="secondary-btn" bind:tap="testAPISync" disabled="{{testing}}">
+      测试API同步
+    </button>
+    <button class="secondary-btn" bind:tap="exportTestReport" disabled="{{testResults.length === 0}}">
+      导出报告
+    </button>
+  </view>
+
+  <!-- 测试结果概览 -->
+  <view class="summary-card" wx:if="{{testResults.length > 0}}">
+    <view class="card-header">
+      <text class="card-title">测试结果</text>
+      <text class="test-time">{{testEndTime || '进行中...'}}</text>
+    </view>
+    
+    <view class="summary-stats">
+      <view class="stat-item">
+        <text class="stat-number">{{testResults.length}}</text>
+        <text class="stat-label">总数</text>
+      </view>
+      <view class="stat-item success">
+        <text class="stat-number">{{successCount}}</text>
+        <text class="stat-label">成功</text>
+      </view>
+      <view class="stat-item failed">
+        <text class="stat-number">{{failedCount}}</text>
+        <text class="stat-label">失败</text>
+      </view>
+      <view class="stat-item">
+        <text class="stat-number">{{successRate}}%</text>
+        <text class="stat-label">成功率</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- API测试列表 -->
+  <view class="api-list">
+    <view class="list-header">
+      <text class="list-title">API接口测试</text>
+      <text class="list-subtitle">点击单独测试特定接口</text>
+    </view>
+    
+    <view class="api-item" wx:for="{{testConfig.testAPIs}}" wx:key="path">
+      <view class="api-info">
+        <view class="api-header">
+          <text class="api-name">{{item.name}}</text>
+          <view class="priority-tag priority-{{item.priority}}">
+            {{getPriorityText(item.priority)}}
+          </view>
+        </view>
+        <view class="api-details">
+          <text class="api-method method-{{item.method}}">{{item.method}}</text>
+          <text class="api-path">{{item.path}}</text>
+        </view>
+      </view>
+      
+      <view class="api-actions">
+        <!-- 显示测试结果 -->
+        <view class="test-result" wx:if="{{item.testResult}}">
+          <view class="result-status status-{{item.testResult.status}}">
+            {{getStatusText(item.testResult.status)}}
+          </view>
+          <text class="result-duration">{{item.testResult.duration}}ms</text>
+          <button class="detail-btn" bind:tap="viewDetailResult" data-index="{{index}}" size="mini">
+            详情
+          </button>
+        </view>
+        
+        <!-- 测试按钮 -->
+        <button class="test-btn" bind:tap="testSpecificAPI" data-index="{{index}}" disabled="{{testing}}" size="mini">
+          测试
+        </button>
+      </view>
+    </view>
+  </view>
+
+  <!-- 测试建议 -->
+  <view class="suggestions-card" wx:if="{{overallStatus !== 'unknown'}}">
+    <view class="card-header">
+      <text class="card-title">测试建议</text>
+    </view>
+    
+    <view class="suggestions-content">
+      <view wx:if="{{overallStatus === 'all_failed'}}" class="suggestion error">
+        <text class="suggestion-icon">❌</text>
+        <view class="suggestion-text">
+          <text class="suggestion-title">所有API均不可用</text>
+          <text class="suggestion-desc">请检查网络连接和后端服务状态</text>
+        </view>
+      </view>
+      
+      <view wx:elif="{{overallStatus === 'core_unavailable'}}" class="suggestion warning">
+        <text class="suggestion-icon">⚠️</text>
+        <view class="suggestion-text">
+          <text class="suggestion-title">核心API不可用</text>
+          <text class="suggestion-desc">请优先实现认证和用户相关接口</text>
+        </view>
+      </view>
+      
+      <view wx:elif="{{overallStatus === 'partial_available'}}" class="suggestion info">
+        <text class="suggestion-icon">🟡</text>
+        <view class="suggestion-text">
+          <text class="suggestion-title">部分API可用</text>
+          <text class="suggestion-desc">可以开始基础功能开发，同时完善其他接口</text>
+        </view>
+      </view>
+      
+      <view wx:elif="{{overallStatus === 'core_available'}}" class="suggestion success">
+        <text class="suggestion-icon">✅</text>
+        <view class="suggestion-text">
+          <text class="suggestion-title">核心API可用</text>
+          <text class="suggestion-desc">可以开始正常的应用开发和测试</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 帮助信息 -->
+  <view class="help-card">
+    <view class="card-header">
+      <text class="card-title">使用说明</text>
+    </view>
+    
+    <view class="help-content">
+      <text class="help-item">• 点击"开始全面测试"检测所有API接口</text>
+      <text class="help-item">• 点击单个"测试"按钮检测特定接口</text>
+      <text class="help-item">• "测试API同步"会尝试与后端同步API文档</text>
+      <text class="help-item">• 红色表示不可用，绿色表示正常工作</text>
+      <text class="help-item">• 测试报告可通过"导出报告"查看详细信息</text>
+    </view>
+  </view>
+</view>

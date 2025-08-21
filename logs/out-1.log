@@ -1,0 +1,476 @@
+2025-08-20 03:18:28: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+2025-08-20 03:18:28: [dotenv@17.2.1] injecting env (0) from .env -- tip: 📡 auto-backup env with Radar: https://dotenvx.com/radar
+2025-08-20 03:18:28: [dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+2025-08-20 03:18:28: 🚀 服务器启动成功！
+2025-08-20 03:18:28: 📍 端口: 3000
+2025-08-20 03:18:28: 🌍 环境: production
+2025-08-20 03:18:28: 📖 API文档: http://localhost:3000/api
+2025-08-20 03:18:28: 💊 健康检查: http://localhost:3000/health
+2025-08-20 03:18:29: [dotenv@17.2.1] injecting env (13) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+2025-08-20 03:18:29: [dotenv@17.2.1] injecting env (0) from .env -- tip: 📡 observe env with Radar: https://dotenvx.com/radar
+2025-08-20 03:18:29: [dotenv@17.2.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+2025-08-20 03:18:29: 🚀 服务器启动成功！
+2025-08-20 03:18:29: 📍 端口: 3000
+2025-08-20 03:18:29: 🌍 环境: production
+2025-08-20 03:18:29: 📖 API文档: http://localhost:3000/api
+2025-08-20 03:18:29: 💊 健康检查: http://localhost:3000/health
+2025-08-20 03:18:31: [dotenv@17.2.1] injecting env (13) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+2025-08-20 03:18:31: [dotenv@17.2.1] injecting env (0) from .env -- tip: 📡 auto-backup env with Radar: https://dotenvx.com/radar
+2025-08-20 03:18:31: [dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+2025-08-20 03:18:31: 🚀 服务器启动成功！
+2025-08-20 03:18:31: 📍 端口: 3000
+2025-08-20 03:18:31: 🌍 环境: production
+2025-08-20 03:18:31: 📖 API文档: http://localhost:3000/api
+2025-08-20 03:18:31: 💊 健康检查: http://localhost:3000/health
+2025-08-20 03:18:32: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+2025-08-20 03:18:32: [dotenv@17.2.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+2025-08-20 03:18:32: [dotenv@17.2.1] injecting env (0) from .env -- tip: 📡 auto-backup env with Radar: https://dotenvx.com/radar
+2025-08-20 03:18:33: 🚀 服务器启动成功！
+2025-08-20 03:18:33: 📍 端口: 3000
+2025-08-20 03:18:33: 🌍 环境: production
+2025-08-20 03:18:33: 📖 API文档: http://localhost:3000/api
+2025-08-20 03:18:33: 💊 健康检查: http://localhost:3000/health
+2025-08-20 03:18:34: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+2025-08-20 03:18:34: [dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }
+2025-08-20 03:18:34: [dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+2025-08-20 03:18:34: 🚀 服务器启动成功！
+2025-08-20 03:18:34: 📍 端口: 3000
+2025-08-20 03:18:34: 🌍 环境: production
+2025-08-20 03:18:34: 📖 API文档: http://localhost:3000/api
+2025-08-20 03:18:34: 💊 健康检查: http://localhost:3000/health
+2025-08-20 03:18:36: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+2025-08-20 03:18:36: [dotenv@17.2.1] injecting env (0) from .env -- tip: 📡 version env with Radar: https://dotenvx.com/radar
+2025-08-20 03:18:36: [dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+2025-08-20 03:18:36: 🚀 服务器启动成功！
+2025-08-20 03:18:36: 📍 端口: 3000
+2025-08-20 03:18:36: 🌍 环境: production
+2025-08-20 03:18:36: 📖 API文档: http://localhost:3000/api
+2025-08-20 03:18:36: 💊 健康检查: http://localhost:3000/health
+2025-08-20 03:18:37: [dotenv@17.2.1] injecting env (13) from .env -- tip: 📡 auto-backup env with Radar: https://dotenvx.com/radar
+2025-08-20 03:18:37: [dotenv@17.2.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+2025-08-20 03:18:37: [dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+2025-08-20 03:18:38: 🚀 服务器启动成功！
+2025-08-20 03:18:38: 📍 端口: 3000
+2025-08-20 03:18:38: 🌍 环境: production
+2025-08-20 03:18:38: 📖 API文档: http://localhost:3000/api
+2025-08-20 03:18:38: 💊 健康检查: http://localhost:3000/health
+2025-08-20 03:18:39: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+2025-08-20 03:18:39: [dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+2025-08-20 03:18:39: [dotenv@17.2.1] injecting env (0) from .env -- tip: 📡 observe env with Radar: https://dotenvx.com/radar
+2025-08-20 03:18:39: 🚀 服务器启动成功！
+2025-08-20 03:18:39: 📍 端口: 3000
+2025-08-20 03:18:39: 🌍 环境: production
+2025-08-20 03:18:39: 📖 API文档: http://localhost:3000/api
+2025-08-20 03:18:39: 💊 健康检查: http://localhost:3000/health
+2025-08-20 03:18:40: [dotenv@17.2.1] injecting env (13) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+2025-08-20 03:18:40: [dotenv@17.2.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+2025-08-20 03:18:40: [dotenv@17.2.1] injecting env (0) from .env -- tip: 📡 observe env with Radar: https://dotenvx.com/radar
+2025-08-20 03:18:41: 🚀 服务器启动成功！
+2025-08-20 03:18:41: 📍 端口: 3000
+2025-08-20 03:18:41: 🌍 环境: production
+2025-08-20 03:18:41: 📖 API文档: http://localhost:3000/api
+2025-08-20 03:18:41: 💊 健康检查: http://localhost:3000/health
+2025-08-20 03:18:42: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+2025-08-20 03:18:42: [dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+2025-08-20 03:18:42: [dotenv@17.2.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+2025-08-20 03:18:42: 🚀 服务器启动成功！
+2025-08-20 03:18:42: 📍 端口: 3000
+2025-08-20 03:18:42: 🌍 环境: production
+2025-08-20 03:18:42: 📖 API文档: http://localhost:3000/api
+2025-08-20 03:18:42: 💊 健康检查: http://localhost:3000/health
+2025-08-20 03:19:27: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+2025-08-20 03:19:27: [dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+2025-08-20 03:19:27: [dotenv@17.2.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+2025-08-20 03:19:27: 🚀 服务器启动成功！
+2025-08-20 03:19:27: 📍 端口: 3000
+2025-08-20 03:19:27: 🌍 环境: production
+2025-08-20 03:19:27: 📖 API文档: http://localhost:3000/api
+2025-08-20 03:19:27: 💊 健康检查: http://localhost:3000/health
+2025-08-20 03:19:29: [dotenv@17.2.1] injecting env (13) from .env -- tip: 📡 observe env with Radar: https://dotenvx.com/radar
+2025-08-20 03:19:29: [dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+2025-08-20 03:19:29: [dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+2025-08-20 03:19:30: [dotenv@17.2.1] injecting env (13) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+2025-08-20 03:19:30: [dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+2025-08-20 03:19:30: [dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+2025-08-20 03:19:30: 🚀 服务器启动成功！
+2025-08-20 03:19:30: 📍 端口: 3000
+2025-08-20 03:19:30: 🌍 环境: production
+2025-08-20 03:19:30: 📖 API文档: http://localhost:3000/api
+2025-08-20 03:19:30: 💊 健康检查: http://localhost:3000/health
+2025-08-20 03:19:32: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+2025-08-20 03:19:32: [dotenv@17.2.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+2025-08-20 03:19:32: [dotenv@17.2.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+2025-08-20 03:19:32: 🚀 服务器启动成功！
+2025-08-20 03:19:32: 📍 端口: 3000
+2025-08-20 03:19:32: 🌍 环境: production
+2025-08-20 03:19:32: 📖 API文档: http://localhost:3000/api
+2025-08-20 03:19:32: 💊 健康检查: http://localhost:3000/health
+2025-08-20 03:19:33: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  override existing env vars with { override: true }
+2025-08-20 03:19:33: [dotenv@17.2.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+2025-08-20 03:19:33: [dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+2025-08-20 03:19:34: 🚀 服务器启动成功！
+2025-08-20 03:19:34: 📍 端口: 3000
+2025-08-20 03:19:34: 🌍 环境: production
+2025-08-20 03:19:34: 📖 API文档: http://localhost:3000/api
+2025-08-20 03:19:34: 💊 健康检查: http://localhost:3000/health
+2025-08-20 03:19:35: [dotenv@17.2.1] injecting env (13) from .env -- tip: 📡 observe env with Radar: https://dotenvx.com/radar
+2025-08-20 03:19:35: [dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+2025-08-20 03:19:35: [dotenv@17.2.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+2025-08-20 03:19:35: 🚀 服务器启动成功！
+2025-08-20 03:19:35: 📍 端口: 3000
+2025-08-20 03:19:35: 🌍 环境: production
+2025-08-20 03:19:35: 📖 API文档: http://localhost:3000/api
+2025-08-20 03:19:35: 💊 健康检查: http://localhost:3000/health
+2025-08-20 03:19:36: [dotenv@17.2.1] injecting env (13) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+2025-08-20 03:19:36: [dotenv@17.2.1] injecting env (0) from .env -- tip: 📡 version env with Radar: https://dotenvx.com/radar
+2025-08-20 03:19:37: [dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+2025-08-20 03:19:37: 🚀 服务器启动成功！
+2025-08-20 03:19:37: 📍 端口: 3000
+2025-08-20 03:19:37: 🌍 环境: production
+2025-08-20 03:19:37: 📖 API文档: http://localhost:3000/api
+2025-08-20 03:19:37: 💊 健康检查: http://localhost:3000/health
+2025-08-20 03:19:38: [dotenv@17.2.1] injecting env (13) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+2025-08-20 03:19:38: [dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }
+2025-08-20 03:19:38: [dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+2025-08-20 03:19:38: 🚀 服务器启动成功！
+2025-08-20 03:19:38: 📍 端口: 3000
+2025-08-20 03:19:38: 🌍 环境: production
+2025-08-20 03:19:38: 📖 API文档: http://localhost:3000/api
+2025-08-20 03:19:38: 💊 健康检查: http://localhost:3000/health
+2025-08-20 03:19:40: [dotenv@17.2.1] injecting env (13) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+2025-08-20 03:19:40: [dotenv@17.2.1] injecting env (0) from .env -- tip: 📡 auto-backup env with Radar: https://dotenvx.com/radar
+2025-08-20 03:19:40: [dotenv@17.2.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+2025-08-20 03:19:40: 🚀 服务器启动成功！
+2025-08-20 03:19:40: 📍 端口: 3000
+2025-08-20 03:19:40: 🌍 环境: production
+2025-08-20 03:19:40: 📖 API文档: http://localhost:3000/api
+2025-08-20 03:19:40: 💊 健康检查: http://localhost:3000/health
+2025-08-20 03:19:41: [dotenv@17.2.1] injecting env (13) from .env -- tip: 📡 version env with Radar: https://dotenvx.com/radar
+2025-08-20 03:19:41: [dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+2025-08-20 03:19:41: [dotenv@17.2.1] injecting env (0) from .env -- tip: 📡 observe env with Radar: https://dotenvx.com/radar
+2025-08-20 03:19:41: 🚀 服务器启动成功！
+2025-08-20 03:19:41: 📍 端口: 3000
+2025-08-20 03:19:41: 🌍 环境: production
+2025-08-20 03:19:41: 📖 API文档: http://localhost:3000/api
+2025-08-20 03:19:41: 💊 健康检查: http://localhost:3000/health
+2025-08-20 03:28:57: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+2025-08-20 03:28:57: [dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+2025-08-20 03:28:57: [dotenv@17.2.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+2025-08-20 03:28:57: 🚀 服务器启动成功！
+2025-08-20 03:28:57: 📍 端口: 3000
+2025-08-20 03:28:57: 🌍 环境: production
+2025-08-20 03:28:57: 📖 API文档: http://localhost:3000/api
+2025-08-20 03:28:57: 💊 健康检查: http://localhost:3000/health
+2025-08-20 03:28:57: ✅ 数据库连接成功
+2025-08-20 03:29:06: ::ffff:127.0.0.1 - - [19/Aug/2025:19:29:06 +0000] "GET /health HTTP/1.0" 200 102 "-" "curl/7.68.0"
+2025-08-20 03:29:49: ::ffff:127.0.0.1 - - [19/Aug/2025:19:29:49 +0000] "GET /health HTTP/1.0" 200 103 "-" "curl/7.68.0"
+2025-08-20 03:32:39: ::ffff:127.0.0.1 - - [19/Aug/2025:19:32:39 +0000] "GET /api/ HTTP/1.1" 200 218 "-" "curl/7.68.0"
+2025-08-20 03:32:39: ::ffff:127.0.0.1 - - [19/Aug/2025:19:32:39 +0000] "GET /health HTTP/1.1" 200 103 "-" "curl/7.68.0"
+2025-08-20 03:34:15: ::ffff:127.0.0.1 - - [19/Aug/2025:19:34:15 +0000] "GET /api/ HTTP/1.1" 200 218 "-" "curl/7.68.0"
+2025-08-20 03:34:16: ::ffff:127.0.0.1 - - [19/Aug/2025:19:34:16 +0000] "GET /api/study/history HTTP/1.1" 401 62 "-" "curl/7.68.0"
+2025-08-20 03:37:51: ::ffff:127.0.0.1 - - [19/Aug/2025:19:37:51 +0000] "GET /health HTTP/1.0" 200 104 "-" "curl/7.68.0"
+2025-08-20 03:44:57: 📴 收到SIGINT信号，正在关闭服务器...
+2025-08-20 03:44:58: [dotenv@17.2.1] injecting env (13) from .env -- tip: 📡 version env with Radar: https://dotenvx.com/radar
+2025-08-20 03:44:58: [dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+2025-08-20 03:44:58: [dotenv@17.2.1] injecting env (0) from .env -- tip: 📡 auto-backup env with Radar: https://dotenvx.com/radar
+2025-08-20 03:44:58: 🚀 服务器启动成功！
+2025-08-20 03:44:58: 📍 端口: 3000
+2025-08-20 03:44:58: 🌍 环境: production
+2025-08-20 03:44:58: 📖 API文档: http://localhost:3000/api
+2025-08-20 03:44:58: 💊 健康检查: http://localhost:3000/health
+2025-08-20 03:44:58: ✅ 数据库连接成功
+2025-08-20 03:50:01: ::ffff:127.0.0.1 - - [19/Aug/2025:19:50:01 +0000] "GET /health HTTP/1.0" 200 104 "-" "curl/7.68.0"
+2025-08-20 03:50:09: ::ffff:127.0.0.1 - - [19/Aug/2025:19:50:09 +0000] "GET /api/ HTTP/1.1" 200 218 "-" "curl/7.68.0"
+2025-08-20 04:02:45: ::ffff:127.0.0.1 - - [19/Aug/2025:20:02:45 +0000] "GET /health HTTP/1.0" 200 105 "-" "curl/7.68.0"
+2025-08-20 04:07:44: ::ffff:127.0.0.1 - - [19/Aug/2025:20:07:44 +0000] "GET /api/ HTTP/1.1" 200 218 "-" "curl/7.68.0"
+2025-08-20 04:14:08: ::ffff:127.0.0.1 - - [19/Aug/2025:20:14:08 +0000] "POST /api/auth/wxlogin HTTP/1.1" 200 112 "-" "Mozilla/5.0 (Linux; Android 15; BVL-AN00 Build/HONORBVL-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.180 Mobile Safari/537.36 XWEB/1380123 MMWEBSDK/20250503 MMWEBID/1348 MicroMessenger/8.0.61.2880(0x28003D59) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64 MiniProgramEnv/android"
+2025-08-20 04:14:15: ::ffff:127.0.0.1 - - [19/Aug/2025:20:14:15 +0000] "GET /api/study/week HTTP/1.1" 404 66 "-" "Mozilla/5.0 (Linux; Android 15; BVL-AN00 Build/HONORBVL-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.180 Mobile Safari/537.36 XWEB/1380123 MMWEBSDK/20250503 MMWEBID/1348 MicroMessenger/8.0.61.2880(0x28003D59) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64 MiniProgramEnv/android"
+2025-08-20 04:14:15: ::ffff:127.0.0.1 - - [19/Aug/2025:20:14:15 +0000] "GET /api/analysis/recent HTTP/1.1" 404 71 "-" "Mozilla/5.0 (Linux; Android 15; BVL-AN00 Build/HONORBVL-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.180 Mobile Safari/537.36 XWEB/1380123 MMWEBSDK/20250503 MMWEBID/1348 MicroMessenger/8.0.61.2880(0x28003D59) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64 MiniProgramEnv/android"
+2025-08-20 04:14:18: ::ffff:127.0.0.1 - - [19/Aug/2025:20:14:18 +0000] "GET /api/study/history?month=2025-08 HTTP/1.1" 401 44 "-" "Mozilla/5.0 (Linux; Android 15; BVL-AN00 Build/HONORBVL-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.180 Mobile Safari/537.36 XWEB/1380123 MMWEBSDK/20250503 MMWEBID/1348 MicroMessenger/8.0.61.2880(0x28003D59) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64 MiniProgramEnv/android"
+2025-08-20 04:14:22: ::ffff:127.0.0.1 - - [19/Aug/2025:20:14:22 +0000] "POST /api/auth/wxlogin HTTP/1.1" 200 112 "-" "Mozilla/5.0 (Linux; Android 15; BVL-AN00 Build/HONORBVL-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.180 Mobile Safari/537.36 XWEB/1380123 MMWEBSDK/20250503 MMWEBID/1348 MicroMessenger/8.0.61.2880(0x28003D59) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64 MiniProgramEnv/android"
+2025-08-20 04:14:25: ::ffff:127.0.0.1 - - [19/Aug/2025:20:14:25 +0000] "GET /api/exam/latest HTTP/1.1" 404 67 "-" "Mozilla/5.0 (Linux; Android 15; BVL-AN00 Build/HONORBVL-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.180 Mobile Safari/537.36 XWEB/1380123 MMWEBSDK/20250503 MMWEBID/1348 MicroMessenger/8.0.61.2880(0x28003D59) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64 MiniProgramEnv/android"
+2025-08-20 04:14:25: ::ffff:127.0.0.1 - - [19/Aug/2025:20:14:25 +0000] "GET /api/study/week HTTP/1.1" 404 66 "-" "Mozilla/5.0 (Linux; Android 15; BVL-AN00 Build/HONORBVL-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.180 Mobile Safari/537.36 XWEB/1380123 MMWEBSDK/20250503 MMWEBID/1348 MicroMessenger/8.0.61.2880(0x28003D59) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64 MiniProgramEnv/android"
+2025-08-20 04:14:25: ::ffff:127.0.0.1 - - [19/Aug/2025:20:14:25 +0000] "GET /api/analysis/recent HTTP/1.1" 404 71 "-" "Mozilla/5.0 (Linux; Android 15; BVL-AN00 Build/HONORBVL-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.180 Mobile Safari/537.36 XWEB/1380123 MMWEBSDK/20250503 MMWEBID/1348 MicroMessenger/8.0.61.2880(0x28003D59) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64 MiniProgramEnv/android"
+2025-08-20 04:14:41: ::ffff:127.0.0.1 - - [19/Aug/2025:20:14:41 +0000] "GET /api/study/week HTTP/1.1" 404 66 "-" "Mozilla/5.0 (Linux; Android 15; BVL-AN00 Build/HONORBVL-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.180 Mobile Safari/537.36 XWEB/1380123 MMWEBSDK/20250503 MMWEBID/1348 MicroMessenger/8.0.61.2880(0x28003D59) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64 MiniProgramEnv/android"
+2025-08-20 04:14:41: ::ffff:127.0.0.1 - - [19/Aug/2025:20:14:41 +0000] "GET /api/exam/latest HTTP/1.1" 404 67 "-" "Mozilla/5.0 (Linux; Android 15; BVL-AN00 Build/HONORBVL-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.180 Mobile Safari/537.36 XWEB/1380123 MMWEBSDK/20250503 MMWEBID/1348 MicroMessenger/8.0.61.2880(0x28003D59) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64 MiniProgramEnv/android"
+2025-08-20 04:14:41: ::ffff:127.0.0.1 - - [19/Aug/2025:20:14:41 +0000] "GET /api/notifications HTTP/1.1" 404 69 "-" "Mozilla/5.0 (Linux; Android 15; BVL-AN00 Build/HONORBVL-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.180 Mobile Safari/537.36 XWEB/1380123 MMWEBSDK/20250503 MMWEBID/1348 MicroMessenger/8.0.61.2880(0x28003D59) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64 MiniProgramEnv/android"
+2025-08-20 04:14:42: ::ffff:127.0.0.1 - - [19/Aug/2025:20:14:42 +0000] "GET /api/study/detail?date=2025-08-20 HTTP/1.1" 404 84 "-" "Mozilla/5.0 (Linux; Android 15; BVL-AN00 Build/HONORBVL-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.180 Mobile Safari/537.36 XWEB/1380123 MMWEBSDK/20250503 MMWEBID/1348 MicroMessenger/8.0.61.2880(0x28003D59) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64 MiniProgramEnv/android"
+2025-08-20 04:15:07: ::ffff:127.0.0.1 - - [19/Aug/2025:20:15:07 +0000] "POST /api/auth/wxlogin HTTP/1.1" 200 112 "-" "Mozilla/5.0 (Linux; Android 15; BVL-AN00 Build/HONORBVL-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.180 Mobile Safari/537.36 XWEB/1380123 MMWEBSDK/20250503 MMWEBID/1348 MicroMessenger/8.0.61.2880(0x28003D59) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64 MiniProgramEnv/android"
+2025-08-20 04:15:11: ::ffff:127.0.0.1 - - [19/Aug/2025:20:15:11 +0000] "GET /api/exam/latest HTTP/1.1" 404 67 "-" "Mozilla/5.0 (Linux; Android 15; BVL-AN00 Build/HONORBVL-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.180 Mobile Safari/537.36 XWEB/1380123 MMWEBSDK/20250503 MMWEBID/1348 MicroMessenger/8.0.61.2880(0x28003D59) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64 MiniProgramEnv/android"
+2025-08-20 04:15:11: ::ffff:127.0.0.1 - - [19/Aug/2025:20:15:11 +0000] "GET /api/analysis/recent HTTP/1.1" 404 71 "-" "Mozilla/5.0 (Linux; Android 15; BVL-AN00 Build/HONORBVL-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.180 Mobile Safari/537.36 XWEB/1380123 MMWEBSDK/20250503 MMWEBID/1348 MicroMessenger/8.0.61.2880(0x28003D59) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64 MiniProgramEnv/android"
+2025-08-20 04:15:56: ::ffff:127.0.0.1 - - [19/Aug/2025:20:15:56 +0000] "GET /api/notifications HTTP/1.1" 404 69 "-" "Mozilla/5.0 (Linux; Android 15; BVL-AN00 Build/HONORBVL-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.180 Mobile Safari/537.36 XWEB/1380123 MMWEBSDK/20250503 MMWEBID/1348 MicroMessenger/8.0.61.2880(0x28003D59) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64 MiniProgramEnv/android"
+2025-08-20 04:18:06: ::ffff:127.0.0.1 - - [19/Aug/2025:20:18:06 +0000] "GET /health HTTP/1.0" 200 105 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; zh-CN) WindowsPowerShell/5.1.22621.2428"
+2025-08-20 04:23:10: ::ffff:127.0.0.1 - - [19/Aug/2025:20:23:10 +0000] "GET /api/study/history?startDate=2025-08-16&endDate=2025-08-22&limit=50 HTTP/1.1" 401 44 "-" "Mozilla/5.0 (Linux; Android 15; BVL-AN00 Build/HONORBVL-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.180 Mobile Safari/537.36 XWEB/1380123 MMWEBSDK/20250503 MMWEBID/1348 MicroMessenger/8.0.61.2880(0x28003D59) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64 MiniProgramEnv/android"
+2025-08-20 04:23:15: ::ffff:127.0.0.1 - - [19/Aug/2025:20:23:15 +0000] "POST /api/auth/wxlogin HTTP/1.1" 200 112 "-" "Mozilla/5.0 (Linux; Android 15; BVL-AN00 Build/HONORBVL-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.180 Mobile Safari/537.36 XWEB/1380123 MMWEBSDK/20250503 MMWEBID/1348 MicroMessenger/8.0.61.2880(0x28003D59) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64 MiniProgramEnv/android"
+2025-08-20 04:23:17: ::ffff:127.0.0.1 - - [19/Aug/2025:20:23:17 +0000] "GET /api/study/history?startDate=2025-08-16&endDate=2025-08-22&limit=50 HTTP/1.1" 401 62 "-" "Mozilla/5.0 (Linux; Android 15; BVL-AN00 Build/HONORBVL-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.180 Mobile Safari/537.36 XWEB/1380123 MMWEBSDK/20250503 MMWEBID/1348 MicroMessenger/8.0.61.2880(0x28003D59) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64 MiniProgramEnv/android"
+2025-08-20 04:23:26: ::ffff:127.0.0.1 - - [19/Aug/2025:20:23:26 +0000] "GET /api/study/history?startDate=2025-08-16&endDate=2025-08-22&limit=50 HTTP/1.1" 401 62 "-" "Mozilla/5.0 (Linux; Android 15; BVL-AN00 Build/HONORBVL-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.180 Mobile Safari/537.36 XWEB/1380123 MMWEBSDK/20250503 MMWEBID/1348 MicroMessenger/8.0.61.2880(0x28003D59) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64 MiniProgramEnv/android"
+2025-08-20 04:23:30: ::ffff:127.0.0.1 - - [19/Aug/2025:20:23:30 +0000] "POST /api/auth/wxlogin HTTP/1.1" 200 112 "-" "Mozilla/5.0 (Linux; Android 15; BVL-AN00 Build/HONORBVL-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.180 Mobile Safari/537.36 XWEB/1380123 MMWEBSDK/20250503 MMWEBID/1348 MicroMessenger/8.0.61.2880(0x28003D59) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64 MiniProgramEnv/android"
+2025-08-20 04:23:31: ::ffff:127.0.0.1 - - [19/Aug/2025:20:23:31 +0000] "GET /api/study/history?startDate=2025-08-19&endDate=2025-08-19&limit=1 HTTP/1.1" 401 62 "-" "Mozilla/5.0 (Linux; Android 15; BVL-AN00 Build/HONORBVL-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.180 Mobile Safari/537.36 XWEB/1380123 MMWEBSDK/20250503 MMWEBID/1348 MicroMessenger/8.0.61.2880(0x28003D59) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64 MiniProgramEnv/android"
+2025-08-20 04:23:35: ::ffff:127.0.0.1 - - [19/Aug/2025:20:23:35 +0000] "GET /api/study/history?startDate=2025-08-19&endDate=2025-08-19&limit=1 HTTP/1.1" 401 62 "-" "Mozilla/5.0 (Linux; Android 15; BVL-AN00 Build/HONORBVL-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.180 Mobile Safari/537.36 XWEB/1380123 MMWEBSDK/20250503 MMWEBID/1348 MicroMessenger/8.0.61.2880(0x28003D59) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64 MiniProgramEnv/android"
+2025-08-20 04:23:47: ::ffff:127.0.0.1 - - [19/Aug/2025:20:23:47 +0000] "GET /api/study/week HTTP/1.1" 404 66 "-" "Mozilla/5.0 (Linux; Android 15; BVL-AN00 Build/HONORBVL-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.180 Mobile Safari/537.36 XWEB/1380123 MMWEBSDK/20250503 MMWEBID/1348 MicroMessenger/8.0.61.2880(0x28003D59) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64 MiniProgramEnv/android"
+2025-08-20 04:23:56: ::ffff:127.0.0.1 - - [19/Aug/2025:20:23:56 +0000] "GET /api/study/history?startDate=2025-08-16&endDate=2025-08-22&limit=50 HTTP/1.1" 401 62 "-" "Mozilla/5.0 (Linux; Android 15; BVL-AN00 Build/HONORBVL-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.180 Mobile Safari/537.36 XWEB/1380123 MMWEBSDK/20250503 MMWEBID/1348 MicroMessenger/8.0.61.2880(0x28003D59) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64 MiniProgramEnv/android"
+2025-08-20 04:28:35: ::ffff:127.0.0.1 - - [19/Aug/2025:20:28:35 +0000] "POST /api/auth/wxlogin HTTP/1.1" 429 83 "-" "Mozilla/5.0 (Linux; Android 15; BVL-AN00 Build/HONORBVL-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.180 Mobile Safari/537.36 XWEB/1380123 MMWEBSDK/20250503 MMWEBID/1348 MicroMessenger/8.0.61.2880(0x28003D59) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64 MiniProgramEnv/android"
+2025-08-20 04:28:49: ::ffff:127.0.0.1 - - [19/Aug/2025:20:28:49 +0000] "GET /api/study/history?startDate=2025-08-19&endDate=2025-08-19&limit=1 HTTP/1.1" 401 62 "-" "Mozilla/5.0 (Linux; Android 15; BVL-AN00 Build/HONORBVL-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.180 Mobile Safari/537.36 XWEB/1380123 MMWEBSDK/20250503 MMWEBID/1348 MicroMessenger/8.0.61.2880(0x28003D59) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64 MiniProgramEnv/android"
+2025-08-20 04:28:53: ::ffff:127.0.0.1 - - [19/Aug/2025:20:28:53 +0000] "POST /api/auth/wxlogin HTTP/1.1" 429 83 "-" "Mozilla/5.0 (Linux; Android 15; BVL-AN00 Build/HONORBVL-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.180 Mobile Safari/537.36 XWEB/1380123 MMWEBSDK/20250503 MMWEBID/1348 MicroMessenger/8.0.61.2880(0x28003D59) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64 MiniProgramEnv/android"
+2025-08-20 04:29:27: ::ffff:127.0.0.1 - - [19/Aug/2025:20:29:27 +0000] "POST /api/auth/wxlogin HTTP/1.1" 429 83 "-" "Mozilla/5.0 (Linux; Android 15; BVL-AN00 Build/HONORBVL-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.180 Mobile Safari/537.36 XWEB/1380123 MMWEBSDK/20250503 MMWEBID/1348 MicroMessenger/8.0.61.2880(0x28003D59) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64 MiniProgramEnv/android"
+2025-08-20 04:33:34: ::ffff:127.0.0.1 - - [19/Aug/2025:20:33:34 +0000] "GET /api/study/history?startDate=2025-08-16&endDate=2025-08-22&limit=50 HTTP/1.1" 401 44 "-" "Mozilla/5.0 (Linux; Android 15; BVL-AN00 Build/HONORBVL-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.180 Mobile Safari/537.36 XWEB/1380123 MMWEBSDK/20250503 MMWEBID/1348 MicroMessenger/8.0.61.2880(0x28003D59) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64 MiniProgramEnv/android"
+2025-08-20 04:33:35: ::ffff:127.0.0.1 - - [19/Aug/2025:20:33:35 +0000] "GET /api/study/history?startDate=2025-08-19&endDate=2025-08-19&limit=1 HTTP/1.1" 401 44 "-" "Mozilla/5.0 (Linux; Android 15; BVL-AN00 Build/HONORBVL-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.180 Mobile Safari/537.36 XWEB/1380123 MMWEBSDK/20250503 MMWEBID/1348 MicroMessenger/8.0.61.2880(0x28003D59) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64 MiniProgramEnv/android"
+2025-08-20 04:34:20: 📴 收到SIGINT信号，正在关闭服务器...
+2025-08-20 04:34:21: [dotenv@17.2.1] injecting env (13) from .env -- tip: 📡 version env with Radar: https://dotenvx.com/radar
+2025-08-20 04:34:21: [dotenv@17.2.1] injecting env (0) from .env -- tip: 📡 version env with Radar: https://dotenvx.com/radar
+2025-08-20 04:34:21: [dotenv@17.2.1] injecting env (0) from .env -- tip: 📡 observe env with Radar: https://dotenvx.com/radar
+2025-08-20 04:34:21: 🚀 服务器启动成功！
+2025-08-20 04:34:21: 📍 端口: 3000
+2025-08-20 04:34:21: 🌍 环境: production
+2025-08-20 04:34:21: 📖 API文档: http://localhost:3000/api
+2025-08-20 04:34:21: 💊 健康检查: http://localhost:3000/health
+2025-08-20 04:34:21: ✅ 数据库连接成功
+2025-08-20 04:34:35: ::ffff:127.0.0.1 - - [19/Aug/2025:20:34:35 +0000] "GET /api/study/today HTTP/1.1" 401 44 "-" "curl/7.68.0"
+2025-08-20 04:35:03: ::ffff:127.0.0.1 - - [19/Aug/2025:20:35:03 +0000] "GET /api/study/week HTTP/1.1" 401 62 "-" "curl/7.68.0"
+2025-08-20 04:35:21: ::ffff:127.0.0.1 - - [19/Aug/2025:20:35:21 +0000] "GET /api/exam/latest HTTP/1.1" 401 62 "-" "curl/7.68.0"
+2025-08-20 04:35:39: ::ffff:127.0.0.1 - - [19/Aug/2025:20:35:39 +0000] "GET /api/ HTTP/1.1" 200 274 "-" "curl/7.68.0"
+2025-08-20 04:36:17: ::ffff:127.0.0.1 - - [19/Aug/2025:20:36:17 +0000] "GET /api/study/history?startDate=2025-08-19&endDate=2025-08-19&limit=1 HTTP/1.1" 401 62 "-" "Mozilla/5.0 (Linux; Android 15; BVL-AN00 Build/HONORBVL-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.180 Mobile Safari/537.36 XWEB/1380123 MMWEBSDK/20250503 MMWEBID/1348 MicroMessenger/8.0.61.2880(0x28003D59) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64 MiniProgramEnv/android"
+2025-08-20 04:37:20: ::ffff:127.0.0.1 - - [19/Aug/2025:20:37:20 +0000] "GET /api/ HTTP/1.1" 200 274 "-" "curl/7.68.0"
+2025-08-20 04:37:20: ::ffff:127.0.0.1 - - [19/Aug/2025:20:37:20 +0000] "GET /api/study/week HTTP/1.1" 401 62 "-" "curl/7.68.0"
+2025-08-20 04:37:20: ::ffff:127.0.0.1 - - [19/Aug/2025:20:37:20 +0000] "GET /api/exam/latest HTTP/1.1" 401 62 "-" "curl/7.68.0"
+2025-08-20 04:39:25: ::ffff:127.0.0.1 - - [19/Aug/2025:20:39:25 +0000] "POST /api/auth/wxlogin HTTP/1.1" 200 112 "-" "Mozilla/5.0 (Linux; Android 15; BVL-AN00 Build/HONORBVL-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.180 Mobile Safari/537.36 XWEB/1380123 MMWEBSDK/20250503 MMWEBID/1348 MicroMessenger/8.0.61.2880(0x28003D59) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64 MiniProgramEnv/android"
+2025-08-20 04:39:32: ::ffff:127.0.0.1 - - [19/Aug/2025:20:39:32 +0000] "POST /api/auth/wxlogin HTTP/1.1" 200 112 "-" "Mozilla/5.0 (Linux; Android 15; BVL-AN00 Build/HONORBVL-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.180 Mobile Safari/537.36 XWEB/1380123 MMWEBSDK/20250503 MMWEBID/1348 MicroMessenger/8.0.61.2880(0x28003D59) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64 MiniProgramEnv/android"
+2025-08-20 04:42:32: ::ffff:127.0.0.1 - - [19/Aug/2025:20:42:32 +0000] "POST /api/auth/wxlogin HTTP/1.1" 200 112 "-" "Mozilla/5.0 (Linux; Android 15; BVL-AN00 Build/HONORBVL-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.180 Mobile Safari/537.36 XWEB/1380123 MMWEBSDK/20250503 MMWEBID/1348 MicroMessenger/8.0.61.2880(0x28003D59) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64 MiniProgramEnv/android"
+2025-08-20 04:44:03: ::ffff:127.0.0.1 - - [19/Aug/2025:20:44:03 +0000] "GET /api/rce HTTP/1.1" 404 59 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+2025-08-20 04:46:29: ::ffff:127.0.0.1 - - [19/Aug/2025:20:46:29 +0000] "GET /api/ses/send HTTP/1.1" 404 64 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+2025-08-20 04:47:45: ::ffff:127.0.0.1 - - [19/Aug/2025:20:47:45 +0000] "GET /api/aws/ses HTTP/1.1" 404 63 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+2025-08-20 04:48:58: ::ffff:127.0.0.1 - - [19/Aug/2025:20:48:58 +0000] "POST /api/auth/login HTTP/1.1" 404 67 "-" "curl/7.68.0"
+2025-08-20 04:49:07: ::ffff:127.0.0.1 - - [19/Aug/2025:20:49:07 +0000] "GET /api/users/profile HTTP/1.1" 404 69 "-" "curl/7.68.0"
+2025-08-20 04:49:07: ::ffff:127.0.0.1 - - [19/Aug/2025:20:49:07 +0000] "GET /api/users/study-stats HTTP/1.1" 404 73 "-" "curl/7.68.0"
+2025-08-20 04:49:27: 📴 收到SIGINT信号，正在关闭服务器...
+2025-08-20 04:49:27: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+2025-08-20 04:49:27: [dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }
+2025-08-20 04:49:27: [dotenv@17.2.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+2025-08-20 04:49:27: 🚀 服务器启动成功！
+2025-08-20 04:49:27: 📍 端口: 3000
+2025-08-20 04:49:27: 🌍 环境: development
+2025-08-20 04:49:27: 📖 API文档: http://localhost:3000/api
+2025-08-20 04:49:27: 💊 健康检查: http://localhost:3000/health
+2025-08-20 04:49:27: ✅ 数据库连接成功
+2025-08-20 04:50:35: [0mPOST /api/auth/login [33m404[0m 5.660 ms - 67[0m
+2025-08-20 04:50:43: [0mPOST /api/auth/login [33m404[0m 1.737 ms - 67[0m
+2025-08-20 04:52:32: [0mGET /api/study/history?startDate=2025-08-16&endDate=2025-08-22&limit=50 [33m401[0m 2.687 ms - 44[0m
+2025-08-20 04:52:32: [0mGET /api/study/history?startDate=2025-08-19&endDate=2025-08-19&limit=1 [33m401[0m 0.611 ms - 44[0m
+2025-08-20 04:52:36: [0mPOST /api/auth/wxlogin [32m200[0m 283.261 ms - 112[0m
+2025-08-20 04:52:46: [0mPOST /api/auth/wxlogin [32m200[0m 247.252 ms - 112[0m
+2025-08-20 04:52:54: [0mPOST /api/auth/wxlogin [32m200[0m 221.680 ms - 112[0m
+2025-08-20 04:53:46: [0mPOST /api/auth/wxlogin [32m200[0m 249.737 ms - 112[0m
+2025-08-20 04:55:08: [0mPOST /api/auth/wxlogin [33m400[0m 155.876 ms - 95[0m
+2025-08-20 04:55:08: [0mGET /api/users/roles [33m401[0m 0.869 ms - 44[0m
+2025-08-20 04:55:08: [0mGET /api/study/today [33m401[0m 0.730 ms - 44[0m
+2025-08-20 04:55:08: [0mGET /api/notifications [33m401[0m 0.515 ms - 44[0m
+2025-08-20 04:55:37: 📴 收到SIGINT信号，正在关闭服务器...
+2025-08-20 04:55:37: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+2025-08-20 04:55:37: [dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }
+2025-08-20 04:55:37: [dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+2025-08-20 04:55:38: 🚀 服务器启动成功！
+2025-08-20 04:55:38: 📍 端口: 3000
+2025-08-20 04:55:38: 🌍 环境: development
+2025-08-20 04:55:38: 📖 API文档: http://localhost:3000/api
+2025-08-20 04:55:38: 💊 健康检查: http://localhost:3000/health
+2025-08-20 04:55:38: ✅ 数据库连接成功
+2025-08-20 05:01:50: [0mPOST /api/auth/wxlogin [32m200[0m 309.838 ms - 112[0m
+2025-08-20 05:01:58: [0mPOST /api/auth/wxlogin [32m200[0m 247.278 ms - 112[0m
+2025-08-20 05:02:47: 📴 收到SIGINT信号，正在关闭服务器...
+2025-08-20 05:02:47: [dotenv@17.2.1] injecting env (13) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+2025-08-20 05:02:47: [dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+2025-08-20 05:02:47: [dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }
+2025-08-20 05:02:47: 🚀 服务器启动成功！
+2025-08-20 05:02:47: 📍 端口: 3000
+2025-08-20 05:02:47: 🌍 环境: development
+2025-08-20 05:02:47: 📖 API文档: http://localhost:3000/api
+2025-08-20 05:02:47: 💊 健康检查: http://localhost:3000/health
+2025-08-20 05:02:48: ✅ 数据库连接成功
+2025-08-20 05:03:09: [0mGET /api/ [32m200[0m 3.929 ms - 274[0m
+2025-08-20 05:03:09: [0mGET /api/users/profile [32m200[0m 4.500 ms - 568[0m
+2025-08-20 05:03:10: [0mGET /api/users/study-stats [32m200[0m 2.522 ms - 293[0m
+2025-08-20 05:03:10: [0mGET /api/study/week [32m200[0m 10.730 ms - 655[0m
+2025-08-20 05:10:16: [0mPOST /api/auth/wxlogin [32m200[0m 275.221 ms - 112[0m
+2025-08-20 05:16:55: 📴 收到SIGINT信号，正在关闭服务器...
+2025-08-20 05:16:55: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+2025-08-20 05:16:57: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+2025-08-20 05:16:59: [dotenv@17.2.1] injecting env (13) from .env -- tip: 📡 observe env with Radar: https://dotenvx.com/radar
+2025-08-20 05:17:00: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+2025-08-20 05:17:02: [dotenv@17.2.1] injecting env (13) from .env -- tip: 📡 observe env with Radar: https://dotenvx.com/radar
+2025-08-20 05:17:03: [dotenv@17.2.1] injecting env (13) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+2025-08-20 05:17:05: [dotenv@17.2.1] injecting env (13) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+2025-08-20 05:17:06: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+2025-08-20 05:17:08: [dotenv@17.2.1] injecting env (13) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+2025-08-20 05:17:09: [dotenv@17.2.1] injecting env (13) from .env -- tip: 📡 version env with Radar: https://dotenvx.com/radar
+2025-08-20 05:21:40: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+2025-08-20 05:21:41: [dotenv@17.2.1] injecting env (13) from .env -- tip: 📡 version env with Radar: https://dotenvx.com/radar
+2025-08-20 05:21:43: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+2025-08-20 05:21:44: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+2025-08-20 05:21:46: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+2025-08-20 05:21:48: [dotenv@17.2.1] injecting env (13) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+2025-08-20 05:21:49: [dotenv@17.2.1] injecting env (13) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+2025-08-20 05:21:51: [dotenv@17.2.1] injecting env (13) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+2025-08-20 05:21:53: [dotenv@17.2.1] injecting env (13) from .env -- tip: 📡 version env with Radar: https://dotenvx.com/radar
+2025-08-20 05:21:54: [dotenv@17.2.1] injecting env (13) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+2025-08-20 05:22:29: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+2025-08-20 05:22:30: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+2025-08-20 05:22:32: [dotenv@17.2.1] injecting env (13) from .env -- tip: 📡 observe env with Radar: https://dotenvx.com/radar
+2025-08-20 05:22:34: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+2025-08-20 05:22:35: [dotenv@17.2.1] injecting env (13) from .env -- tip: 📡 auto-backup env with Radar: https://dotenvx.com/radar
+2025-08-20 05:22:37: [dotenv@17.2.1] injecting env (13) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+2025-08-20 05:22:39: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+2025-08-20 05:22:40: [dotenv@17.2.1] injecting env (13) from .env -- tip: 📡 auto-backup env with Radar: https://dotenvx.com/radar
+2025-08-20 05:22:42: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  override existing env vars with { override: true }
+2025-08-20 05:22:44: [dotenv@17.2.1] injecting env (13) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+2025-08-20 06:06:59: [dotenv@17.2.1] injecting env (13) from .env -- tip: 📡 auto-backup env with Radar: https://dotenvx.com/radar
+2025-08-20 06:06:59: [dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+2025-08-20 06:06:59: [dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+2025-08-20 06:06:59: 🚀 服务器启动成功！
+2025-08-20 06:06:59: 📍 端口: 3000
+2025-08-20 06:06:59: 🌍 环境: development
+2025-08-20 06:06:59: 📖 API文档: http://localhost:3000/api
+2025-08-20 06:06:59: 💊 健康检查: http://localhost:3000/health
+2025-08-20 06:06:59: ✅ 数据库连接成功
+2025-08-20 06:45:49: 📴 收到SIGINT信号，正在关闭服务器...
+2025-08-20 06:45:49: [dotenv@17.2.1] injecting env (13) from .env -- tip: 📡 version env with Radar: https://dotenvx.com/radar
+2025-08-20 06:45:49: [dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+2025-08-20 06:45:49: [dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+2025-08-20 06:45:49: 🚀 服务器启动成功！
+2025-08-20 06:45:49: 📍 端口: 3000
+2025-08-20 06:45:49: 🌍 环境: development
+2025-08-20 06:45:49: 📖 API文档: http://localhost:3000/api
+2025-08-20 06:45:49: 💊 健康检查: http://localhost:3000/health
+2025-08-20 06:45:49: ✅ 数据库连接成功
+2025-08-20 07:02:56: 📴 收到SIGINT信号，正在关闭服务器...
+2025-08-20 07:02:56: [dotenv@17.2.1] injecting env (13) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+2025-08-20 07:02:56: [dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+2025-08-20 07:02:56: [dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+2025-08-20 07:02:57: 🚀 服务器启动成功！
+2025-08-20 07:02:57: 📍 端口: 3000
+2025-08-20 07:02:57: 🌍 环境: development
+2025-08-20 07:02:57: 📖 API文档: http://localhost:3000/api
+2025-08-20 07:02:57: 💊 健康检查: http://localhost:3000/health
+2025-08-20 07:02:57: ✅ 数据库连接成功
+2025-08-20 07:06:32: 📴 收到SIGINT信号，正在关闭服务器...
+2025-08-20 07:06:41: [dotenv@17.2.1] injecting env (13) from .env -- tip: 📡 auto-backup env with Radar: https://dotenvx.com/radar
+2025-08-20 07:06:41: [dotenv@17.2.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+2025-08-20 07:06:41: [dotenv@17.2.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+2025-08-20 07:06:41: 🚀 服务器启动成功！
+2025-08-20 07:06:41: 📍 端口: 3000
+2025-08-20 07:06:41: 🌍 环境: development
+2025-08-20 07:06:41: 📖 API文档: http://localhost:3000/api
+2025-08-20 07:06:41: 💊 健康检查: http://localhost:3000/health
+2025-08-20 07:06:41: ✅ 数据库连接成功
+2025-08-20 07:11:07: 📴 收到SIGINT信号，正在关闭服务器...
+2025-08-20 07:11:08: [dotenv@17.2.1] injecting env (13) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+2025-08-20 07:11:08: [dotenv@17.2.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+2025-08-20 07:11:08: [dotenv@17.2.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+2025-08-20 07:11:08: 🚀 服务器启动成功！
+2025-08-20 07:11:08: 📍 端口: 3000
+2025-08-20 07:11:08: 🌍 环境: development
+2025-08-20 07:11:08: 📖 API文档: http://localhost:3000/api
+2025-08-20 07:11:08: 💊 健康检查: http://localhost:3000/health
+2025-08-20 07:11:08: ✅ 数据库连接成功
+2025-08-20 07:11:17: [0mGET /api/analysis/recent [33m401[0m 3.844 ms - 62[0m
+2025-08-20 07:11:38: [0mGET /api/analysis/recent [32m200[0m 6.150 ms - 372[0m
+2025-08-20 07:12:04: [0mGET /api/users/profile [32m200[0m 2.188 ms - 568[0m
+2025-08-20 07:13:19: [0mPOST /api/auth/refresh [32m200[0m 11.385 ms - 519[0m
+2025-08-20 07:13:19: [0mGET /api/users/profile [32m200[0m 2.293 ms - 568[0m
+2025-08-20 07:13:19: [0mGET /api/users/study-stats [32m200[0m 1.929 ms - 293[0m
+2025-08-20 07:13:19: [0mGET /api/study/week [32m200[0m 8.675 ms - 638[0m
+2025-08-20 07:13:19: [0mGET /api/study/history [31m500[0m 4.362 ms - 916[0m
+2025-08-20 07:13:19: [0mGET /api/analysis/personal [32m200[0m 3.986 ms - 376[0m
+2025-08-20 07:13:19: [0mGET /api/analysis/ranking [32m200[0m 2.075 ms - 332[0m
+2025-08-20 07:13:19: [0mGET /api/exam/latest [32m200[0m 1.718 ms - 109[0m
+2025-08-20 07:13:19: [0mGET /api/docs/list [32m200[0m 3.952 ms - 1941[0m
+2025-08-20 07:15:08: 📴 收到SIGINT信号，正在关闭服务器...
+2025-08-20 07:15:08: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+2025-08-20 07:15:08: [dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+2025-08-20 07:15:09: [dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+2025-08-20 07:15:09: 🚀 服务器启动成功！
+2025-08-20 07:15:09: 📍 端口: 3000
+2025-08-20 07:15:09: 🌍 环境: development
+2025-08-20 07:15:09: 📖 API文档: http://localhost:3000/api
+2025-08-20 07:15:09: 💊 健康检查: http://localhost:3000/health
+2025-08-20 07:15:09: ✅ 数据库连接成功
+2025-08-20 07:15:28: [0mGET /api/study/history [31m500[0m 17.123 ms - 916[0m
+2025-08-20 07:16:01: 📴 收到SIGINT信号，正在关闭服务器...
+2025-08-20 07:16:02: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  override existing env vars with { override: true }
+2025-08-20 07:16:02: [dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+2025-08-20 07:16:02: [dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+2025-08-20 07:16:02: 🚀 服务器启动成功！
+2025-08-20 07:16:02: 📍 端口: 3000
+2025-08-20 07:16:02: 🌍 环境: development
+2025-08-20 07:16:02: 📖 API文档: http://localhost:3000/api
+2025-08-20 07:16:02: 💊 健康检查: http://localhost:3000/health
+2025-08-20 07:16:02: ✅ 数据库连接成功
+2025-08-20 07:16:28: [0mPOST /api/auth/test-login [32m200[0m 10.949 ms - 512[0m
+2025-08-20 07:16:28: 用户登出: ID=1, Name=测试用户, Time=2025-08-19T23:16:28.462Z
+2025-08-20 07:16:28: [0mPOST /api/auth/logout [32m200[0m 3.976 ms - 145[0m
+2025-08-20 07:16:28: [0mGET /api/users/roles [32m200[0m 2.152 ms - 275[0m
+2025-08-20 07:16:28: [0mGET /api/study/today [32m200[0m 10.152 ms - 115[0m
+2025-08-20 07:16:28: [0mGET /api/study/month [32m200[0m 24.043 ms - 3578[0m
+2025-08-20 07:16:28: [0mGET /api/analysis/recent [32m200[0m 2.016 ms - 372[0m
+2025-08-20 07:16:28: [0mGET /api/analysis/trends [32m200[0m 1.659 ms - 427[0m
+2025-08-20 07:16:28: [0mGET /api/notifications [32m200[0m 1.707 ms - 145[0m
+2025-08-20 07:16:28: [0mGET /api/exam/list [32m200[0m 2.129 ms - 169[0m
+2025-08-20 07:17:42: [0mPOST /api/auth/test-login [32m200[0m 2.389 ms - 512[0m
+2025-08-20 07:17:42: 用户登出: ID=1, Name=测试用户, Time=2025-08-19T23:17:42.546Z
+2025-08-20 07:17:42: [0mPOST /api/auth/logout [32m200[0m 2.435 ms - 145[0m
+2025-08-20 07:17:42: [0mGET /api/users/roles [32m200[0m 1.731 ms - 275[0m
+2025-08-20 07:17:42: [0mGET /api/study/today [32m200[0m 3.340 ms - 115[0m
+2025-08-20 07:17:42: [0mGET /api/study/month [32m200[0m 4.805 ms - 3578[0m
+2025-08-20 07:17:42: [0mGET /api/analysis/recent [32m200[0m 1.394 ms - 372[0m
+2025-08-20 07:17:42: [0mGET /api/analysis/trends [32m200[0m 1.577 ms - 427[0m
+2025-08-20 07:17:42: [0mGET /api/notifications [32m200[0m 1.605 ms - 145[0m
+2025-08-20 07:17:42: [0mGET /api/exam/list [32m200[0m 1.594 ms - 169[0m
+2025-08-20 07:27:13: 📴 收到SIGINT信号，正在关闭服务器...
+2025-08-20 07:27:13: [dotenv@17.2.1] injecting env (13) from .env -- tip: 📡 observe env with Radar: https://dotenvx.com/radar
+2025-08-20 07:27:15: [dotenv@17.2.1] injecting env (13) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+2025-08-20 07:27:17: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  override existing env vars with { override: true }
+2025-08-20 07:27:18: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+2025-08-20 07:27:19: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+2025-08-20 07:27:21: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+2025-08-20 07:27:22: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+2025-08-20 07:27:24: [dotenv@17.2.1] injecting env (13) from .env -- tip: 📡 auto-backup env with Radar: https://dotenvx.com/radar
+2025-08-20 07:27:25: [dotenv@17.2.1] injecting env (13) from .env -- tip: 📡 auto-backup env with Radar: https://dotenvx.com/radar
+2025-08-20 07:27:27: [dotenv@17.2.1] injecting env (13) from .env -- tip: 📡 auto-backup env with Radar: https://dotenvx.com/radar
+2025-08-20 07:29:24: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+2025-08-20 07:29:26: [dotenv@17.2.1] injecting env (13) from .env -- tip: 📡 auto-backup env with Radar: https://dotenvx.com/radar
+2025-08-20 07:29:27: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  override existing env vars with { override: true }
+2025-08-20 07:29:29: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+2025-08-20 07:29:30: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+2025-08-20 07:29:32: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  override existing env vars with { override: true }
+2025-08-20 07:29:33: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+2025-08-20 07:29:34: [dotenv@17.2.1] injecting env (13) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+2025-08-20 07:29:36: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  override existing env vars with { override: true }
+2025-08-20 07:29:37: [dotenv@17.2.1] injecting env (13) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+2025-08-20 07:35:20: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  override existing env vars with { override: true }
+2025-08-20 07:35:21: [dotenv@17.2.1] injecting env (13) from .env -- tip: 📡 observe env with Radar: https://dotenvx.com/radar
+2025-08-20 07:35:23: [dotenv@17.2.1] injecting env (13) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+2025-08-20 07:35:24: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+2025-08-20 07:35:26: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+2025-08-20 07:35:27: [dotenv@17.2.1] injecting env (13) from .env -- tip: 📡 observe env with Radar: https://dotenvx.com/radar
+2025-08-20 07:35:29: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+2025-08-20 07:35:30: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+2025-08-20 07:35:32: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+2025-08-20 07:35:33: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+2025-08-20 07:44:51: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+2025-08-20 07:44:53: [dotenv@17.2.1] injecting env (13) from .env -- tip: 📡 auto-backup env with Radar: https://dotenvx.com/radar
+2025-08-20 07:44:54: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+2025-08-20 07:44:56: [dotenv@17.2.1] injecting env (13) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+2025-08-20 07:44:57: [dotenv@17.2.1] injecting env (13) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+2025-08-20 07:44:59: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+2025-08-20 07:45:00: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+2025-08-20 07:45:02: [dotenv@17.2.1] injecting env (13) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+2025-08-20 07:45:03: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+2025-08-20 07:45:05: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+2025-08-20 11:33:12: [dotenv@17.2.1] injecting env (13) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+2025-08-20 11:33:12: [dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }
+2025-08-20 11:33:12: [dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+2025-08-20 11:33:13: 🚀 服务器启动成功！
+2025-08-20 11:33:13: 📍 端口: 3000
+2025-08-20 11:33:13: 🌍 环境: production
+2025-08-20 11:33:13: 📖 API文档: http://localhost:3000/api
+2025-08-20 11:33:13: 💊 健康检查: http://localhost:3000/health
+2025-08-20 11:33:13: ✅ 数据库连接成功

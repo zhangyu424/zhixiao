@@ -1,0 +1,158 @@
+{
+  "apiBaseUrl": "http://140.143.143.195/api/docs",
+  "testSuites": [
+    {
+      "name": "文档API基础功能测试",
+      "description": "测试文档API的基本功能",
+      "tests": [
+        {
+          "name": "获取文档列表",
+          "method": "GET",
+          "endpoint": "/list",
+          "expectedStatus": 200,
+          "expectedFields": ["success", "data", "message"],
+          "dataValidation": {
+            "data.total": "number",
+            "data.categories": "object",
+            "data.list": "array"
+          }
+        },
+        {
+          "name": "获取单个文档 - API_REQUIREMENTS",
+          "method": "GET",
+          "endpoint": "/API_REQUIREMENTS",
+          "expectedStatus": 200,
+          "expectedFields": ["success", "data", "message"],
+          "dataValidation": {
+            "data.id": "string",
+            "data.title": "string",
+            "data.content": "string",
+            "data.category": "string"
+          }
+        },
+        {
+          "name": "获取单个文档 - HTML格式",
+          "method": "GET",
+          "endpoint": "/API_REQUIREMENTS?format=html",
+          "expectedStatus": 200,
+          "expectedFields": ["success", "data", "message"],
+          "dataValidation": {
+            "data.format": "html"
+          }
+        },
+        {
+          "name": "搜索文档 - API关键词",
+          "method": "GET",
+          "endpoint": "/search?q=API&limit=5",
+          "expectedStatus": 200,
+          "expectedFields": ["success", "data", "message"],
+          "dataValidation": {
+            "data.query": "API",
+            "data.results": "array"
+          }
+        },
+        {
+          "name": "搜索文档 - 开发类别",
+          "method": "GET",
+          "endpoint": "/search?q=开发&category=development",
+          "expectedStatus": 200,
+          "expectedFields": ["success", "data", "message"]
+        },
+        {
+          "name": "获取不存在的文档",
+          "method": "GET",
+          "endpoint": "/NONEXISTENT_DOC",
+          "expectedStatus": 404
+        },
+        {
+          "name": "搜索空关键词",
+          "method": "GET",
+          "endpoint": "/search?q=",
+          "expectedStatus": 400
+        }
+      ]
+    },
+    {
+      "name": "反馈功能测试 (需要认证)",
+      "description": "测试反馈提交功能",
+      "requiresAuth": true,
+      "tests": [
+        {
+          "name": "提交需求反馈",
+          "method": "POST",
+          "endpoint": "/feedback",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "body": {
+            "type": "requirement",
+            "title": "API测试自动反馈",
+            "content": "这是一个自动化测试提交的反馈",
+            "priority": "low",
+            "category": "test"
+          },
+          "expectedStatus": 200,
+          "expectedFields": ["success", "data", "message"],
+          "dataValidation": {
+            "data.id": "string",
+            "data.type": "requirement",
+            "data.status": "open"
+          }
+        },
+        {
+          "name": "提交问题报告",
+          "method": "POST",
+          "endpoint": "/feedback",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "body": {
+            "type": "issue",
+            "title": "测试问题报告",
+            "content": "这是一个测试问题报告",
+            "priority": "medium"
+          },
+          "expectedStatus": 200
+        },
+        {
+          "name": "获取反馈列表 (管理员)",
+          "method": "GET",
+          "endpoint": "/feedback/list?limit=5",
+          "expectedStatus": 200,
+          "requiresAdmin": true
+        },
+        {
+          "name": "无认证提交反馈",
+          "method": "POST",
+          "endpoint": "/feedback",
+          "skipAuth": true,
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "body": {
+            "type": "test",
+            "title": "无认证测试",
+            "content": "应该失败"
+          },
+          "expectedStatus": 401
+        }
+      ]
+    }
+  ],
+  "environment": {
+    "development": {
+      "baseUrl": "http://140.143.143.195/api/docs",
+      "timeout": 5000
+    },
+    "production": {
+      "baseUrl": "https://api.production.com/docs",
+      "timeout": 10000
+    }
+  },
+  "tokens": {
+    "development": {
+      "user": "请设置环境变量 DEV_USER_TOKEN",
+      "admin": "请设置环境变量 DEV_ADMIN_TOKEN"
+    }
+  }
+}

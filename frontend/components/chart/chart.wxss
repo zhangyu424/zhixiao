@@ -1,0 +1,48 @@
+/* components/chart/chart.wxss */
+.chart-container {
+  padding: 20rpx;
+  background: #fff;
+  border-radius: 12rpx;
+  box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.1);
+}
+
+.chart-header {
+  margin-bottom: 20rpx;
+}
+
+.chart-title {
+  font-size: 32rpx;
+  font-weight: 600;
+  color: #333;
+}
+
+.chart-canvas {
+  display: block;
+  margin: 0 auto;
+  border-radius: 8rpx;
+}
+
+.chart-legend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20rpx;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin: 0 10rpx 10rpx 0;
+}
+
+.legend-color {
+  width: 16rpx;
+  height: 16rpx;
+  border-radius: 2rpx;
+  margin-right: 8rpx;
+}
+
+.legend-text {
+  font-size: 24rpx;
+  color: #666;
+}

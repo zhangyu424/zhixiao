@@ -1,0 +1,157 @@
+前端核心结构:
+/var/www/zhixiao-platform/frontend
+├── api
+│   └── index.js
+├── app.js
+├── app.json
+├── app.wxss
+├── components
+│   ├── chart
+│   │   ├── chart.js
+│   │   ├── chart.json
+│   │   ├── chart.wxml
+│   │   └── chart.wxss
+│   ├── chart-placeholder
+│   │   ├── chart-placeholder.js
+│   │   ├── chart-placeholder.json
+│   │   ├── chart-placeholder.wxml
+│   │   └── chart-placeholder.wxss
+│   ├── data-table
+│   │   ├── data-table.js
+│   │   ├── data-table.json
+│   │   ├── data-table.wxml
+│   │   └── data-table.wxss
+│   ├── role-based-home
+│   │   ├── role-based-home.js
+│   │   ├── role-based-home.json
+│   │   ├── role-based-home.wxml
+│   │   └── role-based-home.wxss
+│   └── table-placeholder
+│       ├── table-placeholder.js
+│       ├── table-placeholder.json
+│       ├── table-placeholder.wxml
+│       └── table-placeholder.wxss
+├── images
+│   ├── backgrounds
+│   ├── home.png
+│   ├── icons
+│   └── README.md
+├── init-git.bat
+├── package.json
+├── package-lock.json
+├── pages
+│   ├── account-binding
+│   │   ├── account-binding.js
+│   │   ├── account-binding.json
+│   │   ├── account-binding.wxml
+│   │   └── account-binding.wxss
+│   ├── analysis
+│   │   ├── analysis.js
+│   │   ├── analysis.json
+│   │   ├── analysis.wxml
+│   │   └── analysis.wxss
+│   ├── api-sync-status
+│   │   ├── api-sync-status.js
+│   │   ├── api-sync-status.json
+│   │   ├── api-sync-status.wxml
+│   │   └── api-sync-status.wxss
+│   ├── backend-test
+│   │   ├── backend-test.js
+│   │   ├── backend-test.json
+│   │   ├── backend-test.wxml
+│   │   └── backend-test.wxss
+│   ├── docs-viewer
+│   │   ├── docs-viewer.js
+│   │   ├── docs-viewer.json
+│   │   └── docs-viewer.wxml
+│   ├── index
+│   │   ├── index.js
+│   │   ├── index.json
+│   │   ├── index.wxml
+│   │   └── index.wxss
+│   ├── management
+│   │   ├── management.js
+│   │   ├── management.json
+│   │   ├── management.wxml
+│   │   └── management.wxss
+│   ├── profile
+│   │   ├── profile.js
+│   │   ├── profile.json
+│   │   ├── profile.wxml
+│   │   └── profile.wxss
+│   ├── role-switch
+│   │   ├── role-switch.js
+│   │   ├── role-switch.json
+│   │   ├── role-switch.wxml
+│   │   └── role-switch.wxss
+│   ├── study-report
+│   │   ├── study-report.js
+│   │   ├── study-report.json
+│   │   ├── study-report.wxml
+│   │   └── study-report.wxss
+│   ├── unified-login
+│   │   ├── unified-login.js
+│   │   ├── unified-login.json
+│   │   ├── unified-login.wxml
+│   │   └── unified-login.wxss
+│   └── unit-select
+│       ├── unit-select.js
+│       ├── unit-select.json
+│       ├── unit-select.wxml
+│       └── unit-select.wxss
+├── project.config.json
+├── project.private.config.json
+├── README.md
+├── scripts
+│   ├── api-check.bat
+│   ├── api-check.sh
+│   ├── document-api-sync.js
+│   ├── organize-structure.bat
+│   ├── quality-check.bat
+│   ├── quality-check.sh
+│   ├── README.md
+│   ├── sync-all-apis.js
+│   ├── test-document-api.js
+│   ├── unified-backend-test.js
+│   └── update-api-status.js
+├── services
+│   ├── index.js
+│   ├── StudyService.js
+│   └── UserService.js
+├── sitemap.json
+├── start.bat
+├── tests
+│   ├── integration
+│   ├── README.md
+│   └── unit
+├── utils
+│   ├── api
+│   │   ├── api-sync-manager.js
+│   │   ├── backend-check.js
+│   │   ├── document-api.js
+│   │   ├── frontend-api-checker.js
+│   │   ├── http.js
+│   │   └── index.js
+│   ├── business
+│   │   ├── data-validator.js
+│   │   ├── document-api-sync.js
+│   │   └── study-manager.js
+│   ├── common
+│   │   ├── config.js
+│   │   ├── error-reporter.js
+│   │   ├── performance-monitor.js
+│   │   └── storage-helper.js
+│   ├── config-manager.js
+│   ├── constants.js
+│   ├── index.js
+│   └── permission.js
+├── version.json
+├── wu.code-workspace
+└── zhixiaodocs
+    ├── DEVELOPMENT_PLAN.md
+    ├── DOCUMENT_API_GUIDE.md
+    ├── INDEX.md
+    ├── test_document_api.sh
+    └── VERSION_HISTORY.md
+
+33 directories, 120 files

@@ -1,0 +1,22 @@
+<!--pages/unit-select/unit-select.wxml-->
+<view class="unit-select-container">
+  <view class="unit-list">
+    <view
+      class="unit-item {{selectedUnit === item.id ? 'selected' : ''}}"
+      wx:for="{{unitList}}"
+      wx:key="id"
+      data-unit="{{item}}"
+      bindtap="selectUnit"
+    >
+      <view class="unit-info">
+        <text class="unit-name">{{item.name}}</text>
+        <text class="unit-desc" wx:if="{{item.desc}}">{{item.desc}}</text>
+      </view>
+      <text class="selected-icon" wx:if="{{selectedUnit === item.id}}">✓</text>
+    </view>
+  </view>
+
+  <button class="confirm-btn {{selectedUnit ? '' : 'disabled'}}" disabled="{{!selectedUnit}}" bindtap="confirmSelect">
+    确认选择
+  </button>
+</view>

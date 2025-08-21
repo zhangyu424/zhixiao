@@ -1,0 +1,252 @@
+<!--pages/unified-login/unified-login.wxml-->
+<view class="unified-login-container">
+  <!-- 头部Logo和标题 -->
+  <view class="login-header">
+    <view class="logo-section">
+      <text class="logo-icon">📚</text>
+      <view class="app-info">
+        <text class="app-title">学习质效分析</text>
+        <text class="app-subtitle">提升学习效率，优化学习质量</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 登录方式切换 -->
+  <view class="login-type-tabs">
+    <view 
+      class="tab-item {{loginForm.loginType === 'account' ? 'active' : ''}}"
+      data-type="account"
+      bindtap="switchLoginType"
+    >
+      <text class="tab-icon">🔑</text>
+      <text class="tab-text">账号登录</text>
+    </view>
+    
+    <view 
+      class="tab-item {{loginForm.loginType === 'phone' ? 'active' : ''}}"
+      data-type="phone"
+      bindtap="switchLoginType"
+    >
+      <text class="tab-icon">📱</text>
+      <text class="tab-text">手机登录</text>
+    </view>
+    
+    <view 
+      class="tab-item {{loginForm.loginType === 'wechat' ? 'active' : ''}}"
+      data-type="wechat"
+      bindtap="switchLoginType"
+    >
+      <text class="tab-icon">💬</text>
+      <text class="tab-text">微信登录</text>
+    </view>
+  </view>
+
+  <!-- 登录表单区域 -->
+  <view class="login-form-container">
+    
+    <!-- 账号密码登录 -->
+    <view class="login-form account-login" wx:if="{{loginForm.loginType === 'account'}}">
+      <view class="form-title">
+        <text class="title-text">账号登录</text>
+        <text class="title-desc">请输入您的账号和密码</text>
+      </view>
+      
+      <view class="form-fields">
+        <view class="form-field">
+          <view class="field-icon">👤</view>
+          <input 
+            class="field-input"
+            placeholder="学员编号/工号/手机号"
+            value="{{loginForm.account}}"
+            bindinput="onAccountInput"
+            maxlength="50"
+          />
+        </view>
+        
+        <view class="form-field">
+          <view class="field-icon">🔒</view>
+          <input 
+            class="field-input"
+            placeholder="请输入登录密码"
+            password="{{showPasswordInput}}"
+            value="{{loginForm.password}}"
+            bindinput="onPasswordInput"
+            maxlength="20"
+          />
+          <view class="field-action" bindtap="togglePasswordVisibility">
+            <text class="action-icon">{{showPasswordInput ? '👁️' : '🙈'}}</text>
+          </view>
+        </view>
+      </view>
+      
+      <view class="form-actions">
+        <button 
+          class="login-btn primary {{loginLoading ? 'loading' : ''}}"
+          bindtap="accountLogin"
+          disabled="{{loginLoading}}"
+        >
+          <text class="btn-icon" wx:if="{{!loginLoading}}">🚀</text>
+          <text class="loading-icon" wx:if="{{loginLoading}}">⏳</text>
+          {{loginLoading ? '登录中...' : '立即登录'}}
+        </button>
+        
+        <view class="forgot-password" bindtap="showForgotPassword">
+          <text class="forgot-text">忘记密码？</text>
+        </view>
+      </view>
+    </view>
+
+    <!-- 手机验证码登录 -->
+    <view class="login-form phone-login" wx:if="{{loginForm.loginType === 'phone'}}">
+      <view class="form-title">
+        <text class="title-text">手机登录</text>
+        <text class="title-desc">请输入手机号码获取验证码</text>
+      </view>
+      
+      <view class="form-fields">
+        <view class="form-field">
+          <view class="field-icon">📱</view>
+          <input 
+            class="field-input"
+            placeholder="请输入手机号码"
+            type="number"
+            value="{{phoneForm.phone}}"
+            bindinput="onPhoneInput"
+            maxlength="11"
+          />
+        </view>
+        
+        <view class="form-field captcha-field">
+          <view class="field-icon">🔢</view>
+          <input 
+            class="field-input captcha-input"
+            placeholder="请输入验证码"
+            type="number"
+            value="{{phoneForm.captcha}}"
+            bindinput="onCaptchaInput"
+            maxlength="6"
+          />
+          <button 
+            class="captcha-btn {{phoneForm.captchaCountdown > 0 || phoneForm.captchaLoading ? 'disabled' : ''}}"
+            bindtap="sendCaptcha"
+            disabled="{{phoneForm.captchaCountdown > 0 || phoneForm.captchaLoading}}"
+          >
+            {{phoneForm.captchaLoading ? '发送中...' : phoneForm.captchaText}}
+          </button>
+        </view>
+      </view>
+      
+      <view class="form-actions">
+        <button 
+          class="login-btn primary {{loginLoading ? 'loading' : ''}}"
+          bindtap="phoneLogin"
+          disabled="{{loginLoading}}"
+        >
+          <text class="btn-icon" wx:if="{{!loginLoading}}">🚀</text>
+          <text class="loading-icon" wx:if="{{loginLoading}}">⏳</text>
+          {{loginLoading ? '登录中...' : '立即登录'}}
+        </button>
+      </view>
+    </view>
+
+    <!-- 微信授权登录 -->
+    <view class="login-form wechat-login" wx:if="{{loginForm.loginType === 'wechat'}}">
+      <view class="form-title">
+        <text class="title-text">微信登录</text>
+        <text class="title-desc">使用微信授权快速登录</text>
+      </view>
+      
+      <view class="wechat-info" wx:if="{{wechatAuth.userProfile}}">
+        <view class="user-preview">
+          <image class="user-avatar" src="{{wechatAuth.userProfile.avatarUrl}}" />
+          <view class="user-details">
+            <text class="user-name">{{wechatAuth.userProfile.nickName}}</text>
+            <text class="auth-status">已获取微信授权</text>
+          </view>
+        </view>
+      </view>
+      
+      <view class="wechat-tips" wx:if="{{!wechatAuth.userProfile}}">
+        <view class="tips-icon">💡</view>
+        <view class="tips-content">
+          <text class="tips-title">微信登录说明</text>
+          <text class="tips-text">首次使用微信登录需要绑定已有账号</text>
+          <text class="tips-text">后续登录将自动识别您的身份</text>
+        </view>
+      </view>
+      
+      <view class="form-actions">
+        <button 
+          class="login-btn wechat {{loginLoading ? 'loading' : ''}}"
+          bindtap="wechatLogin"
+          disabled="{{loginLoading}}"
+        >
+          <text class="btn-icon" wx:if="{{!loginLoading}}">💬</text>
+          <text class="loading-icon" wx:if="{{loginLoading}}">⏳</text>
+          {{loginLoading ? '授权中...' : '微信授权登录'}}
+        </button>
+      </view>
+    </view>
+  </view>
+
+  <!-- 用户协议 -->
+  <view class="user-agreement">
+    <checkbox-group bindchange="onAgreeChange">
+      <label class="agreement-item">
+        <checkbox value="agree" checked="{{agreeToTerms}}" />
+        <text class="agreement-text">我已阅读并同意</text>
+        <text class="agreement-link" bindtap="showUserAgreement">《用户协议》</text>
+        <text class="agreement-text">和</text>
+        <text class="agreement-link" bindtap="showPrivacyPolicy">《隐私政策》</text>
+      </label>
+    </checkbox-group>
+  </view>
+
+  <!-- 开发模式调试 -->
+  <view class="dev-panel" wx:if="{{isDevMode}}">
+    <view class="dev-header">
+      <text class="dev-title">🔧 开发调试</text>
+    </view>
+    <view class="dev-actions">
+      <button class="dev-btn" bindtap="mockLogin" size="mini">
+        模拟登录
+      </button>
+      <button class="dev-btn" bindtap="openApiTest" size="mini">
+        API测试
+      </button>
+    </view>
+  </view>
+
+  <!-- 底部信息 -->
+  <view class="login-footer">
+    <view class="version-info">
+      <text class="version-text">版本 1.0.0</text>
+    </view>
+    <view class="company-info">
+      <text class="company-text">学习质效分析系统</text>
+    </view>
+  </view>
+</view>
+
+<!-- 账号绑定提示弹窗 -->
+<view class="binding-modal" wx:if="{{wechatAuth.needBind}}">
+  <view class="modal-mask"></view>
+  <view class="modal-content">
+    <view class="modal-header">
+      <text class="modal-title">需要绑定账号</text>
+      <view class="modal-close" bindtap="resetWechatAuth">✕</view>
+    </view>
+    <view class="modal-body">
+      <text class="modal-desc">检测到您是首次使用微信登录，需要绑定已有账号才能继续。</text>
+      <view class="modal-tips">
+        <text class="tips-item">• 绑定后可使用微信快速登录</text>
+        <text class="tips-item">• 不会影响原有账号数据</text>
+        <text class="tips-item">• 支持多种账号类型绑定</text>
+      </view>
+    </view>
+    <view class="modal-actions">
+      <button class="modal-btn cancel" bindtap="resetWechatAuth">取消</button>
+      <button class="modal-btn confirm" bindtap="navigateToBinding">去绑定</button>
+    </view>
+  </view>
+</view>

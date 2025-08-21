@@ -1,0 +1,263 @@
+/* pages/api-sync-status/api-sync-status.wxss */
+
+.container {
+  padding: 32rpx;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40rpx;
+}
+
+.title {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #2c3e50;
+  display: block;
+}
+
+.subtitle {
+  font-size: 28rpx;
+  color: #7f8c8d;
+  margin-top: 12rpx;
+  display: block;
+}
+
+.status-card {
+  background: white;
+  border-radius: 16rpx;
+  padding: 32rpx;
+  margin-bottom: 32rpx;
+  box-shadow: 0 4rpx 12rpx rgba(0,0,0,0.1);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24rpx;
+}
+
+.card-title {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.refresh-btn {
+  background: #3498db;
+  color: white;
+  border: none;
+}
+
+.status-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20rpx;
+}
+
+.status-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16rpx 0;
+  border-bottom: 1rpx solid #ecf0f1;
+}
+
+.status-item:last-child {
+  border-bottom: none;
+}
+
+.label {
+  font-size: 28rpx;
+  color: #7f8c8d;
+}
+
+.value {
+  font-size: 28rpx;
+  color: #2c3e50;
+  font-weight: 500;
+}
+
+/* 状态颜色 */
+.status-never_synced {
+  color: #95a5a6;
+}
+
+.status-pending_backend_implementation {
+  color: #f39c12;
+}
+
+.status-sync_success, .status-compatible {
+  color: #27ae60;
+}
+
+.status-sync_failed, .status-incompatible {
+  color: #e74c3c;
+}
+
+.status-unknown {
+  color: #95a5a6;
+}
+
+.compatibility-status {
+  padding: 8rpx 16rpx;
+  border-radius: 20rpx;
+  font-size: 24rpx;
+  color: white;
+}
+
+.status-compatible.compatibility-status {
+  background-color: #27ae60;
+}
+
+.status-incompatible.compatibility-status {
+  background-color: #e74c3c;
+}
+
+.status-unknown.compatibility-status {
+  background-color: #95a5a6;
+}
+
+.compatibility-details {
+  margin-top: 24rpx;
+}
+
+.detail-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16rpx 0;
+  border-bottom: 1rpx solid #ecf0f1;
+}
+
+.category {
+  font-size: 28rpx;
+  color: #2c3e50;
+}
+
+.status {
+  padding: 6rpx 12rpx;
+  border-radius: 12rpx;
+  font-size: 24rpx;
+  color: white;
+}
+
+.status-success {
+  background-color: #27ae60;
+}
+
+.status-failed {
+  background-color: #e74c3c;
+}
+
+.status-checking {
+  background-color: #f39c12;
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 24rpx;
+  margin-bottom: 40rpx;
+}
+
+.sync-btn {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 12rpx;
+  padding: 24rpx;
+  font-size: 32rpx;
+}
+
+.check-btn {
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 12rpx;
+  padding: 24rpx;
+  font-size: 32rpx;
+}
+
+.export-btn {
+  background-color: #9b59b6;
+  color: white;
+  border: none;
+  border-radius: 12rpx;
+  padding: 24rpx;
+  font-size: 32rpx;
+}
+
+.history-section {
+  background: white;
+  border-radius: 16rpx;
+  padding: 32rpx;
+  margin-bottom: 32rpx;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24rpx;
+}
+
+.section-title {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.clear-btn {
+  background: #e74c3c;
+  color: white;
+  border: none;
+}
+
+.history-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16rpx;
+}
+
+.history-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx;
+  background-color: #f8f9fa;
+  border-radius: 12rpx;
+  border: 1rpx solid #ecf0f1;
+}
+
+.history-time {
+  font-size: 26rpx;
+  color: #7f8c8d;
+}
+
+.history-status {
+  padding: 6rpx 12rpx;
+  border-radius: 12rpx;
+  font-size: 24rpx;
+  color: white;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 80rpx;
+  color: #95a5a6;
+  font-size: 28rpx;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 40rpx;
+}
+
+.update-time {
+  font-size: 24rpx;
+  color: #95a5a6;
+}

@@ -1,0 +1,101 @@
+<!--pages/index/index.wxml-->
+<view class="index-container">
+  <!-- 开发模式提示 -->
+  <view class="dev-notice" wx:if="{{isDevMode}}">
+    <text class="dev-icon">🔧</text>
+    <text class="dev-text">开发模式 - 统一登录系统</text>
+    <button class="dev-test-btn" size="mini" bindtap="openTestPage">API测试</button>
+    <button class="dev-test-btn" size="mini" bindtap="openStatusPage">状态监控</button>
+  </view>
+
+  <!-- 角色基础首页组件 -->
+  <role-based-home 
+    userInfo="{{userInfo}}"
+    userRole="{{currentRole}}"
+    bind:roleConfigChanged="onRoleConfigChanged"
+    bind:featureClick="onFeatureClick"
+    bind:roleSwitch="onRoleSwitch"
+  />
+
+  <!-- 通用数据卡片（所有角色都显示） -->
+  <view class="data-cards" wx:if="{{isLogin}}">
+    
+    <!-- 今日学习状态 -->
+    <view class="data-card today-status" wx:if="{{currentRole === 'student'}}">
+      <view class="card-header">
+        <text class="card-title">今日学习</text>
+        <view class="status-badge {{todayStudyData.isReported ? 'reported' : 'unreported'}}">
+          <text>{{todayStudyData.isReported ? '已填报' : '未填报'}}</text>
+        </view>
+      </view>
+      
+      <view class="study-summary">
+        <view class="time-display">
+          <text class="time-value">{{todayStudyData.studyTime || 0}}</text>
+          <text class="time-unit">小时</text>
+        </view>
+        
+        <button 
+          class="quick-action-btn {{todayStudyData.isReported ? 'disabled' : ''}}"
+          bindtap="quickReport"
+          disabled="{{todayStudyData.isReported}}"
+        >
+          {{todayStudyData.isReported ? '已完成' : '快速填报'}}
+        </button>
+      </view>
+    </view>
+
+    <!-- 本周汇总 -->
+    <view class="data-card week-summary" wx:if="{{currentRole === 'student' || currentRole === 'instructor'}}">
+      <view class="card-header">
+        <text class="card-title">本周汇总</text>
+        <text class="card-action" bindtap="viewPersonalStats">查看详情 ></text>
+      </view>
+      
+      <view class="summary-stats">
+        <view class="stat-item">
+          <text class="stat-value">{{weekSummary.totalHours || 0}}</text>
+          <text class="stat-label">总学习时长(小时)</text>
+        </view>
+        <view class="stat-item">
+          <text class="stat-value">{{weekSummary.completedDays || 0}}</text>
+          <text class="stat-label">已填报天数</text>
+        </view>
+      </view>
+    </view>
+
+    <!-- 通知消息 -->
+    <view class="data-card notifications" wx:if="{{notifications.length > 0}}">
+      <view class="card-header">
+        <text class="card-title">消息通知</text>
+        <text class="card-action">查看全部 ></text>
+      </view>
+      
+      <view class="notification-list">
+        <view 
+          class="notification-item"
+          wx:for="{{notifications}}"
+          wx:key="id"
+          data-notification="{{item}}"
+          bindtap="onNotificationClick"
+        >
+          <view class="notification-content">
+            <text class="notification-title">{{item.title}}</text>
+            <text class="notification-desc">{{item.content}}</text>
+          </view>
+          <view class="notification-meta">
+            <text class="notification-time">{{item.time}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 未登录状态 -->
+  <view class="not-login" wx:if="{{!isLogin}}">
+    <view class="loading-container">
+      <text class="loading-icon">⏳</text>
+      <text class="loading-text">加载中...</text>
+    </view>
+  </view>
+</view>

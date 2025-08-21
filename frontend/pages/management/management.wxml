@@ -1,0 +1,283 @@
+<!--pages/management/management.wxml-->
+<view class="management-container">
+  <!-- 标签栏 -->
+  <view class="tab-bar">
+    <scroll-view class="tab-scroll" scroll-x="true">
+      <view class="tab-list">
+        <view
+          class="tab-item {{currentTab === item.key ? 'active' : ''}}"
+          wx:for="{{availableTabs}}"
+          wx:key="key"
+          data-tab="{{item.key}}"
+          bindtap="onTabChange"
+        >
+          {{item.title}}
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+
+  <!-- 数据导入 -->
+  <view class="tab-content" wx:if="{{currentTab === 'import'}}">
+    <view class="content-section">
+      <view class="section-title">数据导入</view>
+
+      <!-- 导入类型选择 -->
+      <view class="form-item">
+        <text class="form-label">导入类型</text>
+        <picker
+          range="{{['学员信息', '考试成绩']}}"
+          range-key="name"
+          value="{{importType === 'students' ? 0 : 1}}"
+          bindchange="onImportTypeChange"
+        >
+          <view class="picker-display">
+            <text>{{importType === 'students' ? '学员信息' : '考试成绩'}}</text>
+            <text class="picker-arrow">▼</text>
+          </view>
+        </picker>
+      </view>
+
+      <!-- 模板下载 -->
+      <view class="template-section">
+        <text class="template-title">1. 下载模板</text>
+        <button class="template-btn" bindtap="downloadTemplate">下载Excel模板</button>
+      </view>
+
+      <!-- 文件选择 -->
+      <view class="file-section">
+        <text class="file-title">2. 选择文件</text>
+        <view class="file-chooser" bindtap="chooseImportFile">
+          <view class="file-info" wx:if="{{importFile}}">
+            <text class="file-icon">📊</text>
+            <view class="file-details">
+              <text class="file-name">{{importFile.name}}</text>
+              <text class="file-size">{{importFile.sizeText}}</text>
+            </view>
+          </view>
+
+          <view class="file-placeholder" wx:else>
+            <text class="upload-icon">📤</text>
+            <text class="upload-text">点击选择Excel文件</text>
+          </view>
+        </view>
+      </view>
+
+      <!-- 开始导入 -->
+      <view class="import-section">
+        <text class="import-title">3. 开始导入</text>
+        <button class="import-btn {{!importFile ? 'disabled' : ''}}" bindtap="startImport" disabled="{{!importFile}}">
+          开始导入
+        </button>
+      </view>
+
+      <!-- 导入结果 -->
+      <view class="import-result" wx:if="{{importResult}}">
+        <view class="result-header">
+          <text class="result-title">导入结果</text>
+        </view>
+
+        <view class="result-stats">
+          <view class="result-item success">
+            <text class="result-label">成功</text>
+            <text class="result-value">{{importResult.successCount}}</text>
+          </view>
+          <view class="result-item warning">
+            <text class="result-label">警告</text>
+            <text class="result-value">{{importResult.warningCount}}</text>
+          </view>
+          <view class="result-item error">
+            <text class="result-label">失败</text>
+            <text class="result-value">{{importResult.errorCount}}</text>
+          </view>
+        </view>
+
+        <view class="error-list" wx:if="{{importResult.errors && importResult.errors.length > 0}}">
+          <text class="error-title">错误详情：</text>
+          <view class="error-item" wx:for="{{importResult.errors}}" wx:key="index">
+            <text class="error-row">第{{item.row}}行：</text>
+            <text class="error-message">{{item.message}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 数据导出 -->
+  <view class="tab-content" wx:if="{{currentTab === 'export'}}">
+    <view class="content-section">
+      <view class="section-title">数据导出</view>
+
+      <!-- 导出类型 -->
+      <view class="form-item">
+        <text class="form-label">导出类型</text>
+        <picker
+          range="{{['学员信息', '学习时长记录', '考试成绩', '分析报告']}}"
+          value="{{['students', 'study-time', 'scores', 'reports'].indexOf(exportType)}}"
+          bindchange="onExportTypeChange"
+        >
+          <view class="picker-display">
+            <text
+              >{{['学员信息', '学习时长记录', '考试成绩', '分析报告'][['students', 'study-time', 'scores',
+              'reports'].indexOf(exportType)]}}</text
+            >
+            <text class="picker-arrow">▼</text>
+          </view>
+        </picker>
+      </view>
+
+      <!-- 日期范围 -->
+      <view class="form-item" wx:if="{{exportType === 'study-time' || exportType === 'reports'}}">
+        <text class="form-label">日期范围</text>
+        <picker mode="multiSelector" range="{{[[], []]}}" bindchange="onDateRangeChange">
+          <view class="picker-display">
+            <text
+              >{{exportDateRange.length > 0 ? exportDateRange[0] + ' 至 ' + exportDateRange[1] :
+              '请选择日期范围'}}</text
+            >
+            <text class="picker-arrow">▼</text>
+          </view>
+        </picker>
+      </view>
+
+      <!-- 导出按钮 -->
+      <button class="export-btn {{exportLoading ? 'loading' : ''}}" bindtap="startExport" disabled="{{exportLoading}}">
+        {{exportLoading ? '导出中...' : '开始导出'}}
+      </button>
+    </view>
+  </view>
+
+  <!-- 组织管理 -->
+  <view class="tab-content" wx:if="{{currentTab === 'organization'}}">
+    <view class="content-section">
+      <view class="section-title">组织架构管理</view>
+
+      <!-- 操作按钮 -->
+      <view class="org-actions">
+        <button class="action-btn primary" bindtap="addUnit">新增单位</button>
+        <button
+          class="action-btn secondary {{!selectedUnit ? 'disabled' : ''}}"
+          bindtap="editUnit"
+          disabled="{{!selectedUnit}}"
+        >
+          编辑单位
+        </button>
+        <button
+          class="action-btn danger {{!selectedUnit ? 'disabled' : ''}}"
+          bindtap="deleteUnit"
+          disabled="{{!selectedUnit}}"
+        >
+          删除单位
+        </button>
+      </view>
+
+      <!-- 组织树 -->
+      <view class="organization-tree">
+        <view
+          class="tree-node {{selectedUnit && selectedUnit.id === item.id ? 'selected' : ''}}"
+          wx:for="{{organizationTree}}"
+          wx:key="id"
+          data-unit="{{item}}"
+          bindtap="onUnitSelect"
+        >
+          <view class="node-content">
+            <text class="node-name">{{item.name}}</text>
+            <text class="node-level">{{item.level}}</text>
+          </view>
+
+          <!-- 子节点 -->
+          <view class="child-nodes" wx:if="{{item.children && item.children.length > 0}}">
+            <view
+              class="child-node {{selectedUnit && selectedUnit.id === child.id ? 'selected' : ''}}"
+              wx:for="{{item.children}}"
+              wx:for-item="child"
+              wx:key="id"
+              data-unit="{{child}}"
+              bindtap="onUnitSelect"
+            >
+              <text class="child-name">{{child.name}}</text>
+              <text class="child-level">{{child.level}}</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 用户管理 -->
+  <view class="tab-content" wx:if="{{currentTab === 'users'}}">
+    <view class="content-section">
+      <view class="section-title">用户管理</view>
+
+      <!-- 搜索和操作 -->
+      <view class="user-actions">
+        <view class="search-box">
+          <input
+            class="search-input"
+            placeholder="搜索用户姓名或编号"
+            value="{{userSearchKey}}"
+            bindinput="onUserSearch"
+          />
+        </view>
+        <button class="add-user-btn" bindtap="addUser">新增用户</button>
+      </view>
+
+      <!-- 用户列表 -->
+      <view class="user-list">
+        <view class="user-item" wx:for="{{userList}}" wx:key="id">
+          <view class="user-avatar">
+            <text class="avatar">👤</text>
+          </view>
+
+          <view class="user-info">
+            <text class="user-name">{{item.name}}</text>
+            <text class="user-id">{{item.studentId}}</text>
+            <text class="user-role">{{item.roleName}}</text>
+            <text class="user-unit">{{item.unitName}}</text>
+          </view>
+
+          <view class="user-actions">
+            <button class="edit-user-btn" data-id="{{item.id}}" bindtap="editUser">编辑</button>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 系统设置 -->
+  <view class="tab-content" wx:if="{{currentTab === 'settings'}}">
+    <view class="content-section">
+      <view class="section-title">系统设置</view>
+
+      <view class="settings-form">
+        <!-- 提醒时间 -->
+        <view class="setting-item">
+          <text class="setting-label">每日提醒时间</text>
+          <picker mode="time" value="{{systemSettings.reminderTime}}" bindchange="onReminderTimeChange">
+            <view class="time-display"> {{systemSettings.reminderTime}} </view>
+          </picker>
+        </view>
+
+        <!-- 数据编辑权限 -->
+        <view class="setting-item">
+          <text class="setting-label">允许学员编辑历史数据</text>
+          <switch checked="{{systemSettings.allowDataEdit}}" bindchange="onAllowDataEditChange" color="#1890ff" />
+        </view>
+
+        <!-- 最大编辑天数 -->
+        <view class="setting-item" wx:if="{{systemSettings.allowDataEdit}}">
+          <text class="setting-label">最大可编辑天数</text>
+          <input
+            class="setting-input"
+            type="number"
+            value="{{systemSettings.maxEditDays}}"
+            bindinput="onMaxEditDaysChange"
+          />
+        </view>
+
+        <!-- 保存按钮 -->
+        <button class="save-settings-btn" bindtap="saveSettings">保存设置</button>
+      </view>
+    </view>
+  </view>
+</view>

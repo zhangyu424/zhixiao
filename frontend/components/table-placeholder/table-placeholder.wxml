@@ -1,0 +1,26 @@
+<!--components/table-placeholder/table-placeholder.wxml-->
+<view class="table-placeholder">
+  <view class="placeholder-content">
+    <view class="loading-icon">📋</view>
+    <text class="loading-text">数据加载中...</text>
+  </view>
+
+  <!-- 模拟表格结构 -->
+  <view class="skeleton-table">
+    <view class="skeleton-row">
+      <view class="skeleton-cell"></view>
+      <view class="skeleton-cell"></view>
+      <view class="skeleton-cell"></view>
+    </view>
+    <view class="skeleton-row">
+      <view class="skeleton-cell"></view>
+      <view class="skeleton-cell"></view>
+      <view class="skeleton-cell"></view>
+    </view>
+    <view class="skeleton-row">
+      <view class="skeleton-cell"></view>
+      <view class="skeleton-cell"></view>
+      <view class="skeleton-cell"></view>
+    </view>
+  </view>
+</view>

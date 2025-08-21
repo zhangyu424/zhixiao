@@ -1,0 +1,389 @@
+/* components/role-based-home/role-based-home.wxss */
+
+.role-based-home {
+  min-height: 100vh;
+  background: #f5f5f5;
+}
+
+/* ========== 角色头部 ========== */
+.role-header {
+  background: linear-gradient(135deg, #1890ff 0%, #40a9ff 100%);
+  padding: 40rpx 40rpx 60rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff;
+  border-radius: 0 0 40rpx 40rpx;
+  margin-bottom: 40rpx;
+}
+
+.role-info {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.role-icon {
+  font-size: 80rpx;
+  margin-right: 30rpx;
+}
+
+.role-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.role-title {
+  font-size: 36rpx;
+  font-weight: 600;
+  margin-bottom: 8rpx;
+}
+
+.role-user {
+  font-size: 26rpx;
+  opacity: 0.9;
+}
+
+.role-switch-btn {
+  width: 80rpx;
+  height: 80rpx;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 40rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.switch-icon {
+  font-size: 32rpx;
+  color: #ffffff;
+}
+
+/* ========== 学员界面 ========== */
+.student-interface {
+  padding: 0 40rpx;
+}
+
+.quick-actions {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30rpx;
+}
+
+.action-item {
+  background: #ffffff;
+  border-radius: 24rpx;
+  padding: 50rpx 30rpx;
+  text-align: center;
+  box-shadow: 0 4rpx 12rpx rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.action-item:active {
+  transform: scale(0.95);
+  box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.1);
+}
+
+.action-icon {
+  font-size: 64rpx;
+  margin-bottom: 20rpx;
+}
+
+.action-text {
+  display: block;
+  font-size: 28rpx;
+  font-weight: 600;
+  color: #333333;
+}
+
+.action-item.study-report .action-icon {
+  color: #1890ff;
+}
+
+.action-item.personal-analysis .action-icon {
+  color: #52c41a;
+}
+
+.action-item.study-calendar .action-icon {
+  color: #fa8c16;
+}
+
+.action-item.achievements .action-icon {
+  color: #f5222d;
+}
+
+/* ========== 层级长界面 ========== */
+.instructor-interface {
+  padding: 0 40rpx;
+}
+
+.management-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30rpx;
+}
+
+.grid-item {
+  background: #ffffff;
+  border-radius: 24rpx;
+  padding: 40rpx 30rpx;
+  box-shadow: 0 4rpx 12rpx rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.grid-item:active {
+  transform: scale(0.95);
+  box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.1);
+}
+
+.item-icon {
+  font-size: 48rpx;
+  margin-bottom: 20rpx;
+  text-align: center;
+}
+
+.item-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.item-title {
+  font-size: 28rpx;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 8rpx;
+}
+
+.item-desc {
+  font-size: 22rpx;
+  color: #666666;
+  line-height: 1.4;
+}
+
+.grid-item.team-overview .item-icon {
+  color: #1890ff;
+}
+
+.grid-item.team-analysis .item-icon {
+  color: #52c41a;
+}
+
+.grid-item.member-management .item-icon {
+  color: #fa8c16;
+}
+
+.grid-item.progress-tracking .item-icon {
+  color: #722ed1;
+}
+
+/* ========== 管理员界面 ========== */
+.manager-interface {
+  padding: 0 40rpx;
+}
+
+.admin-dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 24rpx;
+}
+
+.dashboard-item {
+  background: #ffffff;
+  border-radius: 20rpx;
+  padding: 40rpx 30rpx;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4rpx 12rpx rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.dashboard-item:active {
+  transform: scale(0.98);
+  box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-icon {
+  font-size: 48rpx;
+  margin-right: 30rpx;
+  width: 48rpx;
+  text-align: center;
+}
+
+.dashboard-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-title {
+  font-size: 30rpx;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 8rpx;
+}
+
+.dashboard-desc {
+  font-size: 24rpx;
+  color: #666666;
+  line-height: 1.4;
+}
+
+.dashboard-action {
+  font-size: 32rpx;
+  color: #999999;
+  font-weight: 600;
+}
+
+.dashboard-item.data-overview .dashboard-icon {
+  color: #1890ff;
+}
+
+.dashboard-item.user-management .dashboard-icon {
+  color: #52c41a;
+}
+
+.dashboard-item.data-import-export .dashboard-icon {
+  color: #fa8c16;
+}
+
+.dashboard-item.reports .dashboard-icon {
+  color: #722ed1;
+}
+
+/* ========== 超级管理员界面 ========== */
+.admin-interface {
+  padding: 0 40rpx;
+}
+
+.system-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 50rpx;
+}
+
+.control-section {
+  background: #ffffff;
+  border-radius: 24rpx;
+  padding: 40rpx 30rpx;
+  box-shadow: 0 4rpx 12rpx rgba(0, 0, 0, 0.05);
+}
+
+.section-title {
+  display: block;
+  font-size: 32rpx;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 30rpx;
+  text-align: center;
+}
+
+.control-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24rpx;
+}
+
+.control-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30rpx 20rpx;
+  background: #f8f9fa;
+  border-radius: 16rpx;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.control-item:active {
+  transform: scale(0.95);
+  background: #e6f7ff;
+}
+
+.control-icon {
+  font-size: 40rpx;
+  margin-bottom: 12rpx;
+}
+
+.control-text {
+  font-size: 24rpx;
+  font-weight: 500;
+  color: #333333;
+  text-align: center;
+}
+
+/* ========== 响应式适配 ========== */
+@media (max-width: 750rpx) {
+  .role-header {
+    padding: 30rpx 30rpx 50rpx;
+  }
+  
+  .student-interface,
+  .instructor-interface,
+  .manager-interface,
+  .admin-interface {
+    padding: 0 30rpx;
+  }
+  
+  .quick-actions,
+  .management-grid {
+    gap: 24rpx;
+  }
+  
+  .control-grid {
+    gap: 20rpx;
+  }
+  
+  .action-item,
+  .grid-item {
+    padding: 40rpx 24rpx;
+  }
+  
+  .control-section {
+    padding: 30rpx 24rpx;
+  }
+}
+
+/* ========== 深色模式适配 ========== */
+@media (prefers-color-scheme: dark) {
+  .role-based-home {
+    background: #141414;
+  }
+  
+  .action-item,
+  .grid-item,
+  .dashboard-item,
+  .control-section {
+    background: #1f1f1f;
+    border: 1rpx solid #303030;
+  }
+  
+  .action-text,
+  .item-title,
+  .dashboard-title,
+  .section-title,
+  .control-text {
+    color: #ffffff;
+  }
+  
+  .item-desc,
+  .dashboard-desc {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .control-item {
+    background: rgba(255, 255, 255, 0.05);
+  }
+  
+  .control-item:active {
+    background: rgba(24, 144, 255, 0.1);
+  }
+  
+  .dashboard-action {
+    color: rgba(255, 255, 255, 0.5);
+  }
+}

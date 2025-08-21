@@ -1,0 +1,1799 @@
+2025-08-20 03:18:28: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:28: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:28: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:28: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:18:29: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:29: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:29: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:29: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:18:31: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:31: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:31: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:31: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:18:32: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:32: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:32: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:33: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:18:34: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:34: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:34: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:34: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:18:35: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:35: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:35: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:36: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:18:37: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:37: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:37: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:37: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:18:39: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:39: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:39: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:39: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:18:40: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:40: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:40: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:40: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:18:42: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:42: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:42: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:42: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:18:43: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:43: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:43: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:43: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:18:45: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:45: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:45: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:45: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:18:46: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:46: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:46: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:46: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:18:48: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:48: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:48: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:48: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:18:49: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:49: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:49: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:49: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:18:51: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:51: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:51: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:51: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:18:52: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:52: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:52: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:52: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:19:27: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:27: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:27: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:27: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:19:28: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:28: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:28: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:29: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:19:30: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:30: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:30: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:30: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:19:32: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:32: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:32: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:32: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:19:33: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:33: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:33: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:33: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:19:35: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:35: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:35: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:35: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:19:36: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:36: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:36: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:36: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:19:38: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:38: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:38: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:38: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:19:39: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:39: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:39: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:40: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:19:41: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:41: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:41: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:41: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:28:57: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:28:57: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:28:57: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:44:58: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:44:58: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:44:58: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 04:34:20: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 04:34:20: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 04:34:20: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 04:49:27: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 04:49:27: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 04:49:27: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 04:55:37: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 04:55:37: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 04:55:37: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 04:55:39: 错误详情: Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (/var/www/zhixiao/node_modules/jsonwebtoken/sign.js:111:20)
+    at /var/www/zhixiao/src/routes/auth.js:36:21
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/var/www/zhixiao/node_modules/router/lib/route.js:117:3)
+    at handle (/var/www/zhixiao/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at /var/www/zhixiao/node_modules/router/index.js:295:15
+    at processParams (/var/www/zhixiao/node_modules/router/index.js:582:12)
+    at next (/var/www/zhixiao/node_modules/router/index.js:291:5)
+2025-08-20 05:02:18: 错误详情: Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (/var/www/zhixiao/node_modules/jsonwebtoken/sign.js:111:20)
+    at /var/www/zhixiao/src/routes/auth.js:36:21
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/var/www/zhixiao/node_modules/router/lib/route.js:117:3)
+    at handle (/var/www/zhixiao/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at /var/www/zhixiao/node_modules/router/index.js:295:15
+    at processParams (/var/www/zhixiao/node_modules/router/index.js:582:12)
+    at next (/var/www/zhixiao/node_modules/router/index.js:291:5)
+2025-08-20 05:02:47: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 05:02:47: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 05:02:47: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 05:03:10: 数据库查询错误: Error: Incorrect arguments to mysqld_stmt_execute
+    at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at query (/var/www/zhixiao/src/config/database.js:36:34)
+    at Function.getUserHistory (/var/www/zhixiao/src/models/StudyRecord.js:50:27)
+    at /var/www/zhixiao/src/controllers/StudyController.js:325:46
+    at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+    at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+  code: 'ER_WRONG_ARGUMENTS',
+  errno: 1210,
+  sql: '\n' +
+    '      SELECT id, date, study_time, subject, remark, created_at, updated_at\n' +
+    '      FROM study_records\n' +
+    '      WHERE user_id = ? AND date >= ? AND date <= ?\n' +
+    '      ORDER BY date DESC\n' +
+    '      LIMIT ? OFFSET ?\n' +
+    '    ',
+  sqlState: 'HY000',
+  sqlMessage: 'Incorrect arguments to mysqld_stmt_execute'
+}
+2025-08-20 06:06:59: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 06:06:59: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 06:06:59: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 06:45:49: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 06:45:49: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 06:45:49: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:02:56: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:02:56: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:02:56: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:06:40: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:11:08: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:11:52: 数据库查询错误: Error: Incorrect arguments to mysqld_stmt_execute
+    at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at query (/var/www/zhixiao/src/config/database.js:37:34)
+    at Function.getUserHistory (/var/www/zhixiao/src/models/StudyRecord.js:50:27)
+    at /var/www/zhixiao/src/controllers/StudyController.js:325:46
+    at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+    at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+  code: 'ER_WRONG_ARGUMENTS',
+  errno: 1210,
+  sql: '\n' +
+    '      SELECT id, date, study_time, subject, remark, created_at, updated_at\n' +
+    '      FROM study_records\n' +
+    '      WHERE user_id = ? AND date >= ? AND date <= ?\n' +
+    '      ORDER BY date DESC\n' +
+    '      LIMIT ? OFFSET ?\n' +
+    '    ',
+  sqlState: 'HY000',
+  sqlMessage: 'Incorrect arguments to mysqld_stmt_execute'
+}
+2025-08-20 07:13:19: 数据库查询错误: Error: Incorrect arguments to mysqld_stmt_execute
+    at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at query (/var/www/zhixiao/src/config/database.js:37:34)
+    at Function.getUserHistory (/var/www/zhixiao/src/models/StudyRecord.js:50:27)
+    at /var/www/zhixiao/src/controllers/StudyController.js:325:46
+    at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+    at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+  code: 'ER_WRONG_ARGUMENTS',
+  errno: 1210,
+  sql: '\n' +
+    '      SELECT id, date, study_time, subject, remark, created_at, updated_at\n' +
+    '      FROM study_records\n' +
+    '      WHERE user_id = ? AND date >= ? AND date <= ?\n' +
+    '      ORDER BY date DESC\n' +
+    '      LIMIT ? OFFSET ?\n' +
+    '    ',
+  sqlState: 'HY000',
+  sqlMessage: 'Incorrect arguments to mysqld_stmt_execute'
+}
+2025-08-20 07:13:19: 数据库查询错误: Error: Incorrect arguments to mysqld_stmt_execute
+    at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at query (/var/www/zhixiao/src/config/database.js:37:34)
+    at Function.getUserHistory (/var/www/zhixiao/src/models/StudyRecord.js:50:27)
+    at /var/www/zhixiao/src/controllers/StudyController.js:480:46
+    at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+    at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+  code: 'ER_WRONG_ARGUMENTS',
+  errno: 1210,
+  sql: '\n' +
+    '      SELECT id, date, study_time, subject, remark, created_at, updated_at\n' +
+    '      FROM study_records\n' +
+    '      WHERE user_id = ? AND date >= ? AND date <= ?\n' +
+    '      ORDER BY date DESC\n' +
+    '      LIMIT ? OFFSET ?\n' +
+    '    ',
+  sqlState: 'HY000',
+  sqlMessage: 'Incorrect arguments to mysqld_stmt_execute'
+}
+2025-08-20 07:13:19: 获取月度数据失败: Error: Incorrect arguments to mysqld_stmt_execute
+    at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at query (/var/www/zhixiao/src/config/database.js:37:34)
+    at Function.getUserHistory (/var/www/zhixiao/src/models/StudyRecord.js:50:27)
+    at /var/www/zhixiao/src/controllers/StudyController.js:480:46
+    at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+    at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+  code: 'ER_WRONG_ARGUMENTS',
+  errno: 1210,
+  sql: '\n' +
+    '      SELECT id, date, study_time, subject, remark, created_at, updated_at\n' +
+    '      FROM study_records\n' +
+    '      WHERE user_id = ? AND date >= ? AND date <= ?\n' +
+    '      ORDER BY date DESC\n' +
+    '      LIMIT ? OFFSET ?\n' +
+    '    ',
+  sqlState: 'HY000',
+  sqlMessage: 'Incorrect arguments to mysqld_stmt_execute'
+}
+2025-08-20 07:15:08: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:16:01: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:16:18: 数据库查询错误: Error: Incorrect arguments to mysqld_stmt_execute
+    at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at query (/var/www/zhixiao/src/config/database.js:37:34)
+    at Function.getUserHistory (/var/www/zhixiao/src/models/StudyRecord.js:37:29)
+    at /var/www/zhixiao/src/controllers/StudyController.js:30:38
+    at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+    at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+  code: 'ER_WRONG_ARGUMENTS',
+  errno: 1210,
+  sql: '\n' +
+    '        SELECT id, date, study_time, subject, remark, created_at, updated_at\n' +
+    '        FROM study_records\n' +
+    '        WHERE user_id = ?\n' +
+    '        ORDER BY date DESC\n' +
+    '        LIMIT ? OFFSET ?\n' +
+    '      ',
+  sqlState: 'HY000',
+  sqlMessage: 'Incorrect arguments to mysqld_stmt_execute'
+}
+2025-08-20 07:16:18: StudyRecord.getUserHistory error: Error: Incorrect arguments to mysqld_stmt_execute
+    at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at query (/var/www/zhixiao/src/config/database.js:37:34)
+    at Function.getUserHistory (/var/www/zhixiao/src/models/StudyRecord.js:37:29)
+    at /var/www/zhixiao/src/controllers/StudyController.js:30:38
+    at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+    at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+  code: 'ER_WRONG_ARGUMENTS',
+  errno: 1210,
+  sql: '\n' +
+    '        SELECT id, date, study_time, subject, remark, created_at, updated_at\n' +
+    '        FROM study_records\n' +
+    '        WHERE user_id = ?\n' +
+    '        ORDER BY date DESC\n' +
+    '        LIMIT ? OFFSET ?\n' +
+    '      ',
+  sqlState: 'HY000',
+  sqlMessage: 'Incorrect arguments to mysqld_stmt_execute'
+}
+2025-08-20 07:16:28: 数据库查询错误: Error: Incorrect arguments to mysqld_stmt_execute
+    at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at query (/var/www/zhixiao/src/config/database.js:37:34)
+    at Function.getUserHistory (/var/www/zhixiao/src/models/StudyRecord.js:37:29)
+    at /var/www/zhixiao/src/controllers/StudyController.js:386:45
+    at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+    at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+  code: 'ER_WRONG_ARGUMENTS',
+  errno: 1210,
+  sql: '\n' +
+    '        SELECT id, date, study_time, subject, remark, created_at, updated_at\n' +
+    '        FROM study_records\n' +
+    '        WHERE user_id = ?\n' +
+    '        ORDER BY date DESC\n' +
+    '        LIMIT ? OFFSET ?\n' +
+    '      ',
+  sqlState: 'HY000',
+  sqlMessage: 'Incorrect arguments to mysqld_stmt_execute'
+}
+2025-08-20 07:16:28: StudyRecord.getUserHistory error: Error: Incorrect arguments to mysqld_stmt_execute
+    at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at query (/var/www/zhixiao/src/config/database.js:37:34)
+    at Function.getUserHistory (/var/www/zhixiao/src/models/StudyRecord.js:37:29)
+    at /var/www/zhixiao/src/controllers/StudyController.js:386:45
+    at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+    at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+  code: 'ER_WRONG_ARGUMENTS',
+  errno: 1210,
+  sql: '\n' +
+    '        SELECT id, date, study_time, subject, remark, created_at, updated_at\n' +
+    '        FROM study_records\n' +
+    '        WHERE user_id = ?\n' +
+    '        ORDER BY date DESC\n' +
+    '        LIMIT ? OFFSET ?\n' +
+    '      ',
+  sqlState: 'HY000',
+  sqlMessage: 'Incorrect arguments to mysqld_stmt_execute'
+}
+2025-08-20 07:16:28: 数据库查询错误: Error: Incorrect arguments to mysqld_stmt_execute
+    at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at query (/var/www/zhixiao/src/config/database.js:37:34)
+    at Function.getUserHistory (/var/www/zhixiao/src/models/StudyRecord.js:37:29)
+    at /var/www/zhixiao/src/controllers/StudyController.js:30:38
+    at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+    at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+  code: 'ER_WRONG_ARGUMENTS',
+  errno: 1210,
+  sql: '\n' +
+    '        SELECT id, date, study_time, subject, remark, created_at, updated_at\n' +
+    '        FROM study_records\n' +
+    '        WHERE user_id = ?\n' +
+    '        ORDER BY date DESC\n' +
+    '        LIMIT ? OFFSET ?\n' +
+    '      ',
+  sqlState: 'HY000',
+  sqlMessage: 'Incorrect arguments to mysqld_stmt_execute'
+}
+2025-08-20 07:16:28: StudyRecord.getUserHistory error: Error: Incorrect arguments to mysqld_stmt_execute
+    at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at query (/var/www/zhixiao/src/config/database.js:37:34)
+    at Function.getUserHistory (/var/www/zhixiao/src/models/StudyRecord.js:37:29)
+    at /var/www/zhixiao/src/controllers/StudyController.js:30:38
+    at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+    at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+  code: 'ER_WRONG_ARGUMENTS',
+  errno: 1210,
+  sql: '\n' +
+    '        SELECT id, date, study_time, subject, remark, created_at, updated_at\n' +
+    '        FROM study_records\n' +
+    '        WHERE user_id = ?\n' +
+    '        ORDER BY date DESC\n' +
+    '        LIMIT ? OFFSET ?\n' +
+    '      ',
+  sqlState: 'HY000',
+  sqlMessage: 'Incorrect arguments to mysqld_stmt_execute'
+}
+2025-08-20 07:17:42: 数据库查询错误: Error: Incorrect arguments to mysqld_stmt_execute
+    at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at query (/var/www/zhixiao/src/config/database.js:37:34)
+    at Function.getUserHistory (/var/www/zhixiao/src/models/StudyRecord.js:37:29)
+    at /var/www/zhixiao/src/controllers/StudyController.js:386:45
+    at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+    at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+  code: 'ER_WRONG_ARGUMENTS',
+  errno: 1210,
+  sql: '\n' +
+    '        SELECT id, date, study_time, subject, remark, created_at, updated_at\n' +
+    '        FROM study_records\n' +
+    '        WHERE user_id = ?\n' +
+    '        ORDER BY date DESC\n' +
+    '        LIMIT ? OFFSET ?\n' +
+    '      ',
+  sqlState: 'HY000',
+  sqlMessage: 'Incorrect arguments to mysqld_stmt_execute'
+}
+2025-08-20 07:17:42: StudyRecord.getUserHistory error: Error: Incorrect arguments to mysqld_stmt_execute
+    at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at query (/var/www/zhixiao/src/config/database.js:37:34)
+    at Function.getUserHistory (/var/www/zhixiao/src/models/StudyRecord.js:37:29)
+    at /var/www/zhixiao/src/controllers/StudyController.js:386:45
+    at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+    at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+  code: 'ER_WRONG_ARGUMENTS',
+  errno: 1210,
+  sql: '\n' +
+    '        SELECT id, date, study_time, subject, remark, created_at, updated_at\n' +
+    '        FROM study_records\n' +
+    '        WHERE user_id = ?\n' +
+    '        ORDER BY date DESC\n' +
+    '        LIMIT ? OFFSET ?\n' +
+    '      ',
+  sqlState: 'HY000',
+  sqlMessage: 'Incorrect arguments to mysqld_stmt_execute'
+}
+2025-08-20 07:17:42: 数据库查询错误: Error: Incorrect arguments to mysqld_stmt_execute
+    at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at query (/var/www/zhixiao/src/config/database.js:37:34)
+    at Function.getUserHistory (/var/www/zhixiao/src/models/StudyRecord.js:37:29)
+    at /var/www/zhixiao/src/controllers/StudyController.js:30:38
+    at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+    at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+  code: 'ER_WRONG_ARGUMENTS',
+  errno: 1210,
+  sql: '\n' +
+    '        SELECT id, date, study_time, subject, remark, created_at, updated_at\n' +
+    '        FROM study_records\n' +
+    '        WHERE user_id = ?\n' +
+    '        ORDER BY date DESC\n' +
+    '        LIMIT ? OFFSET ?\n' +
+    '      ',
+  sqlState: 'HY000',
+  sqlMessage: 'Incorrect arguments to mysqld_stmt_execute'
+}
+2025-08-20 07:17:42: StudyRecord.getUserHistory error: Error: Incorrect arguments to mysqld_stmt_execute
+    at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at query (/var/www/zhixiao/src/config/database.js:37:34)
+    at Function.getUserHistory (/var/www/zhixiao/src/models/StudyRecord.js:37:29)
+    at /var/www/zhixiao/src/controllers/StudyController.js:30:38
+    at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+    at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+  code: 'ER_WRONG_ARGUMENTS',
+  errno: 1210,
+  sql: '\n' +
+    '        SELECT id, date, study_time, subject, remark, created_at, updated_at\n' +
+    '        FROM study_records\n' +
+    '        WHERE user_id = ?\n' +
+    '        ORDER BY date DESC\n' +
+    '        LIMIT ? OFFSET ?\n' +
+    '      ',
+  sqlState: 'HY000',
+  sqlMessage: 'Incorrect arguments to mysqld_stmt_execute'
+}
+2025-08-20 07:47:32: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:47:32: Error: Cannot find module 'bcrypt'
+2025-08-20 07:47:32: Require stack:
+2025-08-20 07:47:32: - /var/www/zhixiao/src/controllers/AuthController.js
+2025-08-20 07:47:32: - /var/www/zhixiao/src/routes/auth.js
+2025-08-20 07:47:32: - /var/www/zhixiao/src/routes/index.js
+2025-08-20 07:47:32: - /var/www/zhixiao/server.js
+2025-08-20 07:47:32:     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+2025-08-20 07:47:32:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+2025-08-20 07:47:32:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 07:47:32:     at Object.<anonymous> (/var/www/zhixiao/src/controllers/AuthController.js:3:16)
+2025-08-20 07:47:32:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 07:47:32:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 07:47:32:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 07:47:32:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 07:47:32:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 07:47:32:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {
+2025-08-20 07:47:32:   code: 'MODULE_NOT_FOUND',
+2025-08-20 07:47:32:   requireStack: [
+2025-08-20 07:47:32:     '/var/www/zhixiao/src/controllers/AuthController.js',
+2025-08-20 07:47:32:     '/var/www/zhixiao/src/routes/auth.js',
+2025-08-20 07:47:32:     '/var/www/zhixiao/src/routes/index.js',
+2025-08-20 07:47:32:     '/var/www/zhixiao/server.js'
+2025-08-20 07:47:32:   ]
+2025-08-20 07:47:32: }
+2025-08-20 07:47:33: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:47:33: Error: Cannot find module 'bcrypt'
+2025-08-20 07:47:33: Require stack:
+2025-08-20 07:47:33: - /var/www/zhixiao/src/controllers/AuthController.js
+2025-08-20 07:47:33: - /var/www/zhixiao/src/routes/auth.js
+2025-08-20 07:47:33: - /var/www/zhixiao/src/routes/index.js
+2025-08-20 07:47:33: - /var/www/zhixiao/server.js
+2025-08-20 07:47:33:     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+2025-08-20 07:47:33:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+2025-08-20 07:47:33:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 07:47:33:     at Object.<anonymous> (/var/www/zhixiao/src/controllers/AuthController.js:3:16)
+2025-08-20 07:47:33:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 07:47:33:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 07:47:33:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 07:47:33:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 07:47:33:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 07:47:33:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {
+2025-08-20 07:47:33:   code: 'MODULE_NOT_FOUND',
+2025-08-20 07:47:33:   requireStack: [
+2025-08-20 07:47:33:     '/var/www/zhixiao/src/controllers/AuthController.js',
+2025-08-20 07:47:33:     '/var/www/zhixiao/src/routes/auth.js',
+2025-08-20 07:47:33:     '/var/www/zhixiao/src/routes/index.js',
+2025-08-20 07:47:33:     '/var/www/zhixiao/server.js'
+2025-08-20 07:47:33:   ]
+2025-08-20 07:47:33: }
+2025-08-20 07:47:34: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:47:34: Error: Cannot find module 'bcrypt'
+2025-08-20 07:47:34: Require stack:
+2025-08-20 07:47:34: - /var/www/zhixiao/src/controllers/AuthController.js
+2025-08-20 07:47:34: - /var/www/zhixiao/src/routes/auth.js
+2025-08-20 07:47:34: - /var/www/zhixiao/src/routes/index.js
+2025-08-20 07:47:34: - /var/www/zhixiao/server.js
+2025-08-20 07:47:34:     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+2025-08-20 07:47:34:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+2025-08-20 07:47:34:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 07:47:34:     at Object.<anonymous> (/var/www/zhixiao/src/controllers/AuthController.js:3:16)
+2025-08-20 07:47:34:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 07:47:34:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 07:47:34:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 07:47:34:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 07:47:34:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 07:47:34:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {
+2025-08-20 07:47:34:   code: 'MODULE_NOT_FOUND',
+2025-08-20 07:47:34:   requireStack: [
+2025-08-20 07:47:34:     '/var/www/zhixiao/src/controllers/AuthController.js',
+2025-08-20 07:47:34:     '/var/www/zhixiao/src/routes/auth.js',
+2025-08-20 07:47:34:     '/var/www/zhixiao/src/routes/index.js',
+2025-08-20 07:47:34:     '/var/www/zhixiao/server.js'
+2025-08-20 07:47:34:   ]
+2025-08-20 07:47:34: }
+2025-08-20 07:47:36: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:47:36: Error: Cannot find module 'bcrypt'
+2025-08-20 07:47:36: Require stack:
+2025-08-20 07:47:36: - /var/www/zhixiao/src/controllers/AuthController.js
+2025-08-20 07:47:36: - /var/www/zhixiao/src/routes/auth.js
+2025-08-20 07:47:36: - /var/www/zhixiao/src/routes/index.js
+2025-08-20 07:47:36: - /var/www/zhixiao/server.js
+2025-08-20 07:47:36:     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+2025-08-20 07:47:36:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+2025-08-20 07:47:36:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 07:47:36:     at Object.<anonymous> (/var/www/zhixiao/src/controllers/AuthController.js:3:16)
+2025-08-20 07:47:36:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 07:47:36:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 07:47:36:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 07:47:36:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 07:47:36:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 07:47:36:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {
+2025-08-20 07:47:36:   code: 'MODULE_NOT_FOUND',
+2025-08-20 07:47:36:   requireStack: [
+2025-08-20 07:47:36:     '/var/www/zhixiao/src/controllers/AuthController.js',
+2025-08-20 07:47:36:     '/var/www/zhixiao/src/routes/auth.js',
+2025-08-20 07:47:36:     '/var/www/zhixiao/src/routes/index.js',
+2025-08-20 07:47:36:     '/var/www/zhixiao/server.js'
+2025-08-20 07:47:36:   ]
+2025-08-20 07:47:36: }
+2025-08-20 07:47:37: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:47:37: Error: Cannot find module 'bcrypt'
+2025-08-20 07:47:37: Require stack:
+2025-08-20 07:47:37: - /var/www/zhixiao/src/controllers/AuthController.js
+2025-08-20 07:47:37: - /var/www/zhixiao/src/routes/auth.js
+2025-08-20 07:47:37: - /var/www/zhixiao/src/routes/index.js
+2025-08-20 07:47:37: - /var/www/zhixiao/server.js
+2025-08-20 07:47:37:     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+2025-08-20 07:47:37:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+2025-08-20 07:47:37:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 07:47:37:     at Object.<anonymous> (/var/www/zhixiao/src/controllers/AuthController.js:3:16)
+2025-08-20 07:47:37:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 07:47:37:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 07:47:37:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 07:47:37:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 07:47:37:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 07:47:37:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {
+2025-08-20 07:47:37:   code: 'MODULE_NOT_FOUND',
+2025-08-20 07:47:37:   requireStack: [
+2025-08-20 07:47:37:     '/var/www/zhixiao/src/controllers/AuthController.js',
+2025-08-20 07:47:37:     '/var/www/zhixiao/src/routes/auth.js',
+2025-08-20 07:47:37:     '/var/www/zhixiao/src/routes/index.js',
+2025-08-20 07:47:37:     '/var/www/zhixiao/server.js'
+2025-08-20 07:47:37:   ]
+2025-08-20 07:47:37: }
+2025-08-20 07:47:39: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:47:39: Error: Cannot find module 'bcrypt'
+2025-08-20 07:47:39: Require stack:
+2025-08-20 07:47:39: - /var/www/zhixiao/src/controllers/AuthController.js
+2025-08-20 07:47:39: - /var/www/zhixiao/src/routes/auth.js
+2025-08-20 07:47:39: - /var/www/zhixiao/src/routes/index.js
+2025-08-20 07:47:39: - /var/www/zhixiao/server.js
+2025-08-20 07:47:39:     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+2025-08-20 07:47:39:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+2025-08-20 07:47:39:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 07:47:39:     at Object.<anonymous> (/var/www/zhixiao/src/controllers/AuthController.js:3:16)
+2025-08-20 07:47:39:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 07:47:39:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 07:47:39:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 07:47:39:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 07:47:39:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 07:47:39:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {
+2025-08-20 07:47:39:   code: 'MODULE_NOT_FOUND',
+2025-08-20 07:47:39:   requireStack: [
+2025-08-20 07:47:39:     '/var/www/zhixiao/src/controllers/AuthController.js',
+2025-08-20 07:47:39:     '/var/www/zhixiao/src/routes/auth.js',
+2025-08-20 07:47:39:     '/var/www/zhixiao/src/routes/index.js',
+2025-08-20 07:47:39:     '/var/www/zhixiao/server.js'
+2025-08-20 07:47:39:   ]
+2025-08-20 07:47:39: }
+2025-08-20 07:47:40: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:47:40: Error: Cannot find module 'bcrypt'
+2025-08-20 07:47:40: Require stack:
+2025-08-20 07:47:40: - /var/www/zhixiao/src/controllers/AuthController.js
+2025-08-20 07:47:40: - /var/www/zhixiao/src/routes/auth.js
+2025-08-20 07:47:40: - /var/www/zhixiao/src/routes/index.js
+2025-08-20 07:47:40: - /var/www/zhixiao/server.js
+2025-08-20 07:47:40:     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+2025-08-20 07:47:40:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+2025-08-20 07:47:40:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 07:47:40:     at Object.<anonymous> (/var/www/zhixiao/src/controllers/AuthController.js:3:16)
+2025-08-20 07:47:40:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 07:47:40:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 07:47:40:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 07:47:40:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 07:47:40:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 07:47:40:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {
+2025-08-20 07:47:40:   code: 'MODULE_NOT_FOUND',
+2025-08-20 07:47:40:   requireStack: [
+2025-08-20 07:47:40:     '/var/www/zhixiao/src/controllers/AuthController.js',
+2025-08-20 07:47:40:     '/var/www/zhixiao/src/routes/auth.js',
+2025-08-20 07:47:40:     '/var/www/zhixiao/src/routes/index.js',
+2025-08-20 07:47:40:     '/var/www/zhixiao/server.js'
+2025-08-20 07:47:40:   ]
+2025-08-20 07:47:40: }
+2025-08-20 07:47:41: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:47:42: Error: Cannot find module 'bcrypt'
+2025-08-20 07:47:42: Require stack:
+2025-08-20 07:47:42: - /var/www/zhixiao/src/controllers/AuthController.js
+2025-08-20 07:47:42: - /var/www/zhixiao/src/routes/auth.js
+2025-08-20 07:47:42: - /var/www/zhixiao/src/routes/index.js
+2025-08-20 07:47:42: - /var/www/zhixiao/server.js
+2025-08-20 07:47:42:     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+2025-08-20 07:47:42:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+2025-08-20 07:47:42:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 07:47:42:     at Object.<anonymous> (/var/www/zhixiao/src/controllers/AuthController.js:3:16)
+2025-08-20 07:47:42:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 07:47:42:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 07:47:42:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 07:47:42:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 07:47:42:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 07:47:42:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {
+2025-08-20 07:47:42:   code: 'MODULE_NOT_FOUND',
+2025-08-20 07:47:42:   requireStack: [
+2025-08-20 07:47:42:     '/var/www/zhixiao/src/controllers/AuthController.js',
+2025-08-20 07:47:42:     '/var/www/zhixiao/src/routes/auth.js',
+2025-08-20 07:47:42:     '/var/www/zhixiao/src/routes/index.js',
+2025-08-20 07:47:42:     '/var/www/zhixiao/server.js'
+2025-08-20 07:47:42:   ]
+2025-08-20 07:47:42: }
+2025-08-20 07:47:43: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:47:43: Error: Cannot find module 'bcrypt'
+2025-08-20 07:47:43: Require stack:
+2025-08-20 07:47:43: - /var/www/zhixiao/src/controllers/AuthController.js
+2025-08-20 07:47:43: - /var/www/zhixiao/src/routes/auth.js
+2025-08-20 07:47:43: - /var/www/zhixiao/src/routes/index.js
+2025-08-20 07:47:43: - /var/www/zhixiao/server.js
+2025-08-20 07:47:43:     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+2025-08-20 07:47:43:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+2025-08-20 07:47:43:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 07:47:43:     at Object.<anonymous> (/var/www/zhixiao/src/controllers/AuthController.js:3:16)
+2025-08-20 07:47:43:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 07:47:43:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 07:47:43:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 07:47:43:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 07:47:43:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 07:47:43:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {
+2025-08-20 07:47:43:   code: 'MODULE_NOT_FOUND',
+2025-08-20 07:47:43:   requireStack: [
+2025-08-20 07:47:43:     '/var/www/zhixiao/src/controllers/AuthController.js',
+2025-08-20 07:47:43:     '/var/www/zhixiao/src/routes/auth.js',
+2025-08-20 07:47:43:     '/var/www/zhixiao/src/routes/index.js',
+2025-08-20 07:47:43:     '/var/www/zhixiao/server.js'
+2025-08-20 07:47:43:   ]
+2025-08-20 07:47:43: }
+2025-08-20 07:47:44: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:47:44: Error: Cannot find module 'bcrypt'
+2025-08-20 07:47:44: Require stack:
+2025-08-20 07:47:44: - /var/www/zhixiao/src/controllers/AuthController.js
+2025-08-20 07:47:44: - /var/www/zhixiao/src/routes/auth.js
+2025-08-20 07:47:44: - /var/www/zhixiao/src/routes/index.js
+2025-08-20 07:47:44: - /var/www/zhixiao/server.js
+2025-08-20 07:47:44:     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+2025-08-20 07:47:44:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+2025-08-20 07:47:44:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 07:47:44:     at Object.<anonymous> (/var/www/zhixiao/src/controllers/AuthController.js:3:16)
+2025-08-20 07:47:44:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 07:47:44:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 07:47:44:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 07:47:44:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 07:47:44:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 07:47:44:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {
+2025-08-20 07:47:44:   code: 'MODULE_NOT_FOUND',
+2025-08-20 07:47:44:   requireStack: [
+2025-08-20 07:47:44:     '/var/www/zhixiao/src/controllers/AuthController.js',
+2025-08-20 07:47:44:     '/var/www/zhixiao/src/routes/auth.js',
+2025-08-20 07:47:44:     '/var/www/zhixiao/src/routes/index.js',
+2025-08-20 07:47:44:     '/var/www/zhixiao/server.js'
+2025-08-20 07:47:44:   ]
+2025-08-20 07:47:44: }
+2025-08-20 07:49:57: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:49:57: Error: Cannot find module 'express-validator'
+2025-08-20 07:49:57: Require stack:
+2025-08-20 07:49:57: - /var/www/zhixiao/src/routes/auth.js
+2025-08-20 07:49:57: - /var/www/zhixiao/src/routes/index.js
+2025-08-20 07:49:57: - /var/www/zhixiao/server.js
+2025-08-20 07:49:57:     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+2025-08-20 07:49:57:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+2025-08-20 07:49:57:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 07:49:57:     at Object.<anonymous> (/var/www/zhixiao/src/routes/auth.js:6:18)
+2025-08-20 07:49:57:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 07:49:57:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 07:49:57:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 07:49:57:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 07:49:57:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 07:49:57:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {
+2025-08-20 07:49:57:   code: 'MODULE_NOT_FOUND',
+2025-08-20 07:49:57:   requireStack: [
+2025-08-20 07:49:57:     '/var/www/zhixiao/src/routes/auth.js',
+2025-08-20 07:49:57:     '/var/www/zhixiao/src/routes/index.js',
+2025-08-20 07:49:57:     '/var/www/zhixiao/server.js'
+2025-08-20 07:49:57:   ]
+2025-08-20 07:49:57: }
+2025-08-20 07:49:58: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:49:59: Error: Cannot find module 'express-validator'
+2025-08-20 07:49:59: Require stack:
+2025-08-20 07:49:59: - /var/www/zhixiao/src/routes/auth.js
+2025-08-20 07:49:59: - /var/www/zhixiao/src/routes/index.js
+2025-08-20 07:49:59: - /var/www/zhixiao/server.js
+2025-08-20 07:49:59:     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+2025-08-20 07:49:59:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+2025-08-20 07:49:59:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 07:49:59:     at Object.<anonymous> (/var/www/zhixiao/src/routes/auth.js:6:18)
+2025-08-20 07:49:59:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 07:49:59:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 07:49:59:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 07:49:59:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 07:49:59:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 07:49:59:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {
+2025-08-20 07:49:59:   code: 'MODULE_NOT_FOUND',
+2025-08-20 07:49:59:   requireStack: [
+2025-08-20 07:49:59:     '/var/www/zhixiao/src/routes/auth.js',
+2025-08-20 07:49:59:     '/var/www/zhixiao/src/routes/index.js',
+2025-08-20 07:49:59:     '/var/www/zhixiao/server.js'
+2025-08-20 07:49:59:   ]
+2025-08-20 07:49:59: }
+2025-08-20 07:50:00: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:50:00: Error: Cannot find module 'express-validator'
+2025-08-20 07:50:00: Require stack:
+2025-08-20 07:50:00: - /var/www/zhixiao/src/routes/auth.js
+2025-08-20 07:50:00: - /var/www/zhixiao/src/routes/index.js
+2025-08-20 07:50:00: - /var/www/zhixiao/server.js
+2025-08-20 07:50:00:     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+2025-08-20 07:50:00:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+2025-08-20 07:50:00:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 07:50:00:     at Object.<anonymous> (/var/www/zhixiao/src/routes/auth.js:6:18)
+2025-08-20 07:50:00:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 07:50:00:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 07:50:00:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 07:50:00:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 07:50:00:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 07:50:00:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {
+2025-08-20 07:50:00:   code: 'MODULE_NOT_FOUND',
+2025-08-20 07:50:00:   requireStack: [
+2025-08-20 07:50:00:     '/var/www/zhixiao/src/routes/auth.js',
+2025-08-20 07:50:00:     '/var/www/zhixiao/src/routes/index.js',
+2025-08-20 07:50:00:     '/var/www/zhixiao/server.js'
+2025-08-20 07:50:00:   ]
+2025-08-20 07:50:00: }
+2025-08-20 07:50:01: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:50:02: Error: Cannot find module 'express-validator'
+2025-08-20 07:50:02: Require stack:
+2025-08-20 07:50:02: - /var/www/zhixiao/src/routes/auth.js
+2025-08-20 07:50:02: - /var/www/zhixiao/src/routes/index.js
+2025-08-20 07:50:02: - /var/www/zhixiao/server.js
+2025-08-20 07:50:02:     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+2025-08-20 07:50:02:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+2025-08-20 07:50:02:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 07:50:02:     at Object.<anonymous> (/var/www/zhixiao/src/routes/auth.js:6:18)
+2025-08-20 07:50:02:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 07:50:02:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 07:50:02:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 07:50:02:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 07:50:02:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 07:50:02:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {
+2025-08-20 07:50:02:   code: 'MODULE_NOT_FOUND',
+2025-08-20 07:50:02:   requireStack: [
+2025-08-20 07:50:02:     '/var/www/zhixiao/src/routes/auth.js',
+2025-08-20 07:50:02:     '/var/www/zhixiao/src/routes/index.js',
+2025-08-20 07:50:02:     '/var/www/zhixiao/server.js'
+2025-08-20 07:50:02:   ]
+2025-08-20 07:50:02: }
+2025-08-20 07:50:03: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:50:03: Error: Cannot find module 'express-validator'
+2025-08-20 07:50:03: Require stack:
+2025-08-20 07:50:03: - /var/www/zhixiao/src/routes/auth.js
+2025-08-20 07:50:03: - /var/www/zhixiao/src/routes/index.js
+2025-08-20 07:50:03: - /var/www/zhixiao/server.js
+2025-08-20 07:50:03:     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+2025-08-20 07:50:03:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+2025-08-20 07:50:03:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 07:50:03:     at Object.<anonymous> (/var/www/zhixiao/src/routes/auth.js:6:18)
+2025-08-20 07:50:03:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 07:50:03:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 07:50:03:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 07:50:03:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 07:50:03:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 07:50:03:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {
+2025-08-20 07:50:03:   code: 'MODULE_NOT_FOUND',
+2025-08-20 07:50:03:   requireStack: [
+2025-08-20 07:50:03:     '/var/www/zhixiao/src/routes/auth.js',
+2025-08-20 07:50:03:     '/var/www/zhixiao/src/routes/index.js',
+2025-08-20 07:50:03:     '/var/www/zhixiao/server.js'
+2025-08-20 07:50:03:   ]
+2025-08-20 07:50:03: }
+2025-08-20 07:50:04: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:50:05: Error: Cannot find module 'express-validator'
+2025-08-20 07:50:05: Require stack:
+2025-08-20 07:50:05: - /var/www/zhixiao/src/routes/auth.js
+2025-08-20 07:50:05: - /var/www/zhixiao/src/routes/index.js
+2025-08-20 07:50:05: - /var/www/zhixiao/server.js
+2025-08-20 07:50:05:     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+2025-08-20 07:50:05:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+2025-08-20 07:50:05:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 07:50:05:     at Object.<anonymous> (/var/www/zhixiao/src/routes/auth.js:6:18)
+2025-08-20 07:50:05:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 07:50:05:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 07:50:05:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 07:50:05:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 07:50:05:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 07:50:05:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {
+2025-08-20 07:50:05:   code: 'MODULE_NOT_FOUND',
+2025-08-20 07:50:05:   requireStack: [
+2025-08-20 07:50:05:     '/var/www/zhixiao/src/routes/auth.js',
+2025-08-20 07:50:05:     '/var/www/zhixiao/src/routes/index.js',
+2025-08-20 07:50:05:     '/var/www/zhixiao/server.js'
+2025-08-20 07:50:05:   ]
+2025-08-20 07:50:05: }
+2025-08-20 07:50:06: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:50:06: Error: Cannot find module 'express-validator'
+2025-08-20 07:50:06: Require stack:
+2025-08-20 07:50:06: - /var/www/zhixiao/src/routes/auth.js
+2025-08-20 07:50:06: - /var/www/zhixiao/src/routes/index.js
+2025-08-20 07:50:06: - /var/www/zhixiao/server.js
+2025-08-20 07:50:06:     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+2025-08-20 07:50:06:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+2025-08-20 07:50:06:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 07:50:06:     at Object.<anonymous> (/var/www/zhixiao/src/routes/auth.js:6:18)
+2025-08-20 07:50:06:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 07:50:06:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 07:50:06:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 07:50:06:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 07:50:06:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 07:50:06:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {
+2025-08-20 07:50:06:   code: 'MODULE_NOT_FOUND',
+2025-08-20 07:50:06:   requireStack: [
+2025-08-20 07:50:06:     '/var/www/zhixiao/src/routes/auth.js',
+2025-08-20 07:50:06:     '/var/www/zhixiao/src/routes/index.js',
+2025-08-20 07:50:06:     '/var/www/zhixiao/server.js'
+2025-08-20 07:50:06:   ]
+2025-08-20 07:50:06: }
+2025-08-20 07:50:07: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:50:08: Error: Cannot find module 'express-validator'
+2025-08-20 07:50:08: Require stack:
+2025-08-20 07:50:08: - /var/www/zhixiao/src/routes/auth.js
+2025-08-20 07:50:08: - /var/www/zhixiao/src/routes/index.js
+2025-08-20 07:50:08: - /var/www/zhixiao/server.js
+2025-08-20 07:50:08:     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+2025-08-20 07:50:08:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+2025-08-20 07:50:08:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 07:50:08:     at Object.<anonymous> (/var/www/zhixiao/src/routes/auth.js:6:18)
+2025-08-20 07:50:08:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 07:50:08:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 07:50:08:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 07:50:08:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 07:50:08:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 07:50:08:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {
+2025-08-20 07:50:08:   code: 'MODULE_NOT_FOUND',
+2025-08-20 07:50:08:   requireStack: [
+2025-08-20 07:50:08:     '/var/www/zhixiao/src/routes/auth.js',
+2025-08-20 07:50:08:     '/var/www/zhixiao/src/routes/index.js',
+2025-08-20 07:50:08:     '/var/www/zhixiao/server.js'
+2025-08-20 07:50:08:   ]
+2025-08-20 07:50:08: }
+2025-08-20 07:50:09: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:50:09: Error: Cannot find module 'express-validator'
+2025-08-20 07:50:09: Require stack:
+2025-08-20 07:50:09: - /var/www/zhixiao/src/routes/auth.js
+2025-08-20 07:50:09: - /var/www/zhixiao/src/routes/index.js
+2025-08-20 07:50:09: - /var/www/zhixiao/server.js
+2025-08-20 07:50:09:     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+2025-08-20 07:50:09:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+2025-08-20 07:50:09:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 07:50:09:     at Object.<anonymous> (/var/www/zhixiao/src/routes/auth.js:6:18)
+2025-08-20 07:50:09:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 07:50:09:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 07:50:09:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 07:50:09:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 07:50:09:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 07:50:09:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {
+2025-08-20 07:50:09:   code: 'MODULE_NOT_FOUND',
+2025-08-20 07:50:09:   requireStack: [
+2025-08-20 07:50:09:     '/var/www/zhixiao/src/routes/auth.js',
+2025-08-20 07:50:09:     '/var/www/zhixiao/src/routes/index.js',
+2025-08-20 07:50:09:     '/var/www/zhixiao/server.js'
+2025-08-20 07:50:09:   ]
+2025-08-20 07:50:09: }
+2025-08-20 07:50:10: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:50:11: Error: Cannot find module 'express-validator'
+2025-08-20 07:50:11: Require stack:
+2025-08-20 07:50:11: - /var/www/zhixiao/src/routes/auth.js
+2025-08-20 07:50:11: - /var/www/zhixiao/src/routes/index.js
+2025-08-20 07:50:11: - /var/www/zhixiao/server.js
+2025-08-20 07:50:11:     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+2025-08-20 07:50:11:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+2025-08-20 07:50:11:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 07:50:11:     at Object.<anonymous> (/var/www/zhixiao/src/routes/auth.js:6:18)
+2025-08-20 07:50:11:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 07:50:11:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 07:50:11:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 07:50:11:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 07:50:11:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 07:50:11:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39) {
+2025-08-20 07:50:11:   code: 'MODULE_NOT_FOUND',
+2025-08-20 07:50:11:   requireStack: [
+2025-08-20 07:50:11:     '/var/www/zhixiao/src/routes/auth.js',
+2025-08-20 07:50:11:     '/var/www/zhixiao/src/routes/index.js',
+2025-08-20 07:50:11:     '/var/www/zhixiao/server.js'
+2025-08-20 07:50:11:   ]
+2025-08-20 07:50:11: }
+2025-08-20 07:52:30: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:52:30: TypeError: argument handler must be a function
+2025-08-20 07:52:30:     at Route.<computed> [as post] (/var/www/zhixiao/node_modules/router/lib/route.js:228:15)
+2025-08-20 07:52:30:     at Function.Router.<computed> [as post] (/var/www/zhixiao/node_modules/router/index.js:448:19)
+2025-08-20 07:52:30:     at Object.<anonymous> (/var/www/zhixiao/src/routes/auth.js:75:8)
+2025-08-20 07:52:30:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 07:52:30:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 07:52:30:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 07:52:30:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 07:52:30:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 07:52:30:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-20 07:52:30:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 07:52:32: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:52:32: TypeError: argument handler must be a function
+2025-08-20 07:52:32:     at Route.<computed> [as post] (/var/www/zhixiao/node_modules/router/lib/route.js:228:15)
+2025-08-20 07:52:32:     at Function.Router.<computed> [as post] (/var/www/zhixiao/node_modules/router/index.js:448:19)
+2025-08-20 07:52:32:     at Object.<anonymous> (/var/www/zhixiao/src/routes/auth.js:75:8)
+2025-08-20 07:52:32:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 07:52:32:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 07:52:32:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 07:52:32:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 07:52:32:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 07:52:32:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-20 07:52:32:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 07:52:33: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:52:34: TypeError: argument handler must be a function
+2025-08-20 07:52:34:     at Route.<computed> [as post] (/var/www/zhixiao/node_modules/router/lib/route.js:228:15)
+2025-08-20 07:52:34:     at Function.Router.<computed> [as post] (/var/www/zhixiao/node_modules/router/index.js:448:19)
+2025-08-20 07:52:34:     at Object.<anonymous> (/var/www/zhixiao/src/routes/auth.js:75:8)
+2025-08-20 07:52:34:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 07:52:34:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 07:52:34:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 07:52:34:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 07:52:34:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 07:52:34:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-20 07:52:34:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 07:52:35: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:52:35: TypeError: argument handler must be a function
+2025-08-20 07:52:35:     at Route.<computed> [as post] (/var/www/zhixiao/node_modules/router/lib/route.js:228:15)
+2025-08-20 07:52:35:     at Function.Router.<computed> [as post] (/var/www/zhixiao/node_modules/router/index.js:448:19)
+2025-08-20 07:52:35:     at Object.<anonymous> (/var/www/zhixiao/src/routes/auth.js:75:8)
+2025-08-20 07:52:35:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 07:52:35:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 07:52:35:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 07:52:35:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 07:52:35:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 07:52:35:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-20 07:52:35:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 07:52:36: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:52:37: TypeError: argument handler must be a function
+2025-08-20 07:52:37:     at Route.<computed> [as post] (/var/www/zhixiao/node_modules/router/lib/route.js:228:15)
+2025-08-20 07:52:37:     at Function.Router.<computed> [as post] (/var/www/zhixiao/node_modules/router/index.js:448:19)
+2025-08-20 07:52:37:     at Object.<anonymous> (/var/www/zhixiao/src/routes/auth.js:75:8)
+2025-08-20 07:52:37:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 07:52:37:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 07:52:37:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 07:52:37:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 07:52:37:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 07:52:37:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-20 07:52:37:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 07:52:38: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:52:38: TypeError: argument handler must be a function
+2025-08-20 07:52:38:     at Route.<computed> [as post] (/var/www/zhixiao/node_modules/router/lib/route.js:228:15)
+2025-08-20 07:52:38:     at Function.Router.<computed> [as post] (/var/www/zhixiao/node_modules/router/index.js:448:19)
+2025-08-20 07:52:38:     at Object.<anonymous> (/var/www/zhixiao/src/routes/auth.js:75:8)
+2025-08-20 07:52:38:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 07:52:38:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 07:52:38:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 07:52:38:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 07:52:38:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 07:52:38:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-20 07:52:38:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 07:52:40: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:52:40: TypeError: argument handler must be a function
+2025-08-20 07:52:40:     at Route.<computed> [as post] (/var/www/zhixiao/node_modules/router/lib/route.js:228:15)
+2025-08-20 07:52:40:     at Function.Router.<computed> [as post] (/var/www/zhixiao/node_modules/router/index.js:448:19)
+2025-08-20 07:52:40:     at Object.<anonymous> (/var/www/zhixiao/src/routes/auth.js:75:8)
+2025-08-20 07:52:40:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 07:52:40:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 07:52:40:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 07:52:40:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 07:52:40:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 07:52:40:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-20 07:52:40:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 07:52:41: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:52:41: TypeError: argument handler must be a function
+2025-08-20 07:52:41:     at Route.<computed> [as post] (/var/www/zhixiao/node_modules/router/lib/route.js:228:15)
+2025-08-20 07:52:41:     at Function.Router.<computed> [as post] (/var/www/zhixiao/node_modules/router/index.js:448:19)
+2025-08-20 07:52:41:     at Object.<anonymous> (/var/www/zhixiao/src/routes/auth.js:75:8)
+2025-08-20 07:52:41:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 07:52:41:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 07:52:41:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 07:52:41:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 07:52:41:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 07:52:41:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-20 07:52:41:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 07:52:43: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:52:43: TypeError: argument handler must be a function
+2025-08-20 07:52:43:     at Route.<computed> [as post] (/var/www/zhixiao/node_modules/router/lib/route.js:228:15)
+2025-08-20 07:52:43:     at Function.Router.<computed> [as post] (/var/www/zhixiao/node_modules/router/index.js:448:19)
+2025-08-20 07:52:43:     at Object.<anonymous> (/var/www/zhixiao/src/routes/auth.js:75:8)
+2025-08-20 07:52:43:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 07:52:43:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 07:52:43:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 07:52:43:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 07:52:43:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 07:52:43:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-20 07:52:43:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 07:52:44: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:52:45: TypeError: argument handler must be a function
+2025-08-20 07:52:45:     at Route.<computed> [as post] (/var/www/zhixiao/node_modules/router/lib/route.js:228:15)
+2025-08-20 07:52:45:     at Function.Router.<computed> [as post] (/var/www/zhixiao/node_modules/router/index.js:448:19)
+2025-08-20 07:52:45:     at Object.<anonymous> (/var/www/zhixiao/src/routes/auth.js:75:8)
+2025-08-20 07:52:45:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 07:52:45:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 07:52:45:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 07:52:45:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 07:52:45:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 07:52:45:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-20 07:52:45:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 07:55:24: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:55:25: TypeError: argument handler must be a function
+2025-08-20 07:55:25:     at Route.<computed> [as post] (/var/www/zhixiao/node_modules/router/lib/route.js:228:15)
+2025-08-20 07:55:25:     at Function.Router.<computed> [as post] (/var/www/zhixiao/node_modules/router/index.js:448:19)
+2025-08-20 07:55:25:     at Object.<anonymous> (/var/www/zhixiao/src/routes/auth.js:75:8)
+2025-08-20 07:55:25:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 07:55:25:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 07:55:25:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 07:55:25:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 07:55:25:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 07:55:25:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-20 07:55:25:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 07:55:26: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:55:26: TypeError: argument handler must be a function
+2025-08-20 07:55:26:     at Route.<computed> [as post] (/var/www/zhixiao/node_modules/router/lib/route.js:228:15)
+2025-08-20 07:55:26:     at Function.Router.<computed> [as post] (/var/www/zhixiao/node_modules/router/index.js:448:19)
+2025-08-20 07:55:26:     at Object.<anonymous> (/var/www/zhixiao/src/routes/auth.js:75:8)
+2025-08-20 07:55:26:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 07:55:26:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 07:55:26:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 07:55:26:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 07:55:26:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 07:55:26:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-20 07:55:26:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 07:55:27: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:55:28: TypeError: argument handler must be a function
+2025-08-20 07:55:28:     at Route.<computed> [as post] (/var/www/zhixiao/node_modules/router/lib/route.js:228:15)
+2025-08-20 07:55:28:     at Function.Router.<computed> [as post] (/var/www/zhixiao/node_modules/router/index.js:448:19)
+2025-08-20 07:55:28:     at Object.<anonymous> (/var/www/zhixiao/src/routes/auth.js:75:8)
+2025-08-20 07:55:28:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 07:55:28:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 07:55:28:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 07:55:28:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 07:55:28:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 07:55:28:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-20 07:55:28:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 07:55:29: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:55:29: TypeError: argument handler must be a function
+2025-08-20 07:55:29:     at Route.<computed> [as post] (/var/www/zhixiao/node_modules/router/lib/route.js:228:15)
+2025-08-20 07:55:29:     at Function.Router.<computed> [as post] (/var/www/zhixiao/node_modules/router/index.js:448:19)
+2025-08-20 07:55:29:     at Object.<anonymous> (/var/www/zhixiao/src/routes/auth.js:75:8)
+2025-08-20 07:55:29:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 07:55:29:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 07:55:29:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 07:55:29:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 07:55:29:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 07:55:29:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-20 07:55:29:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 07:55:31: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:55:31: TypeError: argument handler must be a function
+2025-08-20 07:55:31:     at Route.<computed> [as post] (/var/www/zhixiao/node_modules/router/lib/route.js:228:15)
+2025-08-20 07:55:31:     at Function.Router.<computed> [as post] (/var/www/zhixiao/node_modules/router/index.js:448:19)
+2025-08-20 07:55:31:     at Object.<anonymous> (/var/www/zhixiao/src/routes/auth.js:75:8)
+2025-08-20 07:55:31:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 07:55:31:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 07:55:31:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 07:55:31:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 07:55:31:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 07:55:31:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-20 07:55:31:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 07:55:32: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:55:32: TypeError: argument handler must be a function
+2025-08-20 07:55:32:     at Route.<computed> [as post] (/var/www/zhixiao/node_modules/router/lib/route.js:228:15)
+2025-08-20 07:55:32:     at Function.Router.<computed> [as post] (/var/www/zhixiao/node_modules/router/index.js:448:19)
+2025-08-20 07:55:32:     at Object.<anonymous> (/var/www/zhixiao/src/routes/auth.js:75:8)
+2025-08-20 07:55:32:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 07:55:32:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 07:55:32:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 07:55:32:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 07:55:32:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 07:55:32:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-20 07:55:32:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 07:55:34: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:55:34: TypeError: argument handler must be a function
+2025-08-20 07:55:34:     at Route.<computed> [as post] (/var/www/zhixiao/node_modules/router/lib/route.js:228:15)
+2025-08-20 07:55:34:     at Function.Router.<computed> [as post] (/var/www/zhixiao/node_modules/router/index.js:448:19)
+2025-08-20 07:55:34:     at Object.<anonymous> (/var/www/zhixiao/src/routes/auth.js:75:8)
+2025-08-20 07:55:34:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 07:55:34:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 07:55:34:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 07:55:34:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 07:55:34:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 07:55:34:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-20 07:55:34:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 07:55:35: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:55:36: TypeError: argument handler must be a function
+2025-08-20 07:55:36:     at Route.<computed> [as post] (/var/www/zhixiao/node_modules/router/lib/route.js:228:15)
+2025-08-20 07:55:36:     at Function.Router.<computed> [as post] (/var/www/zhixiao/node_modules/router/index.js:448:19)
+2025-08-20 07:55:36:     at Object.<anonymous> (/var/www/zhixiao/src/routes/auth.js:75:8)
+2025-08-20 07:55:36:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 07:55:36:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 07:55:36:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 07:55:36:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 07:55:36:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 07:55:36:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-20 07:55:36:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 07:55:37: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:55:37: TypeError: argument handler must be a function
+2025-08-20 07:55:37:     at Route.<computed> [as post] (/var/www/zhixiao/node_modules/router/lib/route.js:228:15)
+2025-08-20 07:55:37:     at Function.Router.<computed> [as post] (/var/www/zhixiao/node_modules/router/index.js:448:19)
+2025-08-20 07:55:37:     at Object.<anonymous> (/var/www/zhixiao/src/routes/auth.js:75:8)
+2025-08-20 07:55:37:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 07:55:37:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 07:55:37:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 07:55:37:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 07:55:37:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 07:55:37:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-20 07:55:37:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 07:55:39: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:55:39: TypeError: argument handler must be a function
+2025-08-20 07:55:39:     at Route.<computed> [as post] (/var/www/zhixiao/node_modules/router/lib/route.js:228:15)
+2025-08-20 07:55:39:     at Function.Router.<computed> [as post] (/var/www/zhixiao/node_modules/router/index.js:448:19)
+2025-08-20 07:55:39:     at Object.<anonymous> (/var/www/zhixiao/src/routes/auth.js:75:8)
+2025-08-20 07:55:39:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 07:55:39:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 07:55:39:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 07:55:39:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 07:55:39:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 07:55:39:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-20 07:55:39:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 07:57:47: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:59:45: 数据库查询错误: Error: Unknown column 'u.status' in 'where clause'
+2025-08-20 07:59:45:     at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+2025-08-20 07:59:45:     at query (/var/www/zhixiao/src/config/database.js:37:34)
+2025-08-20 07:59:45:     at /var/www/zhixiao/src/controllers/AuthController.js:29:27
+2025-08-20 07:59:45:     at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+2025-08-20 07:59:45:     at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+2025-08-20 07:59:45:     at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+2025-08-20 07:59:45:     at validateRequest (/var/www/zhixiao/src/middleware/validation.js:105:3)
+2025-08-20 07:59:45:     at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+2025-08-20 07:59:45:     at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+2025-08-20 07:59:45:     at middleware (/var/www/zhixiao/node_modules/express-validator/lib/middlewares/check.js:16:13) {
+2025-08-20 07:59:45:   code: 'ER_BAD_FIELD_ERROR',
+2025-08-20 07:59:45:   errno: 1054,
+2025-08-20 07:59:45:   sql: '\n' +
+2025-08-20 07:59:45:     '        SELECT u.*, un.name as unit_name \n' +
+2025-08-20 07:59:45:     '        FROM users u \n' +
+2025-08-20 07:59:45:     '        LEFT JOIN units un ON u.unit_id = un.id \n' +
+2025-08-20 07:59:45:     "        WHERE u.student_id = ? AND u.status = 'active'\n" +
+2025-08-20 07:59:45:     '      ',
+2025-08-20 07:59:45:   sqlState: '42S22',
+2025-08-20 07:59:45:   sqlMessage: "Unknown column 'u.status' in 'where clause'"
+2025-08-20 07:59:45: }
+2025-08-20 07:59:45: Login error: Error: Unknown column 'u.status' in 'where clause'
+2025-08-20 07:59:45:     at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+2025-08-20 07:59:45:     at query (/var/www/zhixiao/src/config/database.js:37:34)
+2025-08-20 07:59:45:     at /var/www/zhixiao/src/controllers/AuthController.js:29:27
+2025-08-20 07:59:45:     at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+2025-08-20 07:59:45:     at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+2025-08-20 07:59:45:     at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+2025-08-20 07:59:45:     at validateRequest (/var/www/zhixiao/src/middleware/validation.js:105:3)
+2025-08-20 07:59:45:     at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+2025-08-20 07:59:45:     at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+2025-08-20 07:59:45:     at middleware (/var/www/zhixiao/node_modules/express-validator/lib/middlewares/check.js:16:13) {
+2025-08-20 07:59:45:   code: 'ER_BAD_FIELD_ERROR',
+2025-08-20 07:59:45:   errno: 1054,
+2025-08-20 07:59:45:   sql: '\n' +
+2025-08-20 07:59:45:     '        SELECT u.*, un.name as unit_name \n' +
+2025-08-20 07:59:45:     '        FROM users u \n' +
+2025-08-20 07:59:45:     '        LEFT JOIN units un ON u.unit_id = un.id \n' +
+2025-08-20 07:59:45:     "        WHERE u.student_id = ? AND u.status = 'active'\n" +
+2025-08-20 07:59:45:     '      ',
+2025-08-20 07:59:45:   sqlState: '42S22',
+2025-08-20 07:59:45:   sqlMessage: "Unknown column 'u.status' in 'where clause'"
+2025-08-20 07:59:45: }
+2025-08-20 08:06:42: 数据库查询错误: Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-08-20 08:06:42:     at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+2025-08-20 08:06:42:     at query (/var/www/zhixiao/src/config/database.js:37:34)
+2025-08-20 08:06:42:     at Function.getUserHistory (/var/www/zhixiao/src/models/StudyRecord.js:39:29)
+2025-08-20 08:06:42:     at /var/www/zhixiao/src/controllers/StudyController.js:30:38
+2025-08-20 08:06:42:     at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+2025-08-20 08:06:42:     at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+2025-08-20 08:06:42:     at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+2025-08-20 08:06:42:     at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+2025-08-20 08:06:42:     at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+2025-08-20 08:06:42:     at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+2025-08-20 08:06:42:   code: undefined,
+2025-08-20 08:06:42:   errno: undefined,
+2025-08-20 08:06:42:   sql: undefined,
+2025-08-20 08:06:42:   sqlState: undefined,
+2025-08-20 08:06:42:   sqlMessage: undefined
+2025-08-20 08:06:42: }
+2025-08-20 08:06:42: StudyRecord.getUserHistory error: Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-08-20 08:06:42:     at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+2025-08-20 08:06:42:     at query (/var/www/zhixiao/src/config/database.js:37:34)
+2025-08-20 08:06:42:     at Function.getUserHistory (/var/www/zhixiao/src/models/StudyRecord.js:39:29)
+2025-08-20 08:06:42:     at /var/www/zhixiao/src/controllers/StudyController.js:30:38
+2025-08-20 08:06:42:     at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+2025-08-20 08:06:42:     at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+2025-08-20 08:06:42:     at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+2025-08-20 08:06:42:     at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+2025-08-20 08:06:42:     at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+2025-08-20 08:06:42:     at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+2025-08-20 08:06:42:   code: undefined,
+2025-08-20 08:06:42:   errno: undefined,
+2025-08-20 08:06:42:   sql: undefined,
+2025-08-20 08:06:42:   sqlState: undefined,
+2025-08-20 08:06:42:   sqlMessage: undefined
+2025-08-20 08:06:42: }
+2025-08-20 08:12:46: 数据库查询错误: Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-08-20 08:12:46:     at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+2025-08-20 08:12:46:     at query (/var/www/zhixiao/src/config/database.js:37:34)
+2025-08-20 08:12:46:     at Function.getUserHistory (/var/www/zhixiao/src/models/StudyRecord.js:39:29)
+2025-08-20 08:12:46:     at /var/www/zhixiao/src/controllers/StudyController.js:30:38
+2025-08-20 08:12:46:     at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+2025-08-20 08:12:46:     at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+2025-08-20 08:12:46:     at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+2025-08-20 08:12:46:     at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+2025-08-20 08:12:46:     at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+2025-08-20 08:12:46:     at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+2025-08-20 08:12:46:   code: undefined,
+2025-08-20 08:12:46:   errno: undefined,
+2025-08-20 08:12:46:   sql: undefined,
+2025-08-20 08:12:46:   sqlState: undefined,
+2025-08-20 08:12:46:   sqlMessage: undefined
+2025-08-20 08:12:46: }
+2025-08-20 08:12:46: StudyRecord.getUserHistory error: Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-08-20 08:12:46:     at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+2025-08-20 08:12:46:     at query (/var/www/zhixiao/src/config/database.js:37:34)
+2025-08-20 08:12:46:     at Function.getUserHistory (/var/www/zhixiao/src/models/StudyRecord.js:39:29)
+2025-08-20 08:12:46:     at /var/www/zhixiao/src/controllers/StudyController.js:30:38
+2025-08-20 08:12:46:     at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+2025-08-20 08:12:46:     at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+2025-08-20 08:12:46:     at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+2025-08-20 08:12:46:     at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+2025-08-20 08:12:46:     at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+2025-08-20 08:12:46:     at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+2025-08-20 08:12:46:   code: undefined,
+2025-08-20 08:12:46:   errno: undefined,
+2025-08-20 08:12:46:   sql: undefined,
+2025-08-20 08:12:46:   sqlState: undefined,
+2025-08-20 08:12:46:   sqlMessage: undefined
+2025-08-20 08:12:46: }
+2025-08-20 08:13:53: Admin auth middleware error: JsonWebTokenError: jwt malformed
+2025-08-20 08:13:53:     at Object.module.exports [as verify] (/var/www/zhixiao/node_modules/jsonwebtoken/verify.js:70:17)
+2025-08-20 08:13:53:     at requireAdmin (/var/www/zhixiao/src/middleware/adminAuth.js:17:25)
+2025-08-20 08:13:53:     at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+2025-08-20 08:13:53:     at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+2025-08-20 08:13:53:     at Route.dispatch (/var/www/zhixiao/node_modules/router/lib/route.js:117:3)
+2025-08-20 08:13:53:     at handle (/var/www/zhixiao/node_modules/router/index.js:435:11)
+2025-08-20 08:13:53:     at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+2025-08-20 08:13:53:     at /var/www/zhixiao/node_modules/router/index.js:295:15
+2025-08-20 08:13:53:     at processParams (/var/www/zhixiao/node_modules/router/index.js:582:12)
+2025-08-20 08:13:53:     at next (/var/www/zhixiao/node_modules/router/index.js:291:5)
+2025-08-20 08:14:10: 数据库查询错误: Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-08-20 08:14:10:     at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+2025-08-20 08:14:10:     at query (/var/www/zhixiao/src/config/database.js:37:34)
+2025-08-20 08:14:10:     at Function.getUserHistory (/var/www/zhixiao/src/models/StudyRecord.js:39:29)
+2025-08-20 08:14:10:     at /var/www/zhixiao/src/controllers/StudyController.js:325:46
+2025-08-20 08:14:10:     at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+2025-08-20 08:14:10:     at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+2025-08-20 08:14:10:     at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+2025-08-20 08:14:10:     at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+2025-08-20 08:14:10:     at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+2025-08-20 08:14:10:     at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+2025-08-20 08:14:10:   code: undefined,
+2025-08-20 08:14:10:   errno: undefined,
+2025-08-20 08:14:10:   sql: undefined,
+2025-08-20 08:14:10:   sqlState: undefined,
+2025-08-20 08:14:10:   sqlMessage: undefined
+2025-08-20 08:14:10: }
+2025-08-20 08:14:10: StudyRecord.getUserHistory error: Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-08-20 08:14:10:     at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+2025-08-20 08:14:10:     at query (/var/www/zhixiao/src/config/database.js:37:34)
+2025-08-20 08:14:10:     at Function.getUserHistory (/var/www/zhixiao/src/models/StudyRecord.js:39:29)
+2025-08-20 08:14:10:     at /var/www/zhixiao/src/controllers/StudyController.js:325:46
+2025-08-20 08:14:10:     at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+2025-08-20 08:14:10:     at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+2025-08-20 08:14:10:     at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+2025-08-20 08:14:10:     at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+2025-08-20 08:14:10:     at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+2025-08-20 08:14:10:     at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+2025-08-20 08:14:10:   code: undefined,
+2025-08-20 08:14:10:   errno: undefined,
+2025-08-20 08:14:10:   sql: undefined,
+2025-08-20 08:14:10:   sqlState: undefined,
+2025-08-20 08:14:10:   sqlMessage: undefined
+2025-08-20 08:14:10: }
+2025-08-20 08:14:17: 数据库查询错误: Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-08-20 08:14:17:     at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+2025-08-20 08:14:17:     at query (/var/www/zhixiao/src/config/database.js:37:34)
+2025-08-20 08:14:17:     at Function.getUserHistory (/var/www/zhixiao/src/models/StudyRecord.js:39:29)
+2025-08-20 08:14:17:     at /var/www/zhixiao/src/controllers/StudyController.js:386:45
+2025-08-20 08:14:17:     at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+2025-08-20 08:14:17:     at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+2025-08-20 08:14:17:     at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+2025-08-20 08:14:17:     at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+2025-08-20 08:14:17:     at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+2025-08-20 08:14:17:     at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+2025-08-20 08:14:17:   code: undefined,
+2025-08-20 08:14:17:   errno: undefined,
+2025-08-20 08:14:17:   sql: undefined,
+2025-08-20 08:14:17:   sqlState: undefined,
+2025-08-20 08:14:17:   sqlMessage: undefined
+2025-08-20 08:14:17: }
+2025-08-20 08:14:17: StudyRecord.getUserHistory error: Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-08-20 08:14:17:     at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+2025-08-20 08:14:17:     at query (/var/www/zhixiao/src/config/database.js:37:34)
+2025-08-20 08:14:17:     at Function.getUserHistory (/var/www/zhixiao/src/models/StudyRecord.js:39:29)
+2025-08-20 08:14:17:     at /var/www/zhixiao/src/controllers/StudyController.js:386:45
+2025-08-20 08:14:17:     at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+2025-08-20 08:14:17:     at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+2025-08-20 08:14:17:     at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+2025-08-20 08:14:17:     at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+2025-08-20 08:14:17:     at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+2025-08-20 08:14:17:     at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+2025-08-20 08:14:17:   code: undefined,
+2025-08-20 08:14:17:   errno: undefined,
+2025-08-20 08:14:17:   sql: undefined,
+2025-08-20 08:14:17:   sqlState: undefined,
+2025-08-20 08:14:17:   sqlMessage: undefined
+2025-08-20 08:14:17: }
+2025-08-20 08:14:28: 数据库查询错误: Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-08-20 08:14:28:     at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+2025-08-20 08:14:28:     at query (/var/www/zhixiao/src/config/database.js:37:34)
+2025-08-20 08:14:28:     at Function.getUserStats (/var/www/zhixiao/src/models/StudyRecord.js:111:26)
+2025-08-20 08:14:28:     at /var/www/zhixiao/src/controllers/StudyController.js:69:39
+2025-08-20 08:14:28:     at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+2025-08-20 08:14:28:     at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+2025-08-20 08:14:28:     at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+2025-08-20 08:14:28:     at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+2025-08-20 08:14:28:     at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+2025-08-20 08:14:28:     at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+2025-08-20 08:14:28:   code: undefined,
+2025-08-20 08:14:28:   errno: undefined,
+2025-08-20 08:14:28:   sql: undefined,
+2025-08-20 08:14:28:   sqlState: undefined,
+2025-08-20 08:14:28:   sqlMessage: undefined
+2025-08-20 08:14:28: }
+2025-08-20 08:14:35: 数据库查询错误: Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-08-20 08:14:35:     at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+2025-08-20 08:14:35:     at query (/var/www/zhixiao/src/config/database.js:37:34)
+2025-08-20 08:14:35:     at Function.getUserStats (/var/www/zhixiao/src/models/StudyRecord.js:111:26)
+2025-08-20 08:14:35:     at /var/www/zhixiao/src/controllers/StudyController.js:69:39
+2025-08-20 08:14:35:     at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+2025-08-20 08:14:35:     at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+2025-08-20 08:14:35:     at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+2025-08-20 08:14:35:     at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+2025-08-20 08:14:35:     at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+2025-08-20 08:14:35:     at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+2025-08-20 08:14:35:   code: undefined,
+2025-08-20 08:14:35:   errno: undefined,
+2025-08-20 08:14:35:   sql: undefined,
+2025-08-20 08:14:35:   sqlState: undefined,
+2025-08-20 08:14:35:   sqlMessage: undefined
+2025-08-20 08:14:35: }
+2025-08-20 08:17:51: 数据库查询错误: Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-08-20 08:17:51:     at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+2025-08-20 08:17:51:     at query (/var/www/zhixiao/src/config/database.js:37:34)
+2025-08-20 08:17:51:     at Function.getUserStats (/var/www/zhixiao/src/models/StudyRecord.js:111:26)
+2025-08-20 08:17:51:     at /var/www/zhixiao/src/controllers/StudyController.js:69:39
+2025-08-20 08:17:51:     at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+2025-08-20 08:17:51:     at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+2025-08-20 08:17:51:     at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+2025-08-20 08:17:51:     at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+2025-08-20 08:17:51:     at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+2025-08-20 08:17:51:     at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+2025-08-20 08:17:51:   code: undefined,
+2025-08-20 08:17:51:   errno: undefined,
+2025-08-20 08:17:51:   sql: undefined,
+2025-08-20 08:17:51:   sqlState: undefined,
+2025-08-20 08:17:51:   sqlMessage: undefined
+2025-08-20 08:17:51: }
+2025-08-20 08:18:08: 数据库查询错误: Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-08-20 08:18:08:     at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+2025-08-20 08:18:08:     at query (/var/www/zhixiao/src/config/database.js:37:34)
+2025-08-20 08:18:08:     at Function.getRanking (/var/www/zhixiao/src/models/StudyRecord.js:162:28)
+2025-08-20 08:18:08:     at /var/www/zhixiao/src/controllers/StudyController.js:115:41
+2025-08-20 08:18:08:     at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+2025-08-20 08:18:08:     at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+2025-08-20 08:18:08:     at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+2025-08-20 08:18:08:     at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+2025-08-20 08:18:08:     at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+2025-08-20 08:18:08:     at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+2025-08-20 08:18:08:   code: undefined,
+2025-08-20 08:18:08:   errno: undefined,
+2025-08-20 08:18:08:   sql: undefined,
+2025-08-20 08:18:08:   sqlState: undefined,
+2025-08-20 08:18:08:   sqlMessage: undefined
+2025-08-20 08:18:08: }
+2025-08-20 08:18:32: 数据库查询错误: Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-08-20 08:18:32:     at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+2025-08-20 08:18:32:     at query (/var/www/zhixiao/src/config/database.js:37:34)
+2025-08-20 08:18:32:     at Function.getRanking (/var/www/zhixiao/src/models/StudyRecord.js:162:28)
+2025-08-20 08:18:32:     at /var/www/zhixiao/src/controllers/StudyController.js:115:41
+2025-08-20 08:18:32:     at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+2025-08-20 08:18:32:     at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+2025-08-20 08:18:32:     at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+2025-08-20 08:18:32:     at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+2025-08-20 08:18:32:     at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+2025-08-20 08:18:32:     at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+2025-08-20 08:18:32:   code: undefined,
+2025-08-20 08:18:32:   errno: undefined,
+2025-08-20 08:18:32:   sql: undefined,
+2025-08-20 08:18:32:   sqlState: undefined,
+2025-08-20 08:18:32:   sqlMessage: undefined
+2025-08-20 08:18:32: }
+2025-08-20 08:18:41: 数据库查询错误: Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-08-20 08:18:41:     at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+2025-08-20 08:18:41:     at query (/var/www/zhixiao/src/config/database.js:37:34)
+2025-08-20 08:18:41:     at Function.getUserHistory (/var/www/zhixiao/src/models/StudyRecord.js:39:29)
+2025-08-20 08:18:41:     at /var/www/zhixiao/src/controllers/StudyController.js:301:39
+2025-08-20 08:18:41:     at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+2025-08-20 08:18:41:     at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+2025-08-20 08:18:41:     at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+2025-08-20 08:18:41:     at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+2025-08-20 08:18:41:     at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+2025-08-20 08:18:41:     at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+2025-08-20 08:18:41:   code: undefined,
+2025-08-20 08:18:41:   errno: undefined,
+2025-08-20 08:18:41:   sql: undefined,
+2025-08-20 08:18:41:   sqlState: undefined,
+2025-08-20 08:18:41:   sqlMessage: undefined
+2025-08-20 08:18:41: }
+2025-08-20 08:18:41: StudyRecord.getUserHistory error: Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-08-20 08:18:41:     at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+2025-08-20 08:18:41:     at query (/var/www/zhixiao/src/config/database.js:37:34)
+2025-08-20 08:18:41:     at Function.getUserHistory (/var/www/zhixiao/src/models/StudyRecord.js:39:29)
+2025-08-20 08:18:41:     at /var/www/zhixiao/src/controllers/StudyController.js:301:39
+2025-08-20 08:18:41:     at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+2025-08-20 08:18:41:     at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+2025-08-20 08:18:41:     at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+2025-08-20 08:18:41:     at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+2025-08-20 08:18:41:     at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+2025-08-20 08:18:41:     at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+2025-08-20 08:18:41:   code: undefined,
+2025-08-20 08:18:41:   errno: undefined,
+2025-08-20 08:18:41:   sql: undefined,
+2025-08-20 08:18:41:   sqlState: undefined,
+2025-08-20 08:18:41:   sqlMessage: undefined
+2025-08-20 08:18:41: }
+2025-08-20 08:20:18: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 08:57:17: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 10:42:42: /var/www/zhixiao/src/controllers/StudyController.js:3
+2025-08-20 10:42:42:   static getStats = asyncHandler(async (req, res) => {
+2025-08-20 10:42:42:   ^^^^^^
+2025-08-20 10:42:42: 
+2025-08-20 10:42:42: SyntaxError: Unexpected identifier
+2025-08-20 10:42:42:     at internalCompileFunction (node:internal/vm:76:18)
+2025-08-20 10:42:42:     at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+2025-08-20 10:42:42:     at Module._compile (node:internal/modules/cjs/loader:1328:27)
+2025-08-20 10:42:42:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 10:42:42:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 10:42:42:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 10:42:42:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 10:42:42:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-20 10:42:42:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 10:42:42:     at Object.<anonymous> (/var/www/zhixiao/src/routes/study.js:2:25)
+2025-08-20 10:42:46: /var/www/zhixiao/src/controllers/StudyController.js:3
+2025-08-20 10:42:46:   static getStats = asyncHandler(async (req, res) => {
+2025-08-20 10:42:46:   ^^^^^^
+2025-08-20 10:42:46: 
+2025-08-20 10:42:46: SyntaxError: Unexpected identifier
+2025-08-20 10:42:46:     at internalCompileFunction (node:internal/vm:76:18)
+2025-08-20 10:42:46:     at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+2025-08-20 10:42:46:     at Module._compile (node:internal/modules/cjs/loader:1328:27)
+2025-08-20 10:42:46:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 10:42:46:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 10:42:46:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 10:42:46:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 10:42:46:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-20 10:42:46:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 10:42:46:     at Object.<anonymous> (/var/www/zhixiao/src/routes/study.js:2:25)
+2025-08-20 10:42:50: /var/www/zhixiao/src/controllers/StudyController.js:3
+2025-08-20 10:42:50:   static getStats = asyncHandler(async (req, res) => {
+2025-08-20 10:42:50:   ^^^^^^
+2025-08-20 10:42:50: 
+2025-08-20 10:42:50: SyntaxError: Unexpected identifier
+2025-08-20 10:42:50:     at internalCompileFunction (node:internal/vm:76:18)
+2025-08-20 10:42:50:     at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+2025-08-20 10:42:50:     at Module._compile (node:internal/modules/cjs/loader:1328:27)
+2025-08-20 10:42:50:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 10:42:50:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 10:42:50:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 10:42:50:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 10:42:50:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-20 10:42:50:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 10:42:50:     at Object.<anonymous> (/var/www/zhixiao/src/routes/study.js:2:25)
+2025-08-20 10:42:53: /var/www/zhixiao/src/controllers/StudyController.js:3
+2025-08-20 10:42:53:   static getStats = asyncHandler(async (req, res) => {
+2025-08-20 10:42:53:   ^^^^^^
+2025-08-20 10:42:53: 
+2025-08-20 10:42:53: SyntaxError: Unexpected identifier
+2025-08-20 10:42:53:     at internalCompileFunction (node:internal/vm:76:18)
+2025-08-20 10:42:53:     at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+2025-08-20 10:42:53:     at Module._compile (node:internal/modules/cjs/loader:1328:27)
+2025-08-20 10:42:53:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 10:42:53:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 10:42:53:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 10:42:53:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 10:42:53:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-20 10:42:53:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 10:42:53:     at Object.<anonymous> (/var/www/zhixiao/src/routes/study.js:2:25)
+2025-08-20 10:42:57: /var/www/zhixiao/src/controllers/StudyController.js:3
+2025-08-20 10:42:57:   static getStats = asyncHandler(async (req, res) => {
+2025-08-20 10:42:57:   ^^^^^^
+2025-08-20 10:42:57: 
+2025-08-20 10:42:57: SyntaxError: Unexpected identifier
+2025-08-20 10:42:57:     at internalCompileFunction (node:internal/vm:76:18)
+2025-08-20 10:42:57:     at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+2025-08-20 10:42:57:     at Module._compile (node:internal/modules/cjs/loader:1328:27)
+2025-08-20 10:42:57:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 10:42:57:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 10:42:57:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 10:42:57:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 10:42:57:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-20 10:42:57:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 10:42:57:     at Object.<anonymous> (/var/www/zhixiao/src/routes/study.js:2:25)
+2025-08-20 10:46:30: TypeError: argument handler must be a function
+2025-08-20 10:46:30:     at Route.<computed> [as post] (/var/www/zhixiao/node_modules/router/lib/route.js:228:15)
+2025-08-20 10:46:30:     at Function.Router.<computed> [as post] (/var/www/zhixiao/node_modules/router/index.js:448:19)
+2025-08-20 10:46:30:     at Object.<anonymous> (/var/www/zhixiao/src/routes/study.js:9:8)
+2025-08-20 10:46:30:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 10:46:30:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 10:46:30:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 10:46:30:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 10:46:30:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 10:46:30:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-20 10:46:30:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 10:46:33: TypeError: argument handler must be a function
+2025-08-20 10:46:33:     at Route.<computed> [as post] (/var/www/zhixiao/node_modules/router/lib/route.js:228:15)
+2025-08-20 10:46:33:     at Function.Router.<computed> [as post] (/var/www/zhixiao/node_modules/router/index.js:448:19)
+2025-08-20 10:46:33:     at Object.<anonymous> (/var/www/zhixiao/src/routes/study.js:9:8)
+2025-08-20 10:46:33:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 10:46:33:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 10:46:33:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 10:46:33:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 10:46:33:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 10:46:33:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-20 10:46:33:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 10:46:37: TypeError: argument handler must be a function
+2025-08-20 10:46:37:     at Route.<computed> [as post] (/var/www/zhixiao/node_modules/router/lib/route.js:228:15)
+2025-08-20 10:46:37:     at Function.Router.<computed> [as post] (/var/www/zhixiao/node_modules/router/index.js:448:19)
+2025-08-20 10:46:37:     at Object.<anonymous> (/var/www/zhixiao/src/routes/study.js:9:8)
+2025-08-20 10:46:37:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 10:46:37:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 10:46:37:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 10:46:37:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 10:46:37:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 10:46:37:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-20 10:46:37:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 10:46:41: TypeError: argument handler must be a function
+2025-08-20 10:46:41:     at Route.<computed> [as post] (/var/www/zhixiao/node_modules/router/lib/route.js:228:15)
+2025-08-20 10:46:41:     at Function.Router.<computed> [as post] (/var/www/zhixiao/node_modules/router/index.js:448:19)
+2025-08-20 10:46:41:     at Object.<anonymous> (/var/www/zhixiao/src/routes/study.js:9:8)
+2025-08-20 10:46:41:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 10:46:41:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 10:46:41:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 10:46:41:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 10:46:41:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 10:46:41:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-20 10:46:41:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 10:46:44: TypeError: argument handler must be a function
+2025-08-20 10:46:44:     at Route.<computed> [as post] (/var/www/zhixiao/node_modules/router/lib/route.js:228:15)
+2025-08-20 10:46:44:     at Function.Router.<computed> [as post] (/var/www/zhixiao/node_modules/router/index.js:448:19)
+2025-08-20 10:46:44:     at Object.<anonymous> (/var/www/zhixiao/src/routes/study.js:9:8)
+2025-08-20 10:46:44:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 10:46:44:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 10:46:44:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 10:46:44:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 10:46:44:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 10:46:44:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-20 10:46:44:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 10:56:28: /var/www/zhixiao/src/controllers/StudyController.js:786
+2025-08-20 10:56:28: 
+2025-08-20 10:56:28: 
+2025-08-20 10:56:28: 
+2025-08-20 10:56:28: SyntaxError: Unexpected end of input
+2025-08-20 10:56:28:     at internalCompileFunction (node:internal/vm:76:18)
+2025-08-20 10:56:28:     at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+2025-08-20 10:56:28:     at Module._compile (node:internal/modules/cjs/loader:1328:27)
+2025-08-20 10:56:28:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 10:56:28:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 10:56:28:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 10:56:28:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 10:56:28:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-20 10:56:28:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 10:56:28:     at Object.<anonymous> (/var/www/zhixiao/src/routes/study.js:2:25)
+2025-08-20 10:56:31: /var/www/zhixiao/src/controllers/StudyController.js:786
+2025-08-20 10:56:31: 
+2025-08-20 10:56:31: 
+2025-08-20 10:56:31: 
+2025-08-20 10:56:31: SyntaxError: Unexpected end of input
+2025-08-20 10:56:31:     at internalCompileFunction (node:internal/vm:76:18)
+2025-08-20 10:56:31:     at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+2025-08-20 10:56:31:     at Module._compile (node:internal/modules/cjs/loader:1328:27)
+2025-08-20 10:56:31:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 10:56:31:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 10:56:31:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 10:56:31:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 10:56:31:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-20 10:56:31:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 10:56:31:     at Object.<anonymous> (/var/www/zhixiao/src/routes/study.js:2:25)
+2025-08-20 10:56:35: /var/www/zhixiao/src/controllers/StudyController.js:786
+2025-08-20 10:56:35: 
+2025-08-20 10:56:35: 
+2025-08-20 10:56:35: 
+2025-08-20 10:56:35: SyntaxError: Unexpected end of input
+2025-08-20 10:56:35:     at internalCompileFunction (node:internal/vm:76:18)
+2025-08-20 10:56:35:     at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+2025-08-20 10:56:35:     at Module._compile (node:internal/modules/cjs/loader:1328:27)
+2025-08-20 10:56:35:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 10:56:35:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 10:56:35:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 10:56:35:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 10:56:35:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-20 10:56:35:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 10:56:35:     at Object.<anonymous> (/var/www/zhixiao/src/routes/study.js:2:25)
+2025-08-20 10:56:39: /var/www/zhixiao/src/controllers/StudyController.js:786
+2025-08-20 10:56:39: 
+2025-08-20 10:56:39: 
+2025-08-20 10:56:39: 
+2025-08-20 10:56:39: SyntaxError: Unexpected end of input
+2025-08-20 10:56:39:     at internalCompileFunction (node:internal/vm:76:18)
+2025-08-20 10:56:39:     at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+2025-08-20 10:56:39:     at Module._compile (node:internal/modules/cjs/loader:1328:27)
+2025-08-20 10:56:39:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 10:56:39:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 10:56:39:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 10:56:39:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 10:56:39:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-20 10:56:39:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 10:56:39:     at Object.<anonymous> (/var/www/zhixiao/src/routes/study.js:2:25)
+2025-08-20 10:56:42: /var/www/zhixiao/src/controllers/StudyController.js:786
+2025-08-20 10:56:42: 
+2025-08-20 10:56:42: 
+2025-08-20 10:56:42: 
+2025-08-20 10:56:42: SyntaxError: Unexpected end of input
+2025-08-20 10:56:42:     at internalCompileFunction (node:internal/vm:76:18)
+2025-08-20 10:56:42:     at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+2025-08-20 10:56:42:     at Module._compile (node:internal/modules/cjs/loader:1328:27)
+2025-08-20 10:56:42:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 10:56:42:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 10:56:42:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 10:56:42:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 10:56:42:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-20 10:56:42:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 10:56:42:     at Object.<anonymous> (/var/www/zhixiao/src/routes/study.js:2:25)
+2025-08-20 11:08:07: TypeError: argument handler must be a function
+2025-08-20 11:08:07:     at Route.<computed> [as post] (/var/www/zhixiao/node_modules/router/lib/route.js:228:15)
+2025-08-20 11:08:07:     at Function.Router.<computed> [as post] (/var/www/zhixiao/node_modules/router/index.js:448:19)
+2025-08-20 11:08:07:     at Object.<anonymous> (/var/www/zhixiao/src/routes/study.js:9:8)
+2025-08-20 11:08:07:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 11:08:07:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 11:08:07:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 11:08:07:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 11:08:07:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 11:08:07:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-20 11:08:07:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 11:08:10: TypeError: argument handler must be a function
+2025-08-20 11:08:10:     at Route.<computed> [as post] (/var/www/zhixiao/node_modules/router/lib/route.js:228:15)
+2025-08-20 11:08:10:     at Function.Router.<computed> [as post] (/var/www/zhixiao/node_modules/router/index.js:448:19)
+2025-08-20 11:08:10:     at Object.<anonymous> (/var/www/zhixiao/src/routes/study.js:9:8)
+2025-08-20 11:08:10:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 11:08:10:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 11:08:10:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 11:08:10:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 11:08:10:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 11:08:10:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-20 11:08:10:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 11:08:14: TypeError: argument handler must be a function
+2025-08-20 11:08:14:     at Route.<computed> [as post] (/var/www/zhixiao/node_modules/router/lib/route.js:228:15)
+2025-08-20 11:08:14:     at Function.Router.<computed> [as post] (/var/www/zhixiao/node_modules/router/index.js:448:19)
+2025-08-20 11:08:14:     at Object.<anonymous> (/var/www/zhixiao/src/routes/study.js:9:8)
+2025-08-20 11:08:14:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 11:08:14:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 11:08:14:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 11:08:14:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 11:08:14:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 11:08:14:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-20 11:08:14:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 11:08:17: TypeError: argument handler must be a function
+2025-08-20 11:08:17:     at Route.<computed> [as post] (/var/www/zhixiao/node_modules/router/lib/route.js:228:15)
+2025-08-20 11:08:17:     at Function.Router.<computed> [as post] (/var/www/zhixiao/node_modules/router/index.js:448:19)
+2025-08-20 11:08:17:     at Object.<anonymous> (/var/www/zhixiao/src/routes/study.js:9:8)
+2025-08-20 11:08:17:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 11:08:17:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 11:08:17:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 11:08:17:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 11:08:17:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 11:08:17:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-20 11:08:17:     at require (node:internal/modules/helpers:177:18)
+2025-08-20 11:08:21: TypeError: argument handler must be a function
+2025-08-20 11:08:21:     at Route.<computed> [as post] (/var/www/zhixiao/node_modules/router/lib/route.js:228:15)
+2025-08-20 11:08:21:     at Function.Router.<computed> [as post] (/var/www/zhixiao/node_modules/router/index.js:448:19)
+2025-08-20 11:08:21:     at Object.<anonymous> (/var/www/zhixiao/src/routes/study.js:9:8)
+2025-08-20 11:08:21:     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-08-20 11:08:21:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-08-20 11:08:21:     at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-08-20 11:08:21:     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-08-20 11:08:21:     at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-08-20 11:08:21:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2025-08-20 11:08:21:     at require (node:internal/modules/helpers:177:18)

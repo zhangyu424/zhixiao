@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/unified-login/unified-login",
+    "pages/index/index",
+    "pages/account-binding/account-binding",
+    "pages/profile/profile",
+    "pages/study-report/study-report",
+    "pages/analysis/analysis",
+    "pages/management/management",
+    "pages/unit-select/unit-select",
+    "pages/role-switch/role-switch",
+    "pages/api-sync-status/api-sync-status",
+    "pages/backend-test/backend-test"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1890ff",
+    "navigationBarTitleText": "学习质效分析",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#f5f5f5"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#1890ff",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/study-report/study-report",
+        "text": "学习填报"
+      },
+      {
+        "pagePath": "pages/analysis/analysis",
+        "text": "数据分析"
+      },
+      {
+        "pagePath": "pages/management/management",
+        "text": "管理"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的"
+      }
+    ]
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "requiredBackgroundModes": ["audio"],
+  "plugins": {},
+  "sitemapLocation": "sitemap.json"
+}

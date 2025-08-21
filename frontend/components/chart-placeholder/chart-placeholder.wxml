@@ -1,0 +1,7 @@
+<!--components/chart-placeholder/chart-placeholder.wxml-->
+<view class="chart-placeholder" style="width: {{width}}px; height: {{height}}px;">
+  <view class="placeholder-content">
+    <view class="loading-icon">📊</view>
+    <text class="loading-text">图表加载中...</text>
+  </view>
+</view>

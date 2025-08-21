@@ -1,0 +1,35 @@
+{
+  "name": "wu-miniprogram-dev-tools",
+  "version": "1.0.0",
+  "description": "学习质效分析微信小程序开发工具集",
+  "private": true,
+  "scripts": {
+    "doc-api": "node doc-api-client/cli.js",
+    "test-api": "node api-tester/test-runner.js",
+    "sync-docs": "node doc-sync/sync.js sync",
+    "watch-docs": "node doc-sync/sync.js watch",
+    "install-deps": "npm install node-fetch chokidar",
+    "setup": "npm run install-deps && echo '✅ 开发工具设置完成！请查看 USAGE_GUIDE.md 了解使用方法。'",
+    "help": "echo '📖 查看 USAGE_GUIDE.md 了解详细使用方法'"
+  },
+  "keywords": ["wechat-miniprogram", "development-tools", "api-testing", "documentation-sync", "dev-only"],
+  "author": "Wu MiniProgram Team",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.7.0",
+    "chokidar": "^3.5.3"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wu-miniprogram/wu.git",
+    "directory": "dev-tools"
+  },
+  "bugs": {
+    "url": "https://github.com/wu-miniprogram/wu/issues"
+  },
+  "homepage": "https://github.com/wu-miniprogram/wu#readme"
+}

@@ -1,0 +1,433 @@
+2025-08-20 03:18:28: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:28: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:28: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:28: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:18:29: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:29: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:29: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:29: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:18:31: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:31: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:31: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:31: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:18:32: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:32: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:32: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:33: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:18:34: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:34: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:34: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:34: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:18:36: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:36: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:36: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:36: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:18:37: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:37: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:37: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:38: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:18:39: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:39: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:39: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:39: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:18:40: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:40: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:40: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:41: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:18:42: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:42: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:42: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:18:42: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:19:27: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:27: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:27: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:27: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:19:29: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:29: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:29: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:29: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:19:30: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:30: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:30: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:30: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:19:32: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:32: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:32: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:32: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:19:33: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:33: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:33: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:34: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:19:35: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:35: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:35: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:35: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:19:37: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:37: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:37: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:37: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:19:38: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:38: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:38: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:38: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:19:40: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:40: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:40: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:40: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:19:41: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:41: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:41: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:19:41: ❌ 数据库连接失败: connect ECONNREFUSED 127.0.0.1:3306
+2025-08-20 03:28:57: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:28:57: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:28:57: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:44:58: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:44:58: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 03:44:58: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 04:34:21: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 04:34:21: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 04:34:21: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 04:49:27: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 04:49:27: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 04:49:27: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 04:55:37: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 04:55:37: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 04:55:37: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 05:02:47: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 05:02:47: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 05:02:47: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 05:03:10: 数据库查询错误: Error: Incorrect arguments to mysqld_stmt_execute
+    at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at query (/var/www/zhixiao/src/config/database.js:36:34)
+    at Function.getUserHistory (/var/www/zhixiao/src/models/StudyRecord.js:50:27)
+    at /var/www/zhixiao/src/controllers/StudyController.js:386:45
+    at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+    at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+  code: 'ER_WRONG_ARGUMENTS',
+  errno: 1210,
+  sql: '\n' +
+    '      SELECT id, date, study_time, subject, remark, created_at, updated_at\n' +
+    '      FROM study_records\n' +
+    '      WHERE user_id = ? AND date >= ? AND date <= ?\n' +
+    '      ORDER BY date DESC\n' +
+    '      LIMIT ? OFFSET ?\n' +
+    '    ',
+  sqlState: 'HY000',
+  sqlMessage: 'Incorrect arguments to mysqld_stmt_execute'
+}
+2025-08-20 06:06:59: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 06:06:59: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 06:06:59: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 06:45:49: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 06:45:49: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 06:45:49: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:02:56: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:02:56: Ignoring invalid configuration option passed to Connection: timeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:02:56: Ignoring invalid configuration option passed to Connection: reconnect. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:06:41: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:11:08: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:13:19: 数据库查询错误: Error: Incorrect arguments to mysqld_stmt_execute
+    at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at query (/var/www/zhixiao/src/config/database.js:37:34)
+    at Function.getUserHistory (/var/www/zhixiao/src/models/StudyRecord.js:50:27)
+    at /var/www/zhixiao/src/controllers/StudyController.js:386:45
+    at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+    at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+  code: 'ER_WRONG_ARGUMENTS',
+  errno: 1210,
+  sql: '\n' +
+    '      SELECT id, date, study_time, subject, remark, created_at, updated_at\n' +
+    '      FROM study_records\n' +
+    '      WHERE user_id = ? AND date >= ? AND date <= ?\n' +
+    '      ORDER BY date DESC\n' +
+    '      LIMIT ? OFFSET ?\n' +
+    '    ',
+  sqlState: 'HY000',
+  sqlMessage: 'Incorrect arguments to mysqld_stmt_execute'
+}
+2025-08-20 07:13:19: 数据库查询错误: Error: Incorrect arguments to mysqld_stmt_execute
+    at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at query (/var/www/zhixiao/src/config/database.js:37:34)
+    at Function.getUserHistory (/var/www/zhixiao/src/models/StudyRecord.js:50:27)
+    at /var/www/zhixiao/src/controllers/StudyController.js:30:38
+    at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+    at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+  code: 'ER_WRONG_ARGUMENTS',
+  errno: 1210,
+  sql: '\n' +
+    '      SELECT id, date, study_time, subject, remark, created_at, updated_at\n' +
+    '      FROM study_records\n' +
+    '      WHERE user_id = ?\n' +
+    '      ORDER BY date DESC\n' +
+    '      LIMIT ? OFFSET ?\n' +
+    '    ',
+  sqlState: 'HY000',
+  sqlMessage: 'Incorrect arguments to mysqld_stmt_execute'
+}
+2025-08-20 07:13:19: 错误详情: Error: Incorrect arguments to mysqld_stmt_execute
+    at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at query (/var/www/zhixiao/src/config/database.js:37:34)
+    at Function.getUserHistory (/var/www/zhixiao/src/models/StudyRecord.js:50:27)
+    at /var/www/zhixiao/src/controllers/StudyController.js:30:38
+    at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+    at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+  code: 'ER_WRONG_ARGUMENTS',
+  errno: 1210,
+  sql: '\n' +
+    '      SELECT id, date, study_time, subject, remark, created_at, updated_at\n' +
+    '      FROM study_records\n' +
+    '      WHERE user_id = ?\n' +
+    '      ORDER BY date DESC\n' +
+    '      LIMIT ? OFFSET ?\n' +
+    '    ',
+  sqlState: 'HY000',
+  sqlMessage: 'Incorrect arguments to mysqld_stmt_execute'
+}
+2025-08-20 07:15:09: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:15:28: 数据库查询错误: Error: Incorrect arguments to mysqld_stmt_execute
+    at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at query (/var/www/zhixiao/src/config/database.js:37:34)
+    at Function.getUserHistory (/var/www/zhixiao/src/models/StudyRecord.js:53:27)
+    at /var/www/zhixiao/src/controllers/StudyController.js:30:38
+    at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+    at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+  code: 'ER_WRONG_ARGUMENTS',
+  errno: 1210,
+  sql: '\n' +
+    '      SELECT id, date, study_time, subject, remark, created_at, updated_at\n' +
+    '      FROM study_records\n' +
+    '      WHERE user_id = ?\n' +
+    '      ORDER BY date DESC\n' +
+    '      LIMIT ? OFFSET ?\n' +
+    '    ',
+  sqlState: 'HY000',
+  sqlMessage: 'Incorrect arguments to mysqld_stmt_execute'
+}
+2025-08-20 07:15:28: 错误详情: Error: Incorrect arguments to mysqld_stmt_execute
+    at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at query (/var/www/zhixiao/src/config/database.js:37:34)
+    at Function.getUserHistory (/var/www/zhixiao/src/models/StudyRecord.js:53:27)
+    at /var/www/zhixiao/src/controllers/StudyController.js:30:38
+    at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+    at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+  code: 'ER_WRONG_ARGUMENTS',
+  errno: 1210,
+  sql: '\n' +
+    '      SELECT id, date, study_time, subject, remark, created_at, updated_at\n' +
+    '      FROM study_records\n' +
+    '      WHERE user_id = ?\n' +
+    '      ORDER BY date DESC\n' +
+    '      LIMIT ? OFFSET ?\n' +
+    '    ',
+  sqlState: 'HY000',
+  sqlMessage: 'Incorrect arguments to mysqld_stmt_execute'
+}
+2025-08-20 07:16:02: Ignoring invalid configuration option passed to Connection: acquireTimeout. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
+2025-08-20 07:16:28: 数据库查询错误: Error: Incorrect arguments to mysqld_stmt_execute
+    at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at query (/var/www/zhixiao/src/config/database.js:37:34)
+    at Function.getUserHistory (/var/www/zhixiao/src/models/StudyRecord.js:37:29)
+    at /var/www/zhixiao/src/controllers/StudyController.js:325:46
+    at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+    at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+  code: 'ER_WRONG_ARGUMENTS',
+  errno: 1210,
+  sql: '\n' +
+    '        SELECT id, date, study_time, subject, remark, created_at, updated_at\n' +
+    '        FROM study_records\n' +
+    '        WHERE user_id = ?\n' +
+    '        ORDER BY date DESC\n' +
+    '        LIMIT ? OFFSET ?\n' +
+    '      ',
+  sqlState: 'HY000',
+  sqlMessage: 'Incorrect arguments to mysqld_stmt_execute'
+}
+2025-08-20 07:16:28: StudyRecord.getUserHistory error: Error: Incorrect arguments to mysqld_stmt_execute
+    at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at query (/var/www/zhixiao/src/config/database.js:37:34)
+    at Function.getUserHistory (/var/www/zhixiao/src/models/StudyRecord.js:37:29)
+    at /var/www/zhixiao/src/controllers/StudyController.js:325:46
+    at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+    at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+  code: 'ER_WRONG_ARGUMENTS',
+  errno: 1210,
+  sql: '\n' +
+    '        SELECT id, date, study_time, subject, remark, created_at, updated_at\n' +
+    '        FROM study_records\n' +
+    '        WHERE user_id = ?\n' +
+    '        ORDER BY date DESC\n' +
+    '        LIMIT ? OFFSET ?\n' +
+    '      ',
+  sqlState: 'HY000',
+  sqlMessage: 'Incorrect arguments to mysqld_stmt_execute'
+}
+2025-08-20 07:16:28: 数据库查询错误: Error: Incorrect arguments to mysqld_stmt_execute
+    at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at query (/var/www/zhixiao/src/config/database.js:37:34)
+    at Function.getUserHistory (/var/www/zhixiao/src/models/StudyRecord.js:37:29)
+    at /var/www/zhixiao/src/controllers/StudyController.js:480:46
+    at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+    at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+  code: 'ER_WRONG_ARGUMENTS',
+  errno: 1210,
+  sql: '\n' +
+    '        SELECT id, date, study_time, subject, remark, created_at, updated_at\n' +
+    '        FROM study_records\n' +
+    '        WHERE user_id = ?\n' +
+    '        ORDER BY date DESC\n' +
+    '        LIMIT ? OFFSET ?\n' +
+    '      ',
+  sqlState: 'HY000',
+  sqlMessage: 'Incorrect arguments to mysqld_stmt_execute'
+}
+2025-08-20 07:16:28: StudyRecord.getUserHistory error: Error: Incorrect arguments to mysqld_stmt_execute
+    at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at query (/var/www/zhixiao/src/config/database.js:37:34)
+    at Function.getUserHistory (/var/www/zhixiao/src/models/StudyRecord.js:37:29)
+    at /var/www/zhixiao/src/controllers/StudyController.js:480:46
+    at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+    at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+  code: 'ER_WRONG_ARGUMENTS',
+  errno: 1210,
+  sql: '\n' +
+    '        SELECT id, date, study_time, subject, remark, created_at, updated_at\n' +
+    '        FROM study_records\n' +
+    '        WHERE user_id = ?\n' +
+    '        ORDER BY date DESC\n' +
+    '        LIMIT ? OFFSET ?\n' +
+    '      ',
+  sqlState: 'HY000',
+  sqlMessage: 'Incorrect arguments to mysqld_stmt_execute'
+}
+2025-08-20 07:17:42: 数据库查询错误: Error: Incorrect arguments to mysqld_stmt_execute
+    at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at query (/var/www/zhixiao/src/config/database.js:37:34)
+    at Function.getUserHistory (/var/www/zhixiao/src/models/StudyRecord.js:37:29)
+    at /var/www/zhixiao/src/controllers/StudyController.js:325:46
+    at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+    at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+  code: 'ER_WRONG_ARGUMENTS',
+  errno: 1210,
+  sql: '\n' +
+    '        SELECT id, date, study_time, subject, remark, created_at, updated_at\n' +
+    '        FROM study_records\n' +
+    '        WHERE user_id = ?\n' +
+    '        ORDER BY date DESC\n' +
+    '        LIMIT ? OFFSET ?\n' +
+    '      ',
+  sqlState: 'HY000',
+  sqlMessage: 'Incorrect arguments to mysqld_stmt_execute'
+}
+2025-08-20 07:17:42: StudyRecord.getUserHistory error: Error: Incorrect arguments to mysqld_stmt_execute
+    at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at query (/var/www/zhixiao/src/config/database.js:37:34)
+    at Function.getUserHistory (/var/www/zhixiao/src/models/StudyRecord.js:37:29)
+    at /var/www/zhixiao/src/controllers/StudyController.js:325:46
+    at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+    at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+  code: 'ER_WRONG_ARGUMENTS',
+  errno: 1210,
+  sql: '\n' +
+    '        SELECT id, date, study_time, subject, remark, created_at, updated_at\n' +
+    '        FROM study_records\n' +
+    '        WHERE user_id = ?\n' +
+    '        ORDER BY date DESC\n' +
+    '        LIMIT ? OFFSET ?\n' +
+    '      ',
+  sqlState: 'HY000',
+  sqlMessage: 'Incorrect arguments to mysqld_stmt_execute'
+}
+2025-08-20 07:17:42: 数据库查询错误: Error: Incorrect arguments to mysqld_stmt_execute
+    at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at query (/var/www/zhixiao/src/config/database.js:37:34)
+    at Function.getUserHistory (/var/www/zhixiao/src/models/StudyRecord.js:37:29)
+    at /var/www/zhixiao/src/controllers/StudyController.js:480:46
+    at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+    at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+  code: 'ER_WRONG_ARGUMENTS',
+  errno: 1210,
+  sql: '\n' +
+    '        SELECT id, date, study_time, subject, remark, created_at, updated_at\n' +
+    '        FROM study_records\n' +
+    '        WHERE user_id = ?\n' +
+    '        ORDER BY date DESC\n' +
+    '        LIMIT ? OFFSET ?\n' +
+    '      ',
+  sqlState: 'HY000',
+  sqlMessage: 'Incorrect arguments to mysqld_stmt_execute'
+}
+2025-08-20 07:17:42: StudyRecord.getUserHistory error: Error: Incorrect arguments to mysqld_stmt_execute
+    at PromisePool.execute (/var/www/zhixiao/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at query (/var/www/zhixiao/src/config/database.js:37:34)
+    at Function.getUserHistory (/var/www/zhixiao/src/models/StudyRecord.js:37:29)
+    at /var/www/zhixiao/src/controllers/StudyController.js:480:46
+    at /var/www/zhixiao/src/middleware/errorHandler.js:81:21
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13)
+    at auth (/var/www/zhixiao/src/middleware/auth.js:18:5)
+    at Layer.handleRequest (/var/www/zhixiao/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/zhixiao/node_modules/router/lib/route.js:157:13) {
+  code: 'ER_WRONG_ARGUMENTS',
+  errno: 1210,
+  sql: '\n' +
+    '        SELECT id, date, study_time, subject, remark, created_at, updated_at\n' +
+    '        FROM study_records\n' +
+    '        WHERE user_id = ?\n' +
+    '        ORDER BY date DESC\n' +
+    '        LIMIT ? OFFSET ?\n' +
+    '      ',
+  sqlState: 'HY000',
+  sqlMessage: 'Incorrect arguments to mysqld_stmt_execute'
+}

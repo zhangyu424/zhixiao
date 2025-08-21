@@ -1,0 +1,130 @@
+<!--pages/study-report/study-report.wxml-->
+<view class="report-container">
+  <!-- 日历组件 -->
+  <view class="calendar-section">
+    <view class="calendar-header">
+      <view class="month-nav">
+        <view class="nav-btn" data-direction="prev" bindtap="onMonthChange">
+          <text class="nav-icon">‹</text>
+        </view>
+        <text class="current-month">{{currentMonth}}</text>
+        <view class="nav-btn" data-direction="next" bindtap="onMonthChange">
+          <text class="nav-icon">›</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="calendar-grid">
+      <view class="weekday-header">
+        <text class="weekday">日</text>
+        <text class="weekday">一</text>
+        <text class="weekday">二</text>
+        <text class="weekday">三</text>
+        <text class="weekday">四</text>
+        <text class="weekday">五</text>
+        <text class="weekday">六</text>
+      </view>
+
+      <view class="calendar-body">
+        <view
+          class="calendar-day {{item.isCurrentMonth ? '' : 'other-month'}} {{item.isToday ? 'today' : ''}} {{item.isSelected ? 'selected' : ''}} {{item.hasData ? 'has-data' : ''}}"
+          wx:for="{{calendarData}}"
+          wx:key="date"
+          data-date="{{item.date}}"
+          bindtap="onDateTap"
+        >
+          <text class="day-number">{{item.day}}</text>
+          <view class="study-indicator" wx:if="{{item.hasData}}">
+            <text class="study-hours">{{item.studyTime}}h</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 填报表单 -->
+  <view class="report-form">
+    <view class="form-header">
+      <text class="form-title">学习时间填报</text>
+      <text class="selected-date">{{selectedDate}}</text>
+    </view>
+
+    <view class="form-content">
+      <view class="form-item">
+        <text class="form-label">学习时长（小时）</text>
+        <input
+          class="time-input"
+          type="digit"
+          placeholder="请输入学习时长"
+          value="{{studyTime}}"
+          bindinput="onStudyTimeInput"
+        />
+      </view>
+
+      <view class="form-tips">
+        <text>• 请如实填写有效学习时间</text>
+        <text>• 时长范围：0-24小时</text>
+        <text>• 支持小数，如1.5小时</text>
+      </view>
+
+      <button class="submit-btn" type="primary" bindtap="submitStudyTime">提交学习时间</button>
+    </view>
+  </view>
+
+  <!-- 订阅提醒 -->
+  <view class="subscribe-section" wx:if="{{!hasSubscribed}}">
+    <view class="subscribe-card">
+      <view class="subscribe-icon">🔔</view>
+      <view class="subscribe-content">
+        <text class="subscribe-title">开启每日提醒</text>
+        <text class="subscribe-desc">每天21点提醒您填报学习时间</text>
+      </view>
+      <button class="subscribe-btn" size="mini" bindtap="subscribeReminder">订阅</button>
+    </view>
+  </view>
+
+  <!-- 历史记录 -->
+  <view class="history-section">
+    <view class="section-title">本月填报记录</view>
+
+    <view class="history-list" wx:if="{{historyList.length > 0}}">
+      <view class="history-item" wx:for="{{historyList}}" wx:key="date" data-item="{{item}}" bindtap="editHistoryItem">
+        <view class="history-date">
+          <text class="date-text">{{item.date}}</text>
+          <text class="weekday-text">{{item.weekday}}</text>
+        </view>
+        <view class="history-time">
+          <text class="time-value">{{item.studyTime}}</text>
+          <text class="time-unit">小时</text>
+        </view>
+        <view class="edit-indicator">
+          <text class="edit-text">编辑</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="empty-history" wx:else>
+      <text class="empty-icon">📝</text>
+      <text class="empty-text">本月暂无填报记录</text>
+    </view>
+  </view>
+
+  <!-- 统计信息 -->
+  <view class="stats-section">
+    <view class="section-title">本月统计</view>
+    <view class="stats-grid">
+      <view class="stats-item">
+        <text class="stats-value">{{historyList.length}}</text>
+        <text class="stats-label">填报天数</text>
+      </view>
+      <view class="stats-item">
+        <text class="stats-value">{{totalStudyTime}}</text>
+        <text class="stats-label">总学习时长</text>
+      </view>
+      <view class="stats-item">
+        <text class="stats-value">{{averageStudyTime}}</text>
+        <text class="stats-label">日均时长</text>
+      </view>
+    </view>
+  </view>
+</view>

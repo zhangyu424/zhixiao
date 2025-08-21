@@ -1,0 +1,48 @@
+<!--components/data-table/data-table.wxml-->
+<view class="data-table">
+  <!-- 表头 -->
+  <view class="table-header" wx:if="{{showHeader}}">
+    <view
+      class="header-cell"
+      wx:for="{{columns}}"
+      wx:key="key"
+      style="width: {{item.width || 'auto'}}; flex: {{item.flex || 1}};"
+    >
+      <text class="header-text">{{item.title}}</text>
+    </view>
+  </view>
+
+  <!-- 表格内容 -->
+  <view class="table-body">
+    <view
+      class="table-row {{striped && index % 2 === 1 ? 'striped' : ''}}"
+      wx:for="{{data}}"
+      wx:key="index"
+      wx:for-index="rowIndex"
+      wx:for-item="rowData"
+      data-index="{{rowIndex}}"
+      data-item="{{rowData}}"
+      bindtap="onRowTap"
+    >
+      <view
+        class="table-cell"
+        wx:for="{{columns}}"
+        wx:key="key"
+        wx:for-item="column"
+        style="width: {{column.width || 'auto'}}; flex: {{column.flex || 1}};"
+        data-row="{{rowIndex}}"
+        data-col="{{column.key}}"
+        data-value="{{rowData[column.key]}}"
+        bindtap="onCellTap"
+      >
+        <text class="cell-text">{{rowData[column.key]}}</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 空状态 -->
+  <view class="empty-state" wx:if="{{data.length === 0}}">
+    <text class="empty-icon">📄</text>
+    <text class="empty-text">暂无数据</text>
+  </view>
+</view>

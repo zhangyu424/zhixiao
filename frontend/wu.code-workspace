@@ -1,0 +1,51 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    },
+    "files.associations": {
+      "*.wxml": "html",
+      "*.wxss": "css",
+      "*.wxs": "javascript"
+    },
+    "emmet.includeLanguages": {
+      "wxml": "html"
+    },
+    "files.exclude": {
+      "**/.git": true,
+      "**/node_modules": true,
+      "**/miniprogram_npm": true,
+      "**/*.log": true,
+      "**/dist": true,
+      "**/build": true,
+      "**/.DS_Store": true,
+      "**/Thumbs.db": true
+    },
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/miniprogram_npm": true,
+      "**/*.log": true,
+      "**/dist": true,
+      "**/build": true
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-ceintl.vscode-language-pack-zh-hans",
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode",
+      "bradlc.vscode-tailwindcss",
+      "formulahendry.auto-rename-tag",
+      "ms-vscode.vscode-json"
+    ]
+  }
+}

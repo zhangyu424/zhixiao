@@ -1,0 +1,135 @@
+<!--pages/profile/profile.wxml-->
+<view class="profile-container">
+  <!-- 用户信息卡片 -->
+  <view class="user-info-card">
+    <view class="user-avatar-section">
+      <text class="user-avatar">👤</text>
+      <view class="avatar-edit-icon">
+        <text src="/images/edit.png" class="edit-icon">✏️</text>
+      </view>
+    </view>
+
+    <view class="user-details">
+      <text class="user-name">{{userInfo.name || '用户'}}</text>
+      <text class="user-id">学员编号：{{userInfo.studentId || 'N/A'}}</text>
+
+      <!-- 当前角色 -->
+      <view class="current-role">
+        <text class="role-label">当前身份：</text>
+        <text class="role-value">{{userInfo.roleName || '学员'}}</text>
+      </view>
+
+      <!-- 所属单位 -->
+      <view class="user-unit">
+        <text class="unit-label">所属单位：</text>
+        <text class="unit-value">{{userInfo.unitPath || '未设置'}}</text>
+      </view>
+
+      <!-- 角色切换按钮 -->
+      <view class="role-switch-btn" wx:if="{{showRoleSwitch}}" bindtap="onRoleSwitch">
+        <text class="switch-icon">🔄</text>
+        <text>切换身份</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 个人统计 -->
+  <view class="stats-section">
+    <view class="section-title">
+      <text>个人统计</text>
+      <text class="view-detail" bindtap="viewPersonalStats">查看详情 ></text>
+    </view>
+
+    <view class="stats-grid">
+      <view class="stats-item">
+        <text class="stats-value">{{userInfo.totalStudyDays || 0}}</text>
+        <text class="stats-label">累计填报天数</text>
+      </view>
+      <view class="stats-item">
+        <text class="stats-value">{{userInfo.totalStudyHours || 0}}</text>
+        <text class="stats-label">总学习时长(h)</text>
+      </view>
+      <view class="stats-item">
+        <text class="stats-value">{{userInfo.avgDailyHours || 0}}</text>
+        <text class="stats-label">日均学习(h)</text>
+      </view>
+      <view class="stats-item">
+        <text class="stats-value">{{userInfo.examCount || 0}}</text>
+        <text class="stats-label">参与考试次数</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 快捷功能 -->
+  <view class="quick-functions">
+    <view class="section-title">
+      <text>快捷功能</text>
+    </view>
+
+    <view class="function-grid">
+      <view class="function-item" bindtap="viewPersonalStats">
+        <text class="function-icon">📊</text>
+        <text class="function-title">个人报告</text>
+        <text class="function-desc">查看详细统计</text>
+      </view>
+
+      <view class="function-item" data-url="/pages/study-report/study-report" bindtap="onQuickActionTap">
+        <text class="function-icon">📖</text>
+        <text class="function-title">填报历史</text>
+        <text class="function-desc">查看填报记录</text>
+      </view>
+
+      <view class="function-item" data-url="/pages/analysis/analysis" bindtap="onQuickActionTap">
+        <text class="function-icon">📈</text>
+        <text class="function-title">学习分析</text>
+        <text class="function-desc">质效分析报告</text>
+      </view>
+
+      <view class="function-item" bindtap="contactAdmin">
+        <text class="function-icon">📞</text>
+        <text class="function-title">联系管理员</text>
+        <text class="function-desc">获取帮助</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 设置选项 -->
+  <view class="settings-section">
+    <view class="section-title">
+      <text>设置</text>
+    </view>
+
+    <view class="settings-list">
+      <view class="setting-item" wx:for="{{settingsItems}}" wx:key="type" data-item="{{item}}" bindtap="onSettingTap">
+        <image class="setting-icon" src="{{item.icon}}"></image>
+        <view class="setting-content">
+          <text class="setting-title">{{item.title}}</text>
+          <text class="setting-desc">{{item.desc}}</text>
+        </view>
+
+        <!-- 开关 -->
+        <switch
+          wx:if="{{item.hasSwitch}}"
+          checked="{{item.enabled}}"
+          color="#1890ff"
+          catchtap="onSettingTap"
+          data-item="{{item}}"
+        />
+
+        <!-- 箭头 -->
+        <text class="setting-arrow" wx:if="{{item.hasArrow}}">></text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 退出登录 -->
+  <view class="logout-section">
+    <button class="logout-btn" bindtap="logout">退出登录</button>
+  </view>
+
+  <!-- 版本信息 -->
+  <view class="version-info">
+    <text class="version-text">学习质效分析系统 v1.0.0</text>
+    <text class="copyright">© 2024 版权所有</text>
+  </view>
+</view>

@@ -1,0 +1,47 @@
+后端核心结构:
+/var/www/zhixiao-platform/backend/src
+├── config
+│   ├── database.js
+│   ├── index.js
+│   └── swagger.js
+├── controllers
+│   ├── AdminController.js
+│   ├── AnalysisController.js
+│   ├── AuthController.js
+│   ├── BaseController.js
+│   ├── DocumentController.js
+│   ├── StudyController.js
+│   └── UserController.js
+├── middleware
+│   ├── adminAuth.js
+│   ├── auth.js
+│   ├── errorHandler.js
+│   ├── index.js
+│   ├── rateLimit.js
+│   ├── validation.js
+│   └── versionControl.js
+├── models
+│   ├── StudyRecord.js
+│   └── User.js
+├── routes
+│   ├── admin.js
+│   ├── analysis.js
+│   ├── auth.js
+│   ├── documents.js
+│   ├── exam.js
+│   ├── index.js
+│   ├── notifications.js
+│   ├── study.js
+│   └── users.js
+├── services
+│   ├── index.js
+│   ├── StudyService.js
+│   └── UserService.js
+├── utils
+│   ├── common.js
+│   ├── helpers.js
+│   └── index.js
+└── validators
+    └── index.js
+
+8 directories, 35 files

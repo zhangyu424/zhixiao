@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "账号绑定",
+  "navigationBarBackgroundColor": "#1890ff",
+  "navigationBarTextStyle": "white",
+  "backgroundColor": "#f5f5f5",
+  "backgroundTextStyle": "light",
+  "enablePullDownRefresh": false
+}

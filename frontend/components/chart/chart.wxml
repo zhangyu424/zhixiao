@@ -1,0 +1,13 @@
+<!--components/chart/chart.wxml-->
+<view class="chart-container">
+  <view class="chart-header" wx:if="{{title}}">
+    <text class="chart-title">{{title}}</text>
+  </view>
+  <canvas class="chart-canvas" canvas-id="{{chartId}}" style="width: {{width}}px; height: {{height}}px;"></canvas>
+  <view class="chart-legend" wx:if="{{showLegend}}">
+    <view class="legend-item" wx:for="{{legendData}}" wx:key="name">
+      <view class="legend-color" style="background-color: {{item.color}};"></view>
+      <text class="legend-text">{{item.name}}</text>
+    </view>
+  </view>
+</view>

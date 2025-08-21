@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文档API客户端 - 开发工具</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            opacity: 0.8;
+            font-size: 14px;
+        }
+
+        .tabs {
+            display: flex;
+            background: white;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .tab {
+            flex: 1;
+            padding: 15px;
+            text-align: center;
+            cursor: pointer;
+            border-bottom: 3px solid transparent;
+            transition: all 0.3s;
+        }
+
+        .tab:hover {
+            background: #f8f9fa;
+        }
+
+        .tab.active {
+            border-bottom-color: #3498db;
+            background: #f8f9fa;
+            color: #3498db;
+        }
+
+        .content {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            min-height: 500px;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .search-box {
+            margin-bottom: 20px;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+
+        .search-filters {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .search-filters select {
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .btn {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background: #2980b9;
+        }
+
+        .btn-secondary {
+            background: #95a5a6;
+        }
+
+        .btn-secondary:hover {
+            background: #7f8c8d;
+        }
+
+        .document-list {
+            margin-top: 20px;
+        }
+
+        .document-item {
+            border: 1px solid #eee;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .document-item:hover {
+            border-color: #3498db;
+            box-shadow: 0 2px 8px rgba(52, 152, 219, 0.2);
+        }
+
+        .document-item h3 {
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+
+        .document-item p {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .document-meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+            color: #999;
+        }
+
+        .document-content {
+            background: #f8f9fa;
+            border: 1px solid #eee;
+            border-radius: 6px;
+            padding: 20px;
+            margin-top: 20px;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .form-group textarea {
+            height: 120px;
+            resize: vertical;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+
+        .error {
+            background: #e74c3c;
+            color: white;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+        .success {
+            background: #27ae60;
+            color: white;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+        .status-indicator {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            margin-right: 5px;
+        }
+
+        .status-online {
+            background: #27ae60;
+        }
+
+        .status-offline {
+            background: #e74c3c;
+        }
+
+        .api-status {
+            background: #ecf0f1;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📚 文档API客户端</h1>
+            <p>开发工具 - 仅供开发过程使用，不要集成到生产代码中</p>
+            <div class="api-status" id="apiStatus">
+                <span class="status-indicator status-offline"></span>
+                正在检查API连接...
+            </div>
+        </div>
+
+        <div class="tabs">
+            <div class="tab active" onclick="switchTab('documents')">📖 文档浏览</div>
+            <div class="tab" onclick="switchTab('search')">🔍 文档搜索</div>
+            <div class="tab" onclick="switchTab('feedback')">💬 提交反馈</div>
+            <div class="tab" onclick="switchTab('settings')">⚙️ 设置</div>
+        </div>
+
+        <div class="content">
+            <!-- 文档浏览 -->
+            <div id="documents" class="tab-content">
+                <div class="search-box">
+                    <button class="btn" onclick="loadDocuments()">📋 刷新文档列表</button>
+                </div>
+                <div id="documentsList"></div>
+                <div id="documentContent"></div>
+            </div>
+
+            <!-- 文档搜索 -->
+            <div id="search" class="tab-content hidden">
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="输入搜索关键词..." onkeypress="handleSearchEnter(event)">
+                    <div class="search-filters">
+                        <select id="categoryFilter">
+                            <option value="">所有类别</option>
+                            <option value="development">开发文档</option>
+                            <option value="deployment">部署文档</option>
+                            <option value="integration">集成文档</option>
+                            <option value="management">管理文档</option>
+                        </select>
+                        <select id="limitFilter">
+                            <option value="10">10条结果</option>
+                            <option value="20">20条结果</option>
+                            <option value="50">50条结果</option>
+                        </select>
+                        <button class="btn" onclick="searchDocuments()">🔍 搜索</button>
+                    </div>
+                </div>
+                <div id="searchResults"></div>
+            </div>
+
+            <!-- 提交反馈 -->
+            <div id="feedback" class="tab-content hidden">
+                <form id="feedbackForm" onsubmit="submitFeedback(event)">
+                    <div class="form-group">
+                        <label>反馈类型:</label>
+                        <select id="feedbackType" required>
+                            <option value="requirement">需求建议</option>
+                            <option value="issue">问题报告</option>
+                            <option value="question">疑问咨询</option>
+                            <option value="suggestion">改进建议</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>优先级:</label>
+                        <select id="feedbackPriority">
+                            <option value="low">低</option>
+                            <option value="medium">中</option>
+                            <option value="high">高</option>
+                            <option value="urgent">紧急</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>标题:</label>
+                        <input type="text" id="feedbackTitle" required placeholder="简要描述问题或需求">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>详细描述:</label>
+                        <textarea id="feedbackContent" required placeholder="详细描述您的问题、需求或建议..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn">💬 提交反馈</button>
+                </form>
+                <div id="feedbackResult"></div>
+            </div>
+
+            <!-- 设置 -->
+            <div id="settings" class="tab-content hidden">
+                <div class="form-group">
+                    <label>API服务地址:</label>
+                    <input type="text" id="apiUrl" value="http://140.143.143.195/api/docs" placeholder="API服务地址">
+                </div>
+                
+                <div class="form-group">
+                    <label>认证Token (提交反馈时需要):</label>
+                    <input type="password" id="authToken" placeholder="开发用认证token">
+                </div>
+                
+                <button class="btn" onclick="saveSettings()">💾 保存设置</button>
+                <button class="btn btn-secondary" onclick="testConnection()">🔧 测试连接</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="client.js"></script>
+    <script>
+        let docClient;
+        let documents = [];
+
+        // 初始化
+        window.onload = function() {
+            loadSettings();
+            initClient();
+            checkApiStatus();
+            loadDocuments();
+        };
+
+        function initClient() {
+            const apiUrl = document.getElementById('apiUrl').value;
+            docClient = new DocumentAPIClient(apiUrl);
+            
+            const token = document.getElementById('authToken').value;
+            if (token) {
+                docClient.setToken(token);
+            }
+        }
+
+        function switchTab(tabName) {
+            // 隐藏所有内容
+            document.querySelectorAll('.tab-content').forEach(content => {
+                content.classList.add('hidden');
+            });
+            
+            // 移除所有活跃标签
+            document.querySelectorAll('.tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            
+            // 显示选中内容
+            document.getElementById(tabName).classList.remove('hidden');
+            event.target.classList.add('active');
+        }
+
+        async function checkApiStatus() {
+            const statusEl = document.getElementById('apiStatus');
+            try {
+                const response = await fetch(docClient.baseURL.replace('/docs', ''));
+                if (response.ok) {
+                    statusEl.innerHTML = '<span class="status-indicator status-online"></span>API服务正常';
+                } else {
+                    statusEl.innerHTML = '<span class="status-indicator status-offline"></span>API服务异常';
+                }
+            } catch (error) {
+                statusEl.innerHTML = '<span class="status-indicator status-offline"></span>无法连接到API服务';
+            }
+        }
+
+        async function loadDocuments() {
+            const listEl = document.getElementById('documentsList');
+            listEl.innerHTML = '<div class="loading">📋 加载文档列表...</div>';
+
+            try {
+                const result = await docClient.getDocumentList();
+                documents = result.data.list;
+                
+                let html = '<h3>📚 文档列表</h3>';
+                
+                Object.entries(result.data.categories).forEach(([category, docs]) => {
+                    html += `<h4>📁 ${category.toUpperCase()}</h4>`;
+                    docs.forEach(doc => {
+                        html += `
+                            <div class="document-item" onclick="loadDocument('${doc.id}')">
+                                <h3>${doc.title}</h3>
+                                <p>${doc.description || '无描述'}</p>
+                                <div class="document-meta">
+                                    <span>类别: ${doc.category}</span>
+                                    <span>更新: ${new Date(doc.lastModified).toLocaleString()}</span>
+                                </div>
+                            </div>
+                        `;
+                    });
+                });
+                
+                listEl.innerHTML = html;
+            } catch (error) {
+                listEl.innerHTML = `<div class="error">❌ 加载失败: ${error.message}</div>`;
+            }
+        }
+
+        async function loadDocument(docId) {
+            const contentEl = document.getElementById('documentContent');
+            contentEl.innerHTML = '<div class="loading">📖 加载文档内容...</div>';
+
+            try {
+                const result = await docClient.getDocument(docId, 'markdown');
+                const doc = result.data;
+                
+                contentEl.innerHTML = `
+                    <h3>📖 ${doc.title}</h3>
+                    <div class="document-meta">
+                        <span>ID: ${doc.id}</span>
+                        <span>类别: ${doc.category}</span>
+                        <span>更新: ${new Date(doc.lastModified).toLocaleString()}</span>
+                    </div>
+                    <div class="document-content">
+                        <pre>${doc.content}</pre>
+                    </div>
+                `;
+            } catch (error) {
+                contentEl.innerHTML = `<div class="error">❌ 加载失败: ${error.message}</div>`;
+            }
+        }
+
+        function handleSearchEnter(event) {
+            if (event.key === 'Enter') {
+                searchDocuments();
+            }
+        }
+
+        async function searchDocuments() {
+            const query = document.getElementById('searchInput').value.trim();
+            if (!query) {
+                alert('请输入搜索关键词');
+                return;
+            }
+
+            const category = document.getElementById('categoryFilter').value;
+            const limit = parseInt(document.getElementById('limitFilter').value);
+            const resultsEl = document.getElementById('searchResults');
+            
+            resultsEl.innerHTML = '<div class="loading">🔍 搜索中...</div>';
+
+            try {
+                const result = await docClient.searchDocuments(query, category, limit);
+                const { results, total } = result.data;
+                
+                let html = `<h3>🔍 搜索结果 (共${total}个)</h3>`;
+                
+                if (results.length === 0) {
+                    html += '<p>未找到相关文档</p>';
+                } else {
+                    results.forEach((doc, index) => {
+                        html += `
+                            <div class="document-item" onclick="loadDocument('${doc.id}')">
+                                <h3>${doc.title}</h3>
+                                <p>${doc.snippet}</p>
+                                <div class="document-meta">
+                                    <span>类别: ${doc.category}</span>
+                                    <span>相关度: ${doc.relevance}/20</span>
+                                    <span>匹配: ${doc.matches}处</span>
+                                </div>
+                            </div>
+                        `;
+                    });
+                }
+                
+                resultsEl.innerHTML = html;
+            } catch (error) {
+                resultsEl.innerHTML = `<div class="error">❌ 搜索失败: ${error.message}</div>`;
+            }
+        }
+
+        async function submitFeedback(event) {
+            event.preventDefault();
+            
+            const token = document.getElementById('authToken').value;
+            if (!token) {
+                alert('请在设置中配置认证token');
+                return;
+            }
+
+            const feedback = {
+                type: document.getElementById('feedbackType').value,
+                title: document.getElementById('feedbackTitle').value,
+                content: document.getElementById('feedbackContent').value,
+                priority: document.getElementById('feedbackPriority').value,
+                category: 'development'
+            };
+
+            const resultEl = document.getElementById('feedbackResult');
+            resultEl.innerHTML = '<div class="loading">💬 提交中...</div>';
+
+            try {
+                docClient.setToken(token);
+                const result = await docClient.submitFeedback(feedback);
+                
+                resultEl.innerHTML = `
+                    <div class="success">
+                        ✅ 反馈提交成功！<br>
+                        ID: ${result.data.id}<br>
+                        状态: ${result.data.status}
+                    </div>
+                `;
+                
+                // 清空表单
+                document.getElementById('feedbackForm').reset();
+            } catch (error) {
+                resultEl.innerHTML = `<div class="error">❌ 提交失败: ${error.message}</div>`;
+            }
+        }
+
+        function saveSettings() {
+            const apiUrl = document.getElementById('apiUrl').value;
+            const authToken = document.getElementById('authToken').value;
+            
+            localStorage.setItem('docApiUrl', apiUrl);
+            localStorage.setItem('docAuthToken', authToken);
+            
+            initClient();
+            alert('设置已保存');
+        }
+
+        function loadSettings() {
+            const apiUrl = localStorage.getItem('docApiUrl');
+            const authToken = localStorage.getItem('docAuthToken');
+            
+            if (apiUrl) {
+                document.getElementById('apiUrl').value = apiUrl;
+            }
+            if (authToken) {
+                document.getElementById('authToken').value = authToken;
+            }
+        }
+
+        async function testConnection() {
+            const apiUrl = document.getElementById('apiUrl').value;
+            
+            try {
+                const response = await fetch(apiUrl.replace('/docs', ''));
+                if (response.ok) {
+                    alert('✅ 连接测试成功');
+                } else {
+                    alert('❌ 连接测试失败: HTTP ' + response.status);
+                }
+            } catch (error) {
+                alert('❌ 连接测试失败: ' + error.message);
+            }
+        }
+    </script>
+</body>
+</html>

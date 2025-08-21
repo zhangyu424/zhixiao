@@ -1,0 +1,428 @@
+/* pages/backend-test/backend-test.wxss */
+
+.container {
+  padding: 32rpx;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40rpx;
+}
+
+.title {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #2c3e50;
+  display: block;
+}
+
+.subtitle {
+  font-size: 28rpx;
+  color: #7f8c8d;
+  margin-top: 12rpx;
+  display: block;
+}
+
+/* 卡片样式 */
+.config-card,
+.summary-card,
+.suggestions-card,
+.help-card {
+  background: white;
+  border-radius: 16rpx;
+  padding: 32rpx;
+  margin-bottom: 32rpx;
+  box-shadow: 0 4rpx 12rpx rgba(0,0,0,0.1);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24rpx;
+}
+
+.card-title {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+/* 状态指示器 */
+.status-indicator {
+  padding: 8rpx 16rpx;
+  border-radius: 20rpx;
+  font-size: 24rpx;
+  color: white;
+}
+
+.status-unknown {
+  background-color: #95a5a6;
+}
+
+.status-testing {
+  background-color: #f39c12;
+}
+
+.status-all_failed {
+  background-color: #e74c3c;
+}
+
+.status-core_unavailable {
+  background-color: #e67e22;
+}
+
+.status-partial_available {
+  background-color: #f39c12;
+}
+
+.status-core_available {
+  background-color: #27ae60;
+}
+
+.status-all_available {
+  background-color: #2ecc71;
+}
+
+/* 配置信息 */
+.config-info {
+  display: flex;
+  flex-direction: column;
+  gap: 16rpx;
+}
+
+.config-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12rpx 0;
+  border-bottom: 1rpx solid #ecf0f1;
+}
+
+.config-item:last-child {
+  border-bottom: none;
+}
+
+.label {
+  font-size: 28rpx;
+  color: #7f8c8d;
+}
+
+.value {
+  font-size: 28rpx;
+  color: #2c3e50;
+  font-weight: 500;
+  max-width: 400rpx;
+  text-align: right;
+  word-break: break-all;
+}
+
+/* 操作按钮 */
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 24rpx;
+  margin-bottom: 40rpx;
+}
+
+.primary-btn {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 12rpx;
+  padding: 24rpx;
+  font-size: 32rpx;
+}
+
+.secondary-btn {
+  background-color: #ecf0f1;
+  color: #2c3e50;
+  border: none;
+  border-radius: 12rpx;
+  padding: 20rpx;
+  font-size: 28rpx;
+}
+
+/* 统计信息 */
+.summary-stats {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8rpx;
+}
+
+.stat-number {
+  font-size: 40rpx;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.stat-item.success .stat-number {
+  color: #27ae60;
+}
+
+.stat-item.failed .stat-number {
+  color: #e74c3c;
+}
+
+.stat-label {
+  font-size: 24rpx;
+  color: #7f8c8d;
+}
+
+.test-time {
+  font-size: 24rpx;
+  color: #95a5a6;
+}
+
+/* API列表 */
+.api-list {
+  background: white;
+  border-radius: 16rpx;
+  overflow: hidden;
+  margin-bottom: 32rpx;
+  box-shadow: 0 4rpx 12rpx rgba(0,0,0,0.1);
+}
+
+.list-header {
+  padding: 32rpx;
+  background-color: #f8f9fa;
+  border-bottom: 1rpx solid #ecf0f1;
+}
+
+.list-title {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #2c3e50;
+  display: block;
+}
+
+.list-subtitle {
+  font-size: 24rpx;
+  color: #7f8c8d;
+  margin-top: 8rpx;
+  display: block;
+}
+
+.api-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24rpx 32rpx;
+  border-bottom: 1rpx solid #ecf0f1;
+}
+
+.api-item:last-child {
+  border-bottom: none;
+}
+
+.api-info {
+  flex: 1;
+  margin-right: 24rpx;
+}
+
+.api-header {
+  display: flex;
+  align-items: center;
+  gap: 16rpx;
+  margin-bottom: 8rpx;
+}
+
+.api-name {
+  font-size: 28rpx;
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+.priority-tag {
+  padding: 4rpx 12rpx;
+  border-radius: 12rpx;
+  font-size: 20rpx;
+  color: white;
+}
+
+.priority-high {
+  background-color: #e74c3c;
+}
+
+.priority-medium {
+  background-color: #f39c12;
+}
+
+.priority-low {
+  background-color: #3498db;
+}
+
+.api-details {
+  display: flex;
+  align-items: center;
+  gap: 16rpx;
+}
+
+.api-method {
+  padding: 4rpx 12rpx;
+  border-radius: 8rpx;
+  font-size: 20rpx;
+  color: white;
+  font-weight: bold;
+}
+
+.method-GET {
+  background-color: #27ae60;
+}
+
+.method-POST {
+  background-color: #3498db;
+}
+
+.method-PUT {
+  background-color: #f39c12;
+}
+
+.method-DELETE {
+  background-color: #e74c3c;
+}
+
+.api-path {
+  font-size: 24rpx;
+  color: #7f8c8d;
+  font-family: monospace;
+}
+
+/* API操作区域 */
+.api-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 12rpx;
+}
+
+.test-result {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8rpx;
+}
+
+.result-status {
+  padding: 6rpx 12rpx;
+  border-radius: 12rpx;
+  font-size: 20rpx;
+  color: white;
+}
+
+.status-success {
+  background-color: #27ae60;
+}
+
+.status-error {
+  background-color: #e74c3c;
+}
+
+.status-not_found {
+  background-color: #f39c12;
+}
+
+.status-timeout {
+  background-color: #9b59b6;
+}
+
+.status-network_error {
+  background-color: #34495e;
+}
+
+.result-duration {
+  font-size: 20rpx;
+  color: #7f8c8d;
+}
+
+.test-btn,
+.detail-btn {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 8rpx;
+  padding: 8rpx 16rpx;
+  font-size: 24rpx;
+}
+
+.detail-btn {
+  background-color: #95a5a6;
+}
+
+/* 建议卡片 */
+.suggestions-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16rpx;
+}
+
+.suggestion {
+  display: flex;
+  align-items: center;
+  gap: 16rpx;
+  padding: 20rpx;
+  border-radius: 12rpx;
+}
+
+.suggestion.error {
+  background-color: #fdf2f2;
+  border-left: 4rpx solid #e74c3c;
+}
+
+.suggestion.warning {
+  background-color: #fefbf3;
+  border-left: 4rpx solid #f39c12;
+}
+
+.suggestion.info {
+  background-color: #f3f8ff;
+  border-left: 4rpx solid #3498db;
+}
+
+.suggestion.success {
+  background-color: #f2f8f5;
+  border-left: 4rpx solid #27ae60;
+}
+
+.suggestion-icon {
+  font-size: 32rpx;
+}
+
+.suggestion-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8rpx;
+}
+
+.suggestion-title {
+  font-size: 28rpx;
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+.suggestion-desc {
+  font-size: 24rpx;
+  color: #7f8c8d;
+}
+
+/* 帮助信息 */
+.help-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16rpx;
+}
+
+.help-item {
+  font-size: 26rpx;
+  color: #7f8c8d;
+  line-height: 1.5;
+}

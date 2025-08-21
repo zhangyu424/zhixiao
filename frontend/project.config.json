@@ -1,0 +1,73 @@
+{
+  "setting": {
+    "es6": true,
+    "postcss": true,
+    "minified": true,
+    "uglifyFileName": false,
+    "enhance": true,
+    "packNpmRelationList": [],
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "useCompilerPlugins": false,
+    "minifyWXML": true,
+    "compileWorklet": false,
+    "uploadWithSourceMap": true,
+    "packNpmManually": false,
+    "minifyWXSS": true,
+    "localPlugins": false,
+    "disableUseStrict": false,
+    "condition": false,
+    "swc": false,
+    "disableSWC": true
+  },
+  "compileType": "miniprogram",
+  "simulatorPluginLibVersion": {},
+  "packOptions": {
+    "ignore": [
+      {
+        "type": "glob",
+        "value": "**/*.md"
+      },
+      {
+        "type": "glob",
+        "value": "**/*.txt"
+      },
+      {
+        "type": "folder",
+        "value": "node_modules"
+      },
+      {
+        "type": "folder",
+        "value": ".git"
+      },
+      {
+        "type": "folder",
+        "value": ".vscode"
+      },
+      {
+        "type": "folder",
+        "value": "tests"
+      },
+      {
+        "type": "folder",
+        "value": "dev-tools"
+      }
+    ],
+    "include": []
+  },
+  "appid": "wx13e6fdf682f6d772",
+  "projectname": "智效平台",
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  },
+  "libVersion": "3.9.1",
+  "scripts": {
+    "beforeCompile": "",
+    "beforePreview": "",
+    "beforeUpload": ""
+  }
+}

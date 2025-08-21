@@ -1,0 +1,164 @@
+<!--components/role-based-home/role-based-home.wxml-->
+<view class="role-based-home">
+  <!-- 角色头部 -->
+  <view class="role-header" style="background: {{currentRoleConfig.color}}">
+    <view class="role-info">
+      <text class="role-icon">{{currentRoleConfig.icon}}</text>
+      <view class="role-text">
+        <text class="role-title">{{currentRoleConfig.title}}</text>
+        <text class="role-user">{{userInfo.name || '用户'}}</text>
+      </view>
+    </view>
+    
+    <!-- 角色切换按钮 -->
+    <view class="role-switch-btn" wx:if="{{userInfo.roles && userInfo.roles.length > 1}}" bindtap="onRoleSwitch">
+      <text class="switch-icon">🔄</text>
+    </view>
+  </view>
+
+  <!-- 学员界面 -->
+  <view class="student-interface" wx:if="{{userRole === 'student'}}">
+    <view class="quick-actions">
+      <view class="action-item study-report" data-feature="study-report" bindtap="onFeatureClick">
+        <view class="action-icon">📝</view>
+        <text class="action-text">学习填报</text>
+      </view>
+      <view class="action-item personal-analysis" data-feature="personal-analysis" bindtap="onFeatureClick">
+        <view class="action-icon">📊</view>
+        <text class="action-text">个人分析</text>
+      </view>
+      <view class="action-item study-calendar" data-feature="study-calendar" bindtap="onFeatureClick">
+        <view class="action-icon">📅</view>
+        <text class="action-text">学习日历</text>
+      </view>
+      <view class="action-item achievements" data-feature="achievements" bindtap="onFeatureClick">
+        <view class="action-icon">🏆</view>
+        <text class="action-text">我的成就</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 层级长界面 -->
+  <view class="instructor-interface" wx:if="{{userRole === 'instructor'}}">
+    <view class="management-grid">
+      <view class="grid-item team-overview" data-feature="team-overview" bindtap="onFeatureClick">
+        <view class="item-icon">👥</view>
+        <view class="item-info">
+          <text class="item-title">团队概览</text>
+          <text class="item-desc">查看团队学习情况</text>
+        </view>
+      </view>
+      <view class="grid-item team-analysis" data-feature="team-analysis" bindtap="onFeatureClick">
+        <view class="item-icon">📈</view>
+        <view class="item-info">
+          <text class="item-title">团队分析</text>
+          <text class="item-desc">团队数据分析报告</text>
+        </view>
+      </view>
+      <view class="grid-item member-management" data-feature="member-management" bindtap="onFeatureClick">
+        <view class="item-icon">👤</view>
+        <view class="item-info">
+          <text class="item-title">成员管理</text>
+          <text class="item-desc">管理团队成员信息</text>
+        </view>
+      </view>
+      <view class="grid-item progress-tracking" data-feature="progress-tracking" bindtap="onFeatureClick">
+        <view class="item-icon">📋</view>
+        <view class="item-info">
+          <text class="item-title">进度跟踪</text>
+          <text class="item-desc">跟踪学习进度</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 管理员界面 -->
+  <view class="manager-interface" wx:if="{{userRole === 'manager'}}">
+    <view class="admin-dashboard">
+      <view class="dashboard-item data-overview" data-feature="data-overview" bindtap="onFeatureClick">
+        <view class="dashboard-icon">📊</view>
+        <view class="dashboard-info">
+          <text class="dashboard-title">数据概览</text>
+          <text class="dashboard-desc">全局数据统计分析</text>
+        </view>
+        <view class="dashboard-action">></view>
+      </view>
+      
+      <view class="dashboard-item user-management" data-feature="user-management" bindtap="onFeatureClick">
+        <view class="dashboard-icon">👥</view>
+        <view class="dashboard-info">
+          <text class="dashboard-title">用户管理</text>
+          <text class="dashboard-desc">管理系统用户账号</text>
+        </view>
+        <view class="dashboard-action">></view>
+      </view>
+      
+      <view class="dashboard-item data-import-export" data-feature="data-import-export" bindtap="onFeatureClick">
+        <view class="dashboard-icon">💾</view>
+        <view class="dashboard-info">
+          <text class="dashboard-title">数据管理</text>
+          <text class="dashboard-desc">数据导入导出功能</text>
+        </view>
+        <view class="dashboard-action">></view>
+      </view>
+      
+      <view class="dashboard-item reports" data-feature="reports" bindtap="onFeatureClick">
+        <view class="dashboard-icon">📋</view>
+        <view class="dashboard-info">
+          <text class="dashboard-title">报表管理</text>
+          <text class="dashboard-desc">生成各类统计报表</text>
+        </view>
+        <view class="dashboard-action">></view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 超级管理员界面 -->
+  <view class="admin-interface" wx:if="{{userRole === 'admin'}}">
+    <view class="system-controls">
+      <view class="control-section">
+        <text class="section-title">系统管理</text>
+        <view class="control-grid">
+          <view class="control-item" data-feature="system-settings" bindtap="onFeatureClick">
+            <view class="control-icon">⚙️</view>
+            <text class="control-text">系统设置</text>
+          </view>
+          <view class="control-item" data-feature="organization-management" bindtap="onFeatureClick">
+            <view class="control-icon">🏢</view>
+            <text class="control-text">组织管理</text>
+          </view>
+          <view class="control-item" data-feature="permission-management" bindtap="onFeatureClick">
+            <view class="control-icon">🔐</view>
+            <text class="control-text">权限管理</text>
+          </view>
+          <view class="control-item" data-feature="system-logs" bindtap="onFeatureClick">
+            <view class="control-icon">📜</view>
+            <text class="control-text">系统日志</text>
+          </view>
+        </view>
+      </view>
+      
+      <view class="control-section">
+        <text class="section-title">数据监控</text>
+        <view class="control-grid">
+          <view class="control-item" data-feature="global-overview" bindtap="onFeatureClick">
+            <view class="control-icon">🌐</view>
+            <text class="control-text">全局概览</text>
+          </view>
+          <view class="control-item" data-feature="performance-monitor" bindtap="onFeatureClick">
+            <view class="control-icon">📈</view>
+            <text class="control-text">性能监控</text>
+          </view>
+          <view class="control-item" data-feature="error-tracking" bindtap="onFeatureClick">
+            <view class="control-icon">🐛</view>
+            <text class="control-text">错误追踪</text>
+          </view>
+          <view class="control-item" data-feature="backup-restore" bindtap="onFeatureClick">
+            <view class="control-icon">💾</view>
+            <text class="control-text">备份恢复</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

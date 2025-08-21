@@ -1,0 +1,236 @@
+<!--pages/analysis/analysis.wxml-->
+<view class="analysis-container">
+  <!-- 筛选条件 -->
+  <view class="filter-section">
+    <!-- 考试选择 -->
+    <view class="filter-item">
+      <text class="filter-label">考试选择</text>
+      <picker range="{{examList}}" range-key="name" bindchange="onExamChange">
+        <view class="picker-display">
+          <text>{{selectedExam.name || '请选择考试'}}</text>
+          <text class="picker-arrow">▼</text>
+        </view>
+      </picker>
+    </view>
+
+    <!-- 单位选择 (层级长及以上) -->
+    <view
+      class="filter-item"
+      wx:if="{{(userRole === 'instructor' || userRole === 'manager' || userRole === 'admin') && viewType === 'team'}}"
+    >
+      <text class="filter-label">选择单位</text>
+      <picker range="{{unitList}}" range-key="name" bindchange="onUnitChange">
+        <view class="picker-display">
+          <text>{{selectedUnit.name || '请选择单位'}}</text>
+          <text class="picker-arrow">▼</text>
+        </view>
+      </picker>
+    </view>
+
+    <!-- 视图切换 -->
+    <view class="view-tabs" wx:if="{{userRole === 'instructor' || userRole === 'manager' || userRole === 'admin'}}">
+      <view
+        class="tab-item {{viewType === 'personal' ? 'active' : ''}}"
+        data-type="personal"
+        bindtap="onViewTypeChange"
+      >
+        个人视图
+      </view>
+      <view class="tab-item {{viewType === 'team' ? 'active' : ''}}" data-type="team" bindtap="onViewTypeChange">
+        团队视图
+      </view>
+      <view
+        class="tab-item {{viewType === 'global' ? 'active' : ''}}"
+        data-type="global"
+        bindtap="onViewTypeChange"
+        wx:if="{{userRole === 'manager' || userRole === 'admin'}}"
+      >
+        全局视图
+      </view>
+    </view>
+  </view>
+
+  <!-- 加载状态 -->
+  <view class="loading-section" wx:if="{{loading}}">
+    <view class="loading-icon">⏳</view>
+    <text class="loading-text">数据分析中...</text>
+  </view>
+
+  <!-- 分析内容 -->
+  <view class="analysis-content" wx:if="{{!loading && analysisData}}">
+    <!-- 概览数据 -->
+    <view class="overview-section">
+      <view class="section-title">
+        <text>数据概览</text>
+        <view class="export-btn" data-type="overview" bindtap="exportChart">
+          <text class="export-icon">📤</text>
+        </view>
+      </view>
+
+      <view class="overview-cards">
+        <!-- 个人视图概览 -->
+        <view wx:if="{{viewType === 'personal'}}">
+          <view class="overview-card">
+            <text class="card-title">本次成绩</text>
+            <text class="card-value">{{analysisData.currentScore}}</text>
+            <view class="card-change {{analysisData.scoreChange >= 0 ? 'positive' : 'negative'}}">
+              <text>{{analysisData.scoreChange >= 0 ? '↗' : '↘'}} {{Math.abs(analysisData.scoreChange)}}分</text>
+            </view>
+          </view>
+
+          <view class="overview-card">
+            <text class="card-title">当前排名</text>
+            <text class="card-value">{{analysisData.currentRank}}/{{analysisData.totalStudents}}</text>
+            <view class="card-change {{analysisData.rankChange <= 0 ? 'positive' : 'negative'}}">
+              <text>{{analysisData.rankChange <= 0 ? '↗' : '↘'}} {{Math.abs(analysisData.rankChange)}}名</text>
+            </view>
+          </view>
+
+          <view class="overview-card">
+            <text class="card-title">学习时长</text>
+            <text class="card-value">{{analysisData.studyTime}}h</text>
+            <view class="card-change {{analysisData.timeChange >= 0 ? 'positive' : 'negative'}}">
+              <text>{{analysisData.timeChange >= 0 ? '↗' : '↘'}} {{Math.abs(analysisData.timeChange)}}h</text>
+            </view>
+          </view>
+        </view>
+
+        <!-- 团队视图概览 -->
+        <view wx:if="{{viewType === 'team'}}">
+          <view class="overview-card">
+            <text class="card-title">平均成绩</text>
+            <text class="card-value">{{analysisData.avgScore}}</text>
+            <text class="card-desc">团队表现良好</text>
+          </view>
+
+          <view class="overview-card">
+            <text class="card-title">团队排名</text>
+            <text class="card-value">{{analysisData.teamRank}}/{{analysisData.totalTeams}}</text>
+            <text class="card-desc">{{analysisData.teamRankDesc}}</text>
+          </view>
+
+          <view class="overview-card">
+            <text class="card-title">总学习时长</text>
+            <text class="card-value">{{analysisData.totalStudyTime}}h</text>
+            <text class="card-desc">人均{{analysisData.avgStudyTime}}h</text>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <!-- 图表分析 -->
+    <view class="charts-section">
+      <!-- 个人趋势图 -->
+      <view class="chart-card" wx:if="{{viewType === 'personal'}}">
+        <view class="chart-header">
+          <text class="chart-title">学习质效趋势</text>
+          <view class="chart-export" data-type="trend" bindtap="exportChart">
+            <text>导出</text>
+          </view>
+        </view>
+        <view class="chart-container">
+          <chart
+            type="line"
+            data="{{trendChartData}}"
+            width="{{300}}"
+            height="{{200}}"
+            title="学习质效趋势"
+            bind:chartReady="onChartReady"
+          ></chart>
+        </view>
+      </view>
+
+      <!-- 学习热力图 -->
+      <view class="chart-card" wx:if="{{viewType === 'personal'}}">
+        <view class="chart-header">
+          <text class="chart-title">学习活跃度热力图</text>
+          <view class="chart-export" data-type="heatmap" bindtap="exportChart">
+            <text>导出</text>
+          </view>
+        </view>
+        <view class="chart-container">
+          <view class="heatmap-container">
+            <view class="heatmap-legend">
+              <text class="legend-label">学习时长：</text>
+              <view class="legend-colors">
+                <view class="legend-item">
+                  <view class="color-block level-0"></view>
+                  <text>0h</text>
+                </view>
+                <view class="legend-item">
+                  <view class="color-block level-1"></view>
+                  <text>1-2h</text>
+                </view>
+                <view class="legend-item">
+                  <view class="color-block level-2"></view>
+                  <text>3-4h</text>
+                </view>
+                <view class="legend-item">
+                  <view class="color-block level-3"></view>
+                  <text>5h+</text>
+                </view>
+              </view>
+            </view>
+
+            <view class="heatmap-grid">
+              <view class="heatmap-week" wx:for="{{chartData.heatmap}}" wx:for-item="week" wx:key="index">
+                <view
+                  class="heatmap-day level-{{item.value >= 5 ? 3 : item.value >= 3 ? 2 : item.value >= 1 ? 1 : 0}}"
+                  wx:for="{{week}}"
+                  wx:key="date"
+                >
+                  <text class="day-value" wx:if="{{item.value > 0}}">{{item.value}}</text>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+
+      <!-- 团队排名图 -->
+      <view class="chart-card" wx:if="{{viewType === 'team'}}">
+        <view class="chart-header">
+          <text class="chart-title">团队成员表现</text>
+          <view class="chart-export" data-type="ranking" bindtap="exportChart">
+            <text>导出</text>
+          </view>
+        </view>
+        <view class="chart-container">
+          <data-table
+            columns="{{rankingColumns}}"
+            data="{{analysisData.memberRanking}}"
+            striped="{{true}}"
+            bind:rowTap="onMemberTap"
+          ></data-table>
+        </view>
+      </view>
+    </view>
+
+    <!-- 分析结论 -->
+    <view class="conclusion-section">
+      <view class="section-title">
+        <text>分析结论</text>
+      </view>
+
+      <view class="conclusion-card">
+        <view class="conclusion-content">
+          <text class="conclusion-text">{{analysisData.conclusion}}</text>
+        </view>
+
+        <view class="suggestions">
+          <text class="suggestions-title">改进建议：</text>
+          <view class="suggestion-list">
+            <text class="suggestion-item" wx:for="{{analysisData.suggestions}}" wx:key="index"> • {{item}} </text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 空状态 -->
+  <view class="empty-state" wx:if="{{!loading && !analysisData}}">
+    <view class="empty-icon">📊</view>
+    <text class="empty-text">暂无分析数据</text>
+    <text class="empty-desc">请先完成学习时间填报和考试</text>
+  </view>
+</view>
