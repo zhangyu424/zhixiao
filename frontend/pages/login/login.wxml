@@ -1,0 +1,90 @@
+<!--pages/login/login.wxml-->
+<view class="login-container">
+  <!-- 头部Logo和标题 -->
+  <view class="login-header">
+    <view class="logo-section">
+      <text class="logo-icon">📚</text>
+      <view class="app-info">
+        <text class="app-title">{{appInfo.name}}</text>
+        <text class="app-subtitle">{{appInfo.subtitle}}</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 登录表单 -->
+  <view class="login-form">
+    <view class="form-title">
+      <text class="title-text">账号登录</text>
+      <text class="title-desc">请输入您的用户名和密码</text>
+    </view>
+    
+    <view class="form-fields">
+      <!-- 用户名输入 -->
+      <view class="form-field">
+        <view class="field-icon">👤</view>
+        <input 
+          class="field-input"
+          placeholder="学号或 admin"
+          value="{{loginForm.username}}"
+          bindinput="onUsernameInput"
+          maxlength="50"
+          auto-focus
+        />
+      </view>
+      
+      <!-- 密码输入 -->
+      <view class="form-field">
+        <view class="field-icon">🔒</view>
+        <input 
+          class="field-input"
+          placeholder="请输入登录密码"
+          password="{{!showPassword}}"
+          value="{{loginForm.password}}"
+          bindinput="onPasswordInput"
+          maxlength="20"
+        />
+        <view class="field-action" bindtap="togglePasswordVisibility">
+          <text class="action-icon">{{showPassword ? '🙈' : '👁️'}}</text>
+        </view>
+      </view>
+    </view>
+    
+    <!-- 忘记密码链接 -->
+    <view class="forgot-password">
+      <text class="forgot-link" bindtap="onForgotPassword">忘记密码？</text>
+    </view>
+    
+    <!-- 登录按钮 -->
+    <view class="login-actions">
+      <button 
+        class="login-btn primary-btn"
+        bindtap="onAccountLogin"
+        loading="{{loginLoading}}"
+        disabled="{{loginLoading}}"
+      >
+        {{loginLoading ? '登录中...' : '登录'}}
+      </button>
+    </view>
+  </view>
+
+  <!-- 微信登录 -->
+  <view class="wechat-login">
+    <view class="divider">
+      <text class="divider-text">或</text>
+    </view>
+    
+    <button 
+      class="wechat-btn"
+      bindtap="onWechatLogin"
+      disabled="{{loginLoading}}"
+    >
+      <text class="wechat-icon">💬</text>
+      <text class="wechat-text">微信快速登录</text>
+    </button>
+  </view>
+
+  <!-- 版权信息 -->
+  <view class="footer">
+    <text class="copyright">© 2025 智效学习平台</text>
+  </view>
+</view>
