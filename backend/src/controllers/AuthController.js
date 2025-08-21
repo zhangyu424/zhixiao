@@ -33,12 +33,33 @@ class AuthController {
       });
     }
 
-    // 生成JWT token
-    const token = jwt.sign(
-      { user_id: user.user_id, student_id: user.student_id, role_id: user.role_id },
+    // 生成JWT tokens
+    const accessToken = jwt.sign(
+      { user_id: user.id, student_id: user.student_id, role: user.role },
       config.jwt.secret,
       { expiresIn: config.jwt.expiresIn }
     );
+
+    const refreshToken = jwt.sign(
+      { user_id: user.id, type: 'refresh' },
+      config.jwt.refreshSecret || config.jwt.secret,
+      { expiresIn: '7d' }
+    );
+
+    // 构建用户角色信息
+    const roles = [{
+      organizationId: user.unit_id,
+      role: user.role
+    }];
+
+    // 构建用户信息
+    const userInfo = {
+      id: user.id,
+      username: user.student_id,
+      name: user.name,
+      roles: roles,
+      isFirstLogin: user.force_password_change === 1 || !user.last_login_at
+    };
 
     // 移除密码信息
     delete user.password;
@@ -46,8 +67,9 @@ class AuthController {
     res.json({
       success: true,
       data: {
-        user,
-        token
+        accessToken,
+        refreshToken,
+        userInfo
       },
       message: '登录成功'
     });
@@ -76,13 +98,61 @@ class AuthController {
 
   // 刷新令牌
   static refreshToken = asyncHandler(async (req, res) => {
-    const { refreshToken } = req.body;
-    const result = await AuthService.refreshToken(refreshToken);
-    res.json({
-      success: true,
-      data: result,
-      message: '令牌刷新成功'
-    });
+    const authHeader = req.headers.authorization;
+    const refreshToken = authHeader && authHeader.startsWith('Bearer ') 
+      ? authHeader.slice(7) 
+      : req.body.refreshToken;
+
+    if (!refreshToken) {
+      return res.status(401).json({
+        success: false,
+        message: 'Refresh token不能为空'
+      });
+    }
+
+    try {
+      // 验证refresh token
+      const decoded = jwt.verify(
+        refreshToken, 
+        config.jwt.refreshSecret || config.jwt.secret
+      );
+
+      if (decoded.type !== 'refresh') {
+        return res.status(401).json({
+          success: false,
+          message: '无效的refresh token'
+        });
+      }
+
+      // 获取用户信息
+      const user = await AuthService.getUserById(decoded.user_id);
+      if (!user) {
+        return res.status(401).json({
+          success: false,
+          message: '用户不存在'
+        });
+      }
+
+      // 生成新的access token
+      const newAccessToken = jwt.sign(
+        { user_id: user.id, student_id: user.student_id, role: user.role },
+        config.jwt.secret,
+        { expiresIn: config.jwt.expiresIn }
+      );
+
+      res.json({
+        success: true,
+        data: {
+          accessToken: newAccessToken
+        },
+        message: '令牌刷新成功'
+      });
+    } catch (error) {
+      return res.status(401).json({
+        success: false,
+        message: 'Refresh token无效或已过期'
+      });
+    }
   });
 
   // 用户退出登录

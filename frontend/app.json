@@ -1,5 +1,8 @@
 {
   "pages": [
+    "pages/login/login",
+    "pages/forgot-password/forgot-password",
+    "pages/change-password-first/change-password-first",
     "pages/unified-login/unified-login",
     "pages/index/index",
     "pages/account-binding/account-binding",

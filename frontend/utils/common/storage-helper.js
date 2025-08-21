@@ -89,13 +89,111 @@ function cleanUserData(userData) {
     unitName: userData.unitName || '',
     role: userData.role || 'student',
     roles: Array.isArray(userData.roles) ? userData.roles.slice(0, 10) : [], // 限制角色数量
-    currentRole: userData.currentRole || { key: 'student', name: '学员' }
+    currentRole: userData.currentRole || { key: 'student', name: '学员' },
+    isFirstLogin: userData.isFirstLogin || false
   };
+}
+
+/**
+ * 设置访问token
+ */
+function setToken(token) {
+  try {
+    wx.setStorageSync('access_token', token);
+    return true;
+  } catch (error) {
+    console.error('保存token失败:', error);
+    return false;
+  }
+}
+
+/**
+ * 获取访问token
+ */
+function getToken() {
+  try {
+    return wx.getStorageSync('access_token') || '';
+  } catch (error) {
+    console.error('获取token失败:', error);
+    return '';
+  }
+}
+
+/**
+ * 设置刷新token
+ */
+function setRefreshToken(token) {
+  try {
+    wx.setStorageSync('refresh_token', token);
+    return true;
+  } catch (error) {
+    console.error('保存refresh token失败:', error);
+    return false;
+  }
+}
+
+/**
+ * 获取刷新token
+ */
+function getRefreshToken() {
+  try {
+    return wx.getStorageSync('refresh_token') || '';
+  } catch (error) {
+    console.error('获取refresh token失败:', error);
+    return '';
+  }
+}
+
+/**
+ * 设置用户信息
+ */
+function setUserInfo(userInfo) {
+  try {
+    const cleanedUserInfo = cleanUserData(userInfo);
+    return setStorageSafely('userInfo', cleanedUserInfo);
+  } catch (error) {
+    console.error('保存用户信息失败:', error);
+    return false;
+  }
+}
+
+/**
+ * 获取用户信息
+ */
+function getUserInfo() {
+  try {
+    return wx.getStorageSync('userInfo') || null;
+  } catch (error) {
+    console.error('获取用户信息失败:', error);
+    return null;
+  }
+}
+
+/**
+ * 清除所有登录相关数据
+ */
+function clearAuthData() {
+  try {
+    wx.removeStorageSync('access_token');
+    wx.removeStorageSync('refresh_token');
+    wx.removeStorageSync('userInfo');
+    return true;
+  } catch (error) {
+    console.error('清除认证数据失败:', error);
+    return false;
+  }
 }
 
 module.exports = {
   setStorageSafely,
   clearStorage,
   getStorageUsage,
-  cleanUserData
+  cleanUserData,
+  setToken,
+  getToken,
+  setRefreshToken,
+  getRefreshToken,
+  setUserInfo,
+  getUserInfo,
+  clearAuthData
 };
